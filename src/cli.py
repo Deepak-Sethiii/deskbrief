@@ -96,10 +96,95 @@ def cmd_comps(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_report(args: argparse.Namespace) -> int:
+    """Build the Excel workbook (and the deck) from whatever is already in the DB."""
+    from src.report.excel import TemplateMissingError, write_workbook
+    from src.repository import load_headlines
+
+    engine, table = build_comps(args)
+    if table.empty:
+        log.error("no data to report on -- run `ingest` first")
+        return 1
+
+    headlines = load_headlines(engine, limit=60)
+    commentary = None
+    if not getattr(args, "no_commentary", False):
+        from src.report.commentary import generate_commentary
+
+        commentary = generate_commentary(table, headlines)
+
+    chart_path = None
+    if not getattr(args, "no_chart", False):
+        from src.report.charts import normalised_price_chart
+        from src.repository import load_prices
+
+        chart_path = normalised_price_chart(load_prices(engine))
+
+    try:
+        out_path = write_workbook(table, headlines, commentary, chart_path,
+                                  template=args.template)
+    except TemplateMissingError as exc:
+        log.error("%s", exc)
+        return 1
+
+    if not getattr(args, "no_deck", False):
+        from src.report.deck import build_deck
+
+        deck_path = build_deck(table, commentary, chart_path)
+        log.info("deck written    : %s", deck_path)
+
+    log.info("workbook ready  : %s", out_path)
+    return 0
+
+
+def cmd_refresh(args: argparse.Namespace) -> int:
+    """Full pipeline: ingest, transform, report. This is what the macro runs."""
+    rc_ingest = cmd_ingest(args)
+    if rc_ingest != 0:
+        log.warning("ingest reported problems (rc=%d) -- reporting on what we have",
+                    rc_ingest)
+    return cmd_report(args)
+
+
+def cmd_template_help(_args: argparse.Namespace) -> int:
+    from src.report.template_help import render
+
+    print(render())
+    return 0
+
+
+def cmd_verify_template(args: argparse.Namespace) -> int:
+    from src.report.excel import TemplateMissingError, verify_template
+
+    try:
+        result = verify_template(args.template)
+    except TemplateMissingError as exc:
+        log.error("%s", exc)
+        return 1
+
+    log.info("template : %s", result["path"])
+    log.info("sheets   : %s", ", ".join(result["sheets"]))
+    log.info("vbaProject.bin present: %s", result["has_vba"])
+    if result["missing_sheets"]:
+        log.error("MISSING SHEETS: %s -- the writer cannot run. Redo template-help.",
+                  result["missing_sheets"])
+        return 1
+    if not result["has_vba"]:
+        log.warning("no VBA in this template. The workbook will still build; you just")
+        log.warning("won't get the Refresh button. Do steps 6-7 of `template-help`")
+        log.warning("(Alt+F11 -> File -> Import File -> vba\\Refresh.bas, then assign")
+        log.warning("the shape to RefreshDeskBrief) and re-run this check.")
+        log.info("template USABLE (macro not yet imported)")
+        return 0
+    log.info("template OK (sheets + VBA present)")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="python -m src.cli", description=__doc__)
     parser.add_argument("--db", default=None, help="override SQLite path")
     parser.add_argument("--watchlist", default=None, help="override config/watchlist.yaml")
+    parser.add_argument("--template", default=None, help="override the .xlsm template path")
     parser.add_argument("-v", "--verbose", action="store_true")
     sub = parser.add_subparsers(dest="command", required=True)
 
@@ -113,6 +198,23 @@ def build_parser() -> argparse.ArgumentParser:
     )
     sub.add_parser("ingest", help="prices then news").set_defaults(func=cmd_ingest)
     sub.add_parser("comps", help="print the computed comps table").set_defaults(func=cmd_comps)
+    sub.add_parser("template-help", help="print the one-time .xlsm build steps").set_defaults(
+        func=cmd_template_help
+    )
+    sub.add_parser("verify-template", help="check the .xlsm template is usable").set_defaults(
+        func=cmd_verify_template
+    )
+
+    for name, help_text, func in (
+        ("report", "build the workbook + deck from the DB", cmd_report),
+        ("refresh", "ingest then report -- the full pipeline", cmd_refresh),
+    ):
+        p = sub.add_parser(name, help=help_text)
+        p.add_argument("--no-commentary", action="store_true", help="skip the LLM call")
+        p.add_argument("--no-chart", action="store_true", help="skip the matplotlib chart")
+        p.add_argument("--no-deck", action="store_true", help="skip the PowerPoint deck")
+        p.set_defaults(func=func)
+
     return parser
 
 
