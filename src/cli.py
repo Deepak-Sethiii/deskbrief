@@ -221,6 +221,18 @@ def build_parser() -> argparse.ArgumentParser:
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     setup_logging(logging.DEBUG if args.verbose else logging.INFO)
+
+    # Load .env if present. override=False so a real environment variable always
+    # beats the file -- that is what CI and scheduled runs will set.
+    try:
+        from dotenv import load_dotenv
+
+        from src.db import PROJECT_ROOT
+
+        load_dotenv(PROJECT_ROOT / ".env", override=False)
+    except ImportError:  # pragma: no cover - dotenv is pinned, but never fatal
+        pass
+
     try:
         return args.func(args)
     except Exception:
