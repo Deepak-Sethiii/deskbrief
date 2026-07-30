@@ -3,7 +3,9 @@ SQLAlchemy==2.0.36
 PyYAML==6.0.2
 pandas==2.2.3
 numpy==1.26.4
-yfinance==0.2.51
+# yfinance tracks Yahoo's undocumented API; older pins break outright when
+# Yahoo changes it (0.2.x returns non-JSON as of this build). Keep it current.
+yfinance==1.5.2
 feedparser==6.0.11
 requests==2.32.3
 openpyxl==3.1.5

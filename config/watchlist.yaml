@@ -1,0 +1,43 @@
+# DeskBrief watchlist: 8 Indian large caps, NSE tickers (.NS suffix for yfinance).
+#
+# `aliases` drive headline tagging. That tagging is plain case-insensitive
+# SUBSTRING MATCHING, not named-entity recognition -- see src/ingest/news.py.
+# Keep aliases specific enough to avoid false positives (e.g. "ITC" is matched
+# with word boundaries because it appears inside other words).
+
+history_period: 1y   # how much daily history to pull; 1y covers the 52w high
+history_interval: 1d
+
+tickers:
+  - ticker: RELIANCE.NS
+    name: Reliance Industries
+    aliases: [Reliance Industries, Reliance, RIL]
+  - ticker: TCS.NS
+    name: Tata Consultancy Services
+    aliases: [Tata Consultancy Services, Tata Consultancy, TCS]
+  - ticker: HDFCBANK.NS
+    name: HDFC Bank
+    aliases: [HDFC Bank, HDFC]
+  - ticker: INFY.NS
+    name: Infosys
+    aliases: [Infosys, Infy]
+  - ticker: ICICIBANK.NS
+    name: ICICI Bank
+    aliases: [ICICI Bank, ICICI]
+  - ticker: BHARTIARTL.NS
+    name: Bharti Airtel
+    aliases: [Bharti Airtel, Airtel, Bharti]
+  - ticker: ITC.NS
+    name: ITC
+    aliases: [ITC]
+  - ticker: LT.NS
+    name: Larsen & Toubro
+    aliases: [Larsen & Toubro, Larsen and Toubro, L&T]
+
+feeds:
+  - name: Economic Times Markets
+    url: https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms
+  - name: Moneycontrol Business
+    url: https://www.moneycontrol.com/rss/business.xml
+  - name: Business Standard Markets
+    url: https://www.business-standard.com/rss/markets-106.rss

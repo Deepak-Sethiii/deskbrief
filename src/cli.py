@@ -1,7 +1,8 @@
 """DeskBrief command line entry point.
 
-    python -m src.cli initdb     create the SQLite schema
-    python -m src.cli dbstats    print row counts per table
+    python -m src.cli initdb           create the SQLite schema
+    python -m src.cli dbstats          print row counts per table
+    python -m src.cli ingest-prices    yfinance OHLCV + fundamentals
 """
 
 from __future__ import annotations
@@ -33,14 +34,58 @@ def cmd_dbstats(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_ingest_prices(args: argparse.Namespace) -> int:
+    from src.config import load_watchlist
+    from src.ingest.prices import ingest_prices
+
+    engine = get_engine(args.db)
+    init_db(engine)
+    before = table_counts(engine)
+    result = ingest_prices(engine, load_watchlist(args.watchlist))
+    after = table_counts(engine)
+    for name in ("prices", "fundamentals"):
+        log.info("%-14s %d -> %d rows (delta %+d)", name, before[name], after[name],
+                 after[name] - before[name])
+    # a run that got nothing at all is a failure worth a non-zero exit code
+    return 0 if result["ok"] else 1
+
+
+def cmd_ingest_news(args: argparse.Namespace) -> int:
+    from src.config import load_watchlist
+    from src.ingest.news import ingest_news
+
+    engine = get_engine(args.db)
+    init_db(engine)
+    before = table_counts(engine)
+    result = ingest_news(engine, load_watchlist(args.watchlist))
+    after = table_counts(engine)
+    log.info("%-14s %d -> %d rows (delta %+d)", "headlines", before["headlines"],
+             after["headlines"], after["headlines"] - before["headlines"])
+    return 0 if result["ok"] else 1
+
+
+def cmd_ingest(args: argparse.Namespace) -> int:
+    rc_prices = cmd_ingest_prices(args)
+    rc_news = cmd_ingest_news(args)
+    return rc_prices or rc_news
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="python -m src.cli", description=__doc__)
     parser.add_argument("--db", default=None, help="override SQLite path")
+    parser.add_argument("--watchlist", default=None, help="override config/watchlist.yaml")
     parser.add_argument("-v", "--verbose", action="store_true")
     sub = parser.add_subparsers(dest="command", required=True)
 
     sub.add_parser("initdb", help="create the SQLite schema").set_defaults(func=cmd_initdb)
     sub.add_parser("dbstats", help="print row counts per table").set_defaults(func=cmd_dbstats)
+    sub.add_parser("ingest-prices", help="yfinance OHLCV + fundamentals").set_defaults(
+        func=cmd_ingest_prices
+    )
+    sub.add_parser("ingest-news", help="RSS headlines + alias tagging").set_defaults(
+        func=cmd_ingest_news
+    )
+    sub.add_parser("ingest", help="prices then news").set_defaults(func=cmd_ingest)
     return parser
 
 
