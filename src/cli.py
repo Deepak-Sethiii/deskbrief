@@ -70,6 +70,32 @@ def cmd_ingest(args: argparse.Namespace) -> int:
     return rc_prices or rc_news
 
 
+def build_comps(args: argparse.Namespace):
+    """Shared by the `comps` command and the report pipeline."""
+    import pandas as pd
+
+    from src.repository import load_fundamentals, load_prices
+    from src.transform.metrics import build_comps_table
+
+    engine = get_engine(args.db)
+    init_db(engine)
+    prices = load_prices(engine)
+    fundamentals = load_fundamentals(engine)
+    log.info("loaded %d price rows, %d fundamentals rows", len(prices), len(fundamentals))
+    pd.set_option("display.width", 200)
+    pd.set_option("display.max_columns", 30)
+    return engine, build_comps_table(prices, fundamentals)
+
+
+def cmd_comps(args: argparse.Namespace) -> int:
+    _, table = build_comps(args)
+    if table.empty:
+        log.error("comps table is empty -- run `ingest` first")
+        return 1
+    log.info("comps table (%d names):\n%s", len(table), table.round(4).to_string())
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="python -m src.cli", description=__doc__)
     parser.add_argument("--db", default=None, help="override SQLite path")
@@ -86,6 +112,7 @@ def build_parser() -> argparse.ArgumentParser:
         func=cmd_ingest_news
     )
     sub.add_parser("ingest", help="prices then news").set_defaults(func=cmd_ingest)
+    sub.add_parser("comps", help="print the computed comps table").set_defaults(func=cmd_comps)
     return parser
 
 

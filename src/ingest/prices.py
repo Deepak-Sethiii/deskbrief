@@ -56,7 +56,13 @@ def fetch_history(symbol: str, period: str, interval: str) -> pd.DataFrame:
         frame = yf.Ticker(symbol).history(
             period=period,
             interval=interval,
-            auto_adjust=False,  # we store raw prints; see README limitations
+            # yfinance already split-adjusts OHLC either way (verified against
+            # HDFCBANK.NS 2:1 on 2025-08-26: the series is continuous through
+            # it). auto_adjust=True additionally back-adjusts for dividends, so
+            # what we store is a total-return series -- which is what returns
+            # and 52w-high math want. Cost: `close` is not the print a broker
+            # shows, and we inherit Yahoo's adjustments unverified.
+            auto_adjust=True,
             timeout=DEFAULT_TIMEOUT,
         )
         if frame is None or frame.empty:
