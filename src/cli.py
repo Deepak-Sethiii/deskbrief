@@ -113,12 +113,16 @@ def cmd_report(args: argparse.Namespace) -> int:
 
         commentary = generate_commentary(table, headlines)
 
-    chart_path = None
+    chart_path = deck_chart_path = None
     if not getattr(args, "no_chart", False):
         from src.report.charts import normalised_price_chart
         from src.repository import load_prices
 
-        chart_path = normalised_price_chart(load_prices(engine))
+        prices = load_prices(engine)
+        chart_path = normalised_price_chart(prices)
+        # The slide needs a shorter, wider render; a shrunken copy of the Excel
+        # PNG is unreadable at slide scale.
+        deck_chart_path = normalised_price_chart(prices, compact=True)
 
     try:
         out_path = write_workbook(table, headlines, commentary, chart_path,
@@ -130,7 +134,7 @@ def cmd_report(args: argparse.Namespace) -> int:
     if not getattr(args, "no_deck", False):
         from src.report.deck import build_deck
 
-        deck_path = build_deck(table, commentary, chart_path)
+        deck_path = build_deck(table, commentary, deck_chart_path or chart_path)
         log.info("deck written    : %s", deck_path)
 
     log.info("workbook ready  : %s", out_path)
