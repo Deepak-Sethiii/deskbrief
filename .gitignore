@@ -1,0 +1,21 @@
+# DeskBrief
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# real secrets never leave the machine; .env.example is the committed contract
+.env
+
+# generated artefacts
+data/
+output/
+logs/
+assets/*.png
+
+# editor / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+~$*.xls*
