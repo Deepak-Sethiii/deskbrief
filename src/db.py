@@ -34,10 +34,26 @@ from sqlalchemy import (
 from sqlalchemy.dialects.sqlite import insert as sqlite_insert
 from sqlalchemy.engine import Engine
 
+# Re-exported: src/paths.py holds the single definition, but existing callers
+# import these from here.
+from src.paths import DEFAULT_DB_PATH, PROJECT_ROOT
+
 log = logging.getLogger(__name__)
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_DB_PATH = PROJECT_ROOT / "data" / "deskbrief.db"
+__all__ = [
+    "DEFAULT_DB_PATH",
+    "PROJECT_ROOT",
+    "TABLES",
+    "fundamentals",
+    "get_engine",
+    "headlines",
+    "init_db",
+    "metadata",
+    "prices",
+    "table_counts",
+    "upsert",
+    "url_hash",
+]
 
 metadata = MetaData()
 

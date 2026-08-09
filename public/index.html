@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DeskBrief — daily market note</title>
+<meta name="description" content="An automated daily market brief: prices and fundamentals from public APIs, headlines from RSS, generated as an Excel workbook and a PowerPoint tear-sheet.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#E8EAE6;
+    --card:#F4F5F2;
+    --ink:#14181A;
+    --muted:#6B7378;
+    --rule:#C7CBC6;
+    --up:#1F7A5C;
+    --down:#B4442E;
+    --brass:#8A6D2F;
+
+    --display:"IBM Plex Sans Condensed",system-ui,sans-serif;
+    --body:"IBM Plex Sans",system-ui,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,monospace;
+  }
+
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font:400 16px/1.55 var(--body);
+    font-feature-settings:"tnum" 1;
+  }
+  .wrap{max-width:1080px;margin:0 auto;padding:32px 20px 80px}
+
+  a{color:var(--ink);text-decoration-color:var(--rule);text-underline-offset:3px}
+  a:hover{text-decoration-color:var(--brass)}
+  :focus-visible{outline:2px solid var(--brass);outline-offset:2px;border-radius:2px}
+
+  /* ---- masthead ---- */
+  header{border-bottom:2px solid var(--ink);padding-bottom:14px}
+  .kicker{
+    font:600 11px/1 var(--mono);letter-spacing:.16em;text-transform:uppercase;
+    color:var(--muted);display:flex;gap:10px;align-items:center;flex-wrap:wrap;
+  }
+  .dot{width:6px;height:6px;border-radius:50%;background:var(--brass);flex:none}
+  h1{
+    font:700 clamp(38px,8vw,68px)/0.92 var(--display);
+    letter-spacing:-.02em;text-transform:uppercase;margin:10px 0 0;
+  }
+  .sub{margin:8px 0 0;color:var(--muted);max-width:52ch;font-size:15px}
+
+  /* ---- meta strip ---- */
+  .meta{
+    display:flex;gap:8px 22px;flex-wrap:wrap;align-items:center;
+    padding:12px 0;border-bottom:1px solid var(--rule);
+    font:500 12px/1 var(--mono);letter-spacing:.04em;color:var(--muted);
+  }
+  .badge{
+    border:1px solid var(--rule);border-radius:2px;padding:5px 8px;
+    text-transform:uppercase;letter-spacing:.1em;
+  }
+  .badge.llm{border-color:var(--brass);color:var(--brass)}
+
+  section{margin-top:44px}
+  h2{
+    font:600 12px/1 var(--mono);letter-spacing:.16em;text-transform:uppercase;
+    color:var(--muted);margin:0 0 14px;padding-bottom:8px;border-bottom:1px solid var(--rule);
+  }
+
+  /* ---- the board: signature element ---- */
+  .board-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse;width:100%;min-width:820px}
+  th{
+    font:600 11px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;
+    color:var(--muted);text-align:right;padding:0 10px 10px;white-space:nowrap;
+  }
+  th:first-child{text-align:left;padding-left:0}
+  td{
+    font:400 14px/1 var(--mono);text-align:right;padding:11px 10px;
+    border-top:1px solid var(--rule);white-space:nowrap;
+  }
+  td:first-child{text-align:left;padding-left:0;font-family:var(--body);font-weight:500}
+  tbody tr:hover{background:var(--card)}
+  .up{color:var(--up)}
+  .down{color:var(--down)}
+  .nil{color:var(--muted)}
+
+  /* zero-baseline bar: the return column reads as a chart, not a number */
+  .bar-cell{width:180px;padding-right:0}
+  .bar{position:relative;height:20px;width:100%}
+  .bar::before{ /* baseline */
+    content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:var(--rule);
+  }
+  .bar span{
+    position:absolute;top:5px;height:10px;border-radius:1px;opacity:.85;
+  }
+  .bar span.up{background:var(--up);left:50%}
+  .bar span.down{background:var(--down);right:50%}
+
+  /* ---- commentary ---- */
+  .note{background:var(--card);border-left:2px solid var(--brass);padding:20px 22px}
+  .tone{font:600 13px/1.4 var(--mono);letter-spacing:.04em;margin:0 0 14px}
+  .note ul{margin:0;padding-left:18px}
+  .note li{margin:0 0 9px}
+  .note li:last-child{margin-bottom:0}
+  .watch{margin-top:18px;padding-top:16px;border-top:1px solid var(--rule)}
+  .watch h3{font:600 11px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+
+  /* ---- headlines ---- */
+  .heads{list-style:none;margin:0;padding:0}
+  .heads li{padding:12px 0;border-top:1px solid var(--rule);display:flex;gap:14px}
+  .heads li:first-child{border-top:none}
+  .src{font:500 11px/1.5 var(--mono);color:var(--muted);flex:none;width:104px;text-transform:uppercase;letter-spacing:.06em}
+  .heads a{font-size:15px}
+
+  img.chart{width:100%;height:auto;border:1px solid var(--rule);background:#fff;display:block}
+
+  .dl{display:inline-flex;align-items:center;gap:9px;border:1px solid var(--ink);
+      padding:11px 16px;font:600 12px/1 var(--mono);letter-spacing:.1em;
+      text-transform:uppercase;text-decoration:none;margin-top:6px}
+  .dl:hover{background:var(--ink);color:var(--paper)}
+
+  footer{margin-top:64px;padding-top:18px;border-top:1px solid var(--rule);
+         font-size:13px;color:var(--muted)}
+  footer p{margin:0 0 8px;max-width:60ch}
+
+  .state{padding:36px 0;color:var(--muted);font-family:var(--mono);font-size:14px}
+
+  @media (max-width:640px){
+    .src{width:auto}
+    .heads li{flex-direction:column;gap:3px}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="kicker"><span class="dot" aria-hidden="true"></span><span>Automated daily note</span></div>
+    <h1>DeskBrief</h1>
+    <p class="sub">Prices and fundamentals from public APIs, headlines from RSS feeds, assembled into a comparables board, an Excel workbook and a PowerPoint tear-sheet. Runs unattended on a schedule.</p>
+  </header>
+
+  <div class="meta" id="meta"></div>
+
+  <main id="main">
+    <div class="state">Loading the latest brief…</div>
+  </main>
+
+  <footer>
+    <p><strong>How to read this.</strong> Returns are close-to-close. Valuation
+      multiples come from the data provider as-is and are not cleaned — one of
+      them is visibly wrong, which is left in view on purpose.</p>
+    <p>Built by Deepak Sethi.
+      <a href="https://github.com/Deepak-Sethiii/deskbrief">Source on GitHub</a></p>
+  </footer>
+
+</div>
+
+<script>
+const $ = (s, r=document) => r.querySelector(s);
+
+// The pipeline emits fractions (0.0061 = 0.61%); fractions are the
+// canonical unit everywhere else in the project. Scale once, here, so
+// every consumer of pct() - the four return columns, vol, and the bar
+// widths - agrees.
+const pct = v => (v === null || v === undefined || Number.isNaN(v))
+  ? null : Number(v) * 100;
+
+const fmtPct = v => v === null ? "—" : (v > 0 ? "+" : "") + v.toFixed(2) + "%";
+const fmtNum = (v, d=1) => (v === null || v === undefined || Number.isNaN(v))
+  ? "—" : Number(v).toFixed(d);
+const cls = v => v === null ? "nil" : v > 0 ? "up" : v < 0 ? "down" : "nil";
+
+function relTime(iso){
+  const mins = Math.round((Date.now() - new Date(iso)) / 60000);
+  if (mins < 60) return mins + " min ago";
+  const hrs = Math.round(mins/60);
+  if (hrs < 24) return hrs + (hrs === 1 ? " hour ago" : " hours ago");
+  const days = Math.round(hrs/24);
+  return days + (days === 1 ? " day ago" : " days ago");
+}
+
+// Column keys are read defensively: the pipeline names them, not this page.
+const pick = (row, ...names) => {
+  for (const n of names) if (n in row && row[n] !== null) return row[n];
+  return null;
+};
+
+function board(comps){
+  if (!comps.length) return '<div class="state">No constituents in this run.</div>';
+
+  const rows = comps.map(r => ({
+    ticker: pick(r, "ticker", "symbol") ?? "—",
+    d1:  pct(pick(r, "return_1d", "ret_1d", "r1")),
+    w1:  pct(pick(r, "return_5d", "ret_5d", "r5")),
+    m1:  pct(pick(r, "return_21d", "ret_21d", "r21")),
+    vol: pct(pick(r, "realised_vol_30d", "realised_vol", "realized_vol", "vol_30d")),
+    hi:  pct(pick(r, "pct_from_52w_high", "from_52w_high")),
+    px:  pick(r, "last_close"),
+    mcap: pick(r, "market_cap_bn"),
+    ev:  pick(r, "ev_ebitda", "evEbitda"),
+    pe:  pick(r, "pe", "pe_ratio")
+  }));
+
+  // Scale bars against the largest absolute 1d move so the column is comparable.
+  const span = Math.max(0.5, ...rows.map(r => Math.abs(r.d1 ?? 0)));
+
+  const body = rows.map(r => {
+    const w = r.d1 === null ? 0 : Math.abs(r.d1) / span * 50;
+    const bar = r.d1 === null ? "" :
+      `<span class="${cls(r.d1)}" style="width:${w}%"></span>`;
+    return `<tr>
+      <td>${r.ticker}</td>
+      <td>${fmtNum(r.px, 2)}</td>
+      <td>${fmtNum(r.mcap, 1)}</td>
+      <td class="bar-cell"><div class="bar" role="img"
+          aria-label="1 day return ${fmtPct(r.d1)}">${bar}</div></td>
+      <td class="${cls(r.d1)}">${fmtPct(r.d1)}</td>
+      <td class="${cls(r.w1)}">${fmtPct(r.w1)}</td>
+      <td class="${cls(r.m1)}">${fmtPct(r.m1)}</td>
+      <td class="${cls(r.hi)}">${fmtPct(r.hi)}</td>
+      <td>${fmtNum(r.vol)}</td>
+      <td>${fmtNum(r.ev)}</td>
+      <td>${fmtNum(r.pe)}</td>
+    </tr>`;
+  }).join("");
+
+  return `<div class="board-scroll"><table>
+    <thead><tr>
+      <th scope="col">Name</th>
+      <th scope="col">Close</th><th scope="col">Mkt cap (bn)</th>
+      <th scope="col"></th>
+      <th scope="col">1D</th><th scope="col">1W</th><th scope="col">1M</th>
+      <th scope="col">From 52w high</th><th scope="col">Vol 30d</th>
+      <th scope="col">EV/EBITDA</th><th scope="col">P/E</th>
+    </tr></thead><tbody>${body}</tbody></table></div>`;
+}
+
+function commentary(c, source){
+  const bullets = (c.bullets || []).map(b => `<li>${b}</li>`).join("");
+  const watch = (c.watch_items || []).map(w => `<li>${w}</li>`).join("");
+  return `<div class="note">
+    <p class="tone">${c.market_tone || ""}</p>
+    <ul>${bullets}</ul>
+    ${watch ? `<div class="watch"><h3>Watch</h3><ul>${watch}</ul></div>` : ""}
+  </div>`;
+}
+
+function headlines(items){
+  if (!items.length) return '<div class="state">No headlines in this run.</div>';
+  return `<ul class="heads">${items.map(h => `
+    <li><span class="src">${h.source || ""}</span>
+        <a href="${h.url}" rel="noopener noreferrer" target="_blank">${h.title}</a></li>
+  `).join("")}</ul>`;
+}
+
+async function load(){
+  let d;
+  try {
+    const res = await fetch("latest.json?t=" + Date.now());
+    if (!res.ok) throw new Error(res.status);
+    d = await res.json();
+  } catch (e) {
+    $("#main").innerHTML =
+      `<div class="state">No brief published yet. The pipeline writes
+       <code>latest.json</code> on its next scheduled run.</div>`;
+    return;
+  }
+
+  const isLLM = d.commentary_source === "llm";
+  $("#meta").innerHTML = `
+    <span>Generated ${relTime(d.generated_at)}</span>
+    <span>${new Date(d.generated_at).toUTCString()}</span>
+    <span class="badge ${isLLM ? "llm" : ""}">
+      Commentary: ${isLLM ? "model-written" : "rule-based fallback"}</span>`;
+
+  $("#main").innerHTML = `
+    <section><h2>Comparables</h2>${board(d.comps || [])}</section>
+    <section><h2>Commentary</h2>${commentary(d.commentary || {}, d.commentary_source)}</section>
+    <section><h2>Relative performance</h2>
+      <img class="chart" src="chart.png" alt="Normalised price performance across the watchlist"
+           onerror="this.remove()"></section>
+    <section><h2>Headlines</h2>${headlines(d.headlines || [])}</section>
+    <section><h2>Tear-sheet</h2>
+      <a class="dl" href="deskbrief.pptx" download>Download the deck (.pptx)</a></section>`;
+}
+
+load();
+</script>
+</body>
+</html>

@@ -7,8 +7,7 @@ from pathlib import Path
 
 import yaml
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_WATCHLIST = PROJECT_ROOT / "config" / "watchlist.yaml"
+from src.paths import DEFAULT_WATCHLIST
 
 
 @dataclass(frozen=True)

@@ -22,10 +22,9 @@ from pptx.dml.color import RGBColor
 from pptx.enum.text import PP_ALIGN
 from pptx.util import Emu, Inches, Pt
 
-log = logging.getLogger(__name__)
+from src.paths import OUTPUT_ROOT
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-OUTPUT_DIR = PROJECT_ROOT / "output"
+log = logging.getLogger(__name__)
 
 SLIDE_WIDTH = Inches(13.333)  # 16:9
 SLIDE_HEIGHT = Inches(7.5)
@@ -97,7 +96,7 @@ def build_deck(
 ) -> Path:
     """Write output/deskbrief_YYYYMMDD_HHMM.pptx and return its path."""
     stamp = generated_at or dt.datetime.now()
-    out_dir = Path(output_dir) if output_dir else OUTPUT_DIR
+    out_dir = Path(output_dir) if output_dir else OUTPUT_ROOT
     out_dir.mkdir(parents=True, exist_ok=True)
 
     presentation = Presentation()

@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-09T10:20:10.292844+00:00",
+  "commentary_source": "fallback",
+  "commentary": {
+    "market_tone": "Breadth was risk-on: 5 of 8 names advanced on the day.",
+    "bullets": [
+      "Best performer on the day: TCS.NS at +3.36%.",
+      "Weakest on the day: ICICIBANK.NS at -2.50%.",
+      "Median one-day move across the watchlist: +0.34%.",
+      "INFY.NS sits furthest below its 52-week high, at -29.0%.",
+      "1 name(s) within 5% of the 52-week high: ICICIBANK.NS."
+    ],
+    "watch_items": [
+      "Highest 30-day realised volatility: TCS.NS at 36.5% annualised.",
+      "60 headlines collected, 4 tagged to a watchlist name by substring match (unverified).",
+      "Commentary model was unavailable, so no qualitative read is included."
+    ],
+    "source": "deterministic-fallback (no GROQ_API_KEY)",
+    "source_kind": "fallback"
+  },
+  "comps": [
+    {
+      "ticker": "BHARTIARTL.NS",
+      "sector": "Communication Services",
+      "currency": "INR",
+      "last_close": 1959.9000244141,
+      "ret_1d": 0.0061088421,
+      "ret_5d": -0.0061358903,
+      "ret_21d": 0.027686765,
+      "realised_vol_30d": 0.1695550982,
+      "high_52w": 2135.8200683594,
+      "pct_from_52w_high": -0.0823665095,
+      "market_cap_bn": 12227.1461507416,
+      "pe": 40.984943,
+      "ev_ebitda": 12.239
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 731.0,
+      "ret_1d": -0.0044940594,
+      "ret_5d": -0.0229232425,
+      "ret_21d": -0.1058650714,
+      "realised_vol_30d": 0.2382266553,
+      "high_52w": 993.0750732422,
+      "pct_from_52w_high": -0.2639025793,
+      "market_cap_bn": 11264.17735685,
+      "pe": 15.974651,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 1421.0,
+      "ret_1d": -0.0250428816,
+      "ret_5d": -0.0016861208,
+      "ret_21d": 0.0378647335,
+      "realised_vol_30d": 0.1789449173,
+      "high_52w": 1460.0,
+      "pct_from_52w_high": -0.0267123288,
+      "market_cap_bn": 10193.226561581,
+      "pe": 18.382923,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "INFY.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 1175.0999755859,
+      "ret_1d": 0.0086695069,
+      "ret_5d": 0.0398194859,
+      "ret_21d": 0.1182907508,
+      "realised_vol_30d": 0.3507169461,
+      "high_52w": 1654.0083007812,
+      "pct_from_52w_high": -0.2895440881,
+      "market_cap_bn": 4759.3001176278,
+      "pe": 15.266987,
+      "ev_ebitda": 1061.266
+    },
+    {
+      "ticker": "ITC.NS",
+      "sector": "Consumer Defensive",
+      "currency": "INR",
+      "last_close": 286.1000061035,
+      "ret_1d": 0.000699588,
+      "ret_5d": 0.0181494879,
+      "ret_21d": 0.0143592217,
+      "realised_vol_30d": 0.1513413236,
+      "high_52w": 401.9940185547,
+      "pct_from_52w_high": -0.288297853,
+      "market_cap_bn": 3584.6809373629,
+      "pe": 18.050472,
+      "ev_ebitda": 13.215
+    },
+    {
+      "ticker": "LT.NS",
+      "sector": "Industrials",
+      "currency": "INR",
+      "last_close": 4056.0,
+      "ret_1d": -0.0014279504,
+      "ret_5d": 0.0297291377,
+      "ret_21d": 0.0437467833,
+      "realised_vol_30d": 0.1863382894,
+      "high_52w": 4375.3642578125,
+      "pct_from_52w_high": -0.0729914675,
+      "market_cap_bn": 5580.512844816,
+      "pe": 33.67093,
+      "ev_ebitda": 18.014
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "sector": "Energy",
+      "currency": "INR",
+      "last_close": 1334.8000488281,
+      "ret_1d": 0.0073962633,
+      "ret_5d": 0.0206453578,
+      "ret_21d": 0.0429754633,
+      "realised_vol_30d": 0.2121856895,
+      "high_52w": 1584.9718017578,
+      "pct_from_52w_high": -0.1578398762,
+      "market_cap_bn": 18063.1451339633,
+      "pe": 24.154905,
+      "ev_ebitda": 11.781
+    },
+    {
+      "ticker": "TCS.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 2452.6999511719,
+      "ret_1d": 0.0335861573,
+      "ret_5d": 0.0368193481,
+      "ret_21d": 0.2032925,
+      "realised_vol_30d": 0.3652229365,
+      "high_52w": 3204.2819824219,
+      "pct_from_52w_high": -0.2345555214,
+      "market_cap_bn": 8874.0830787342,
+      "pe": 17.824854,
+      "ev_ebitda": 11.861
+    }
+  ],
+  "headlines": [
+    {
+      "url_hash": "cec22581bc1f03c5",
+      "ticker": "HDFCBANK.NS",
+      "source": "Economic Times Markets",
+      "title": "World Bank's IFC, HDFC AMC invest in Molbio Diagnostics' Rs 281 crore IPO anchor round",
+      "published_at": "2026-08-09T10:03:51.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/world-banks-ifc-hdfc-amc-invest-in-molbio-diagnostics-rs-281-crore-ipo-anchor-round/articleshow/133065702.cms",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "6436fccfac7144c1",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Market Trading Guide: Jindal Saw among 2 stock recommendations for Monday",
+      "published_at": "2026-08-09T09:48:58.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-trading-guide-jindal-saw-among-2-stock-recommendations-for-monday/slideshow/133065621.cms",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "561461350a8b8ea5",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Ahead of Market: 10 things that will decide D-Street action on Monday",
+      "published_at": "2026-08-09T09:35:18.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-drops-456-points-nifty-falls-65-as-closing-auction-session-creates-divergence/articleshow/133065105.cms",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "d26c8d71ec33eff1",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Crude oil prices, West Asia developments likely to steer markets this week",
+      "published_at": "2026-08-09T09:02:26.000",
+      "url": "https://www.business-standard.com/markets/news/crude-oil-prices-west-asia-developments-likely-to-steer-markets-this-week-126080900276_1.html",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "965ddef7bf18ff41",
+      "ticker": "HDFCBANK.NS",
+      "source": "Economic Times Markets",
+      "title": "9 Nifty 500 stocks with up to 50% upside potential: Do you own any?",
+      "published_at": "2026-08-09T08:47:50.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/9-nifty-500-stocks-with-up-to-50-upside-potential-do-you-own-any/slideshow/133064784.cms",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "292003e9be6a96ec",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Five companies to launch IPOs next week to raise over \u20b97,400 crore",
+      "published_at": "2026-08-09T08:44:41.000",
+      "url": "https://www.business-standard.com/markets/news/five-companies-to-launch-ipos-next-week-to-raise-over-7-400-crore-126080900270_1.html",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "ee49cc4f284ac60c",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "GMPs indicate 15 IPOs opening or listing this week could offer investors up to 37% returns",
+      "published_at": "2026-08-09T08:37:27.000",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/gmps-indicate-15-ipos-opening-or-listing-this-week-could-offer-investors-up-to-37-returns/slideshow/133064592.cms",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "5ed7844c750af688",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "14 penny stocks plunge up to 85% in 6 months. Are you holding any?",
+      "published_at": "2026-08-09T08:00:10.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/14-penny-stocks-plunge-up-to-85-in-6-months-are-you-holding-any/slideshow/133064275.cms",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "e88a658cce523481",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "$20 billion bet: Where is Warren Buffett's successor spending Berkshire's cash pile after 14 quarters?",
+      "published_at": "2026-08-09T06:18:35.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/20-billion-bet-where-is-warren-buffetts-successor-spending-berkshires-cash-pile-after-14-quarters/articleshow/133063236.cms",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "af90f488c8564dab",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Rs 7,681 crore IPO rush: Shiprocket, Milky Mist among 9 issues to hit the market",
+      "published_at": "2026-08-09T06:13:34.000",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/rs-7681-crore-ipo-rush-next-week-shiprocket-milky-mist-among-9-issues-to-hit-the-market/articleshow/133063172.cms",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "109e7a0f5a5e8249",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Berkshire Hathaway spends down cash pile under CEO Greg Abel",
+      "published_at": "2026-08-09T05:54:10.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/berkshire-hathaway-spends-down-cash-pile-under-ceo-greg-abel/articleshow/133062858.cms",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "1dbcc476c0605a16",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Q1 Results Tracker: Tata Motors, Vodafone Idea among 2,045 companies set to announce earnings this week",
+      "published_at": "2026-08-09T05:51:01.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/q1-results-tracker-tata-motors-vodafone-idea-among-2045-companies-set-to-announce-earnings-this-week/articleshow/133062827.cms",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "44cf3f7b15a79f46",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "AI trade gets crowded as India stages a comeback: What fund flows reveal",
+      "published_at": "2026-08-09T05:48:46.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ai-trade-gets-crowded-as-india-stages-a-comeback-what-fund-flows-reveal/articleshow/133062811.cms",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "961162d429493d20",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Dividend alert: Jio Financial, Power Grid, HPCL among 90 stocks turning ex-dividend this week",
+      "published_at": "2026-08-09T05:04:41.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/dividend-alert-jio-financial-power-grid-hpcl-among-nearly-90-stocks-turning-ex-record-date-this-week/articleshow/133062498.cms",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "9b320e7e4342a52c",
+      "ticker": "RELIANCE.NS",
+      "source": "Economic Times Markets",
+      "title": "Mcap of four of top-10 most valued firms jumps Rs 1.43 lakh cr; State Bank biggest winner",
+      "published_at": "2026-08-09T04:51:35.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/mcap-of-four-of-top-10-most-valued-firms-jumps-rs-1-43-lakh-cr-state-bank-biggest-winner/articleshow/133062390.cms",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "5810b062a5b7ec86",
+      "ticker": "TCS.NS",
+      "source": "Business Standard Markets",
+      "title": "Mcap of 4 of top-10 most valued firms jumps \u20b91.43 trn, SBI biggest winner",
+      "published_at": "2026-08-09T04:49:44.000",
+      "url": "https://www.business-standard.com/markets/news/mcap-of-4-of-top-10-most-valued-firms-jumps-1-43-trn-sbi-biggest-winner-126080900106_1.html",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "22240808ca3eb2c2",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Foreign investors continue buying spree; pour Rs 12,921 cr in first week of Aug",
+      "published_at": "2026-08-09T04:48:25.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/foreign-investors-continue-buying-spree-pour-rs-12921-cr-in-first-week-of-aug/articleshow/133062370.cms",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "74c9ee7d225a9a42",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "FPIs continue buying spree, pour \u20b912,921 crore in first week of August",
+      "published_at": "2026-08-09T04:47:52.000",
+      "url": "https://www.business-standard.com/markets/news/fpis-continue-buying-spree-pour-12-921-crore-in-first-week-of-august-126080900101_1.html",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "b46991fba372de66",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Will Nifty, Sensex extend losses on Monday? Middle East tensions, Q1 results and 3 other factors to steer D-St this week",
+      "published_at": "2026-08-09T03:50:58.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/will-nifty-sensex-extend-losses-on-monday-middle-east-tension-q1-results-3-other-factors-to-drive-mood-next-week/articleshow/133061939.cms",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "695b0db35e0afb3c",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Delhivery elevates Vani Venkatesh as Deputy CEO",
+      "published_at": "2026-08-08T14:34:11.000",
+      "url": "https://www.business-standard.com/markets/capital-market-news/delhivery-elevates-vani-venkatesh-as-deputy-ceo-126080801138_1.html",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "dbc7b70549a406a4",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Apollo Micro Systems consolidated net profit rises 45.38% in the June 2026 quarter",
+      "published_at": "2026-08-08T12:22:33.000",
+      "url": "https://www.business-standard.com/markets/capital-market-news/apollo-micro-systems-consolidated-net-profit-rises-45-38-in-the-june-2026-quarter-126080800959_1.html",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "342b35b7a61edaae",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Delhivery consolidated net profit declines 64.95% in the June 2026 quarter",
+      "published_at": "2026-08-08T12:22:25.000",
+      "url": "https://www.business-standard.com/markets/capital-market-news/delhivery-consolidated-net-profit-declines-64-95-in-the-june-2026-quarter-126080800958_1.html",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "8c5df65f23dd4e8f",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Atul Auto consolidated net profit rises 168.81% in the June 2026 quarter",
+      "published_at": "2026-08-08T12:22:18.000",
+      "url": "https://www.business-standard.com/markets/capital-market-news/atul-auto-consolidated-net-profit-rises-168-81-in-the-june-2026-quarter-126080800957_1.html",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "e980e67e765b889f",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "HBL Engineering consolidated net profit declines 23.86% in the June 2026 quarter",
+      "published_at": "2026-08-08T12:22:11.000",
+      "url": "https://www.business-standard.com/markets/capital-market-news/hbl-engineering-consolidated-net-profit-declines-23-86-in-the-june-2026-quarter-126080800956_1.html",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    },
+    {
+      "url_hash": "10a95e6fd2ef17d0",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "WEP Solutions standalone net profit declines 37.04% in the June 2026 quarter",
+      "published_at": "2026-08-08T12:22:04.000",
+      "url": "https://www.business-standard.com/markets/capital-market-news/wep-solutions-standalone-net-profit-declines-37-04-in-the-june-2026-quarter-126080800955_1.html",
+      "fetched_at": "2026-08-09T15:50:07.460"
+    }
+  ]
+}

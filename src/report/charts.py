@@ -21,10 +21,9 @@ import matplotlib.dates as mdates  # noqa: E402
 import matplotlib.pyplot as plt  # noqa: E402
 import pandas as pd  # noqa: E402
 
-log = logging.getLogger(__name__)
+from src.paths import ASSETS_DIR  # noqa: E402  (after the matplotlib.use call above)
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-ASSETS_DIR = PROJECT_ROOT / "assets"
+log = logging.getLogger(__name__)
 
 # Colour-blind-safe qualitative palette (Okabe-Ito), extended to 8 series.
 PALETTE = (

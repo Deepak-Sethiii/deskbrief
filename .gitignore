@@ -8,7 +8,11 @@ __pycache__/
 .env
 
 # generated artefacts
-data/
+# data/ is deliberately NOT ignored: the SQLite database is committed so a CI run
+# starts from the last known-good history instead of re-fetching a year of bars.
+# Its WAL sidecars are transient though, and must never be committed alongside it.
+data/*.db-wal
+data/*.db-shm
 output/
 logs/
 assets/*.png

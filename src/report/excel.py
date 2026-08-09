@@ -30,12 +30,9 @@ from openpyxl import load_workbook
 from openpyxl.drawing.image import Image as XLImage
 from openpyxl.utils import get_column_letter
 
-log = logging.getLogger(__name__)
+from src.paths import LATEST_POINTER_NAME, OUTPUT_ROOT, TEMPLATE_PATH
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-TEMPLATE_PATH = PROJECT_ROOT / "templates" / "deskbrief_template.xlsm"
-OUTPUT_DIR = PROJECT_ROOT / "output"
-LATEST_POINTER = OUTPUT_DIR / "latest.txt"
+log = logging.getLogger(__name__)
 
 SHEET_SUMMARY = "Summary"
 SHEET_CHARTS = "Charts"
@@ -137,7 +134,7 @@ def write_workbook(
 ) -> Path:
     """Fill the template and save a timestamped .xlsm. Returns the output path."""
     template_path = Path(template) if template else TEMPLATE_PATH
-    out_dir = Path(output_dir) if output_dir else OUTPUT_DIR
+    out_dir = Path(output_dir) if output_dir else OUTPUT_ROOT
     stamp = generated_at or dt.datetime.now()
 
     _check_template(template_path)
@@ -166,7 +163,7 @@ def write_workbook(
     absolute = out_path.resolve()
     # The pointer lives beside the workbook it points at, so a run targeting a
     # different output_dir (tests) cannot clobber the real one the macro reads.
-    pointer = out_dir / LATEST_POINTER.name
+    pointer = out_dir / LATEST_POINTER_NAME
     # Absolute path, because the macro resolves it from whatever directory Excel is in.
     pointer.write_text(str(absolute) + "\n", encoding="utf-8")
 

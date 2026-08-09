@@ -140,7 +140,66 @@ def test_happy_path_uses_the_model(comps, headlines):
     assert result["market_tone"] == GOOD_PAYLOAD["market_tone"]
     assert result["bullets"] == GOOD_PAYLOAD["bullets"]
     assert result["source"].startswith("groq:")
+    assert result["source_kind"] == "llm"
     assert len(client.calls) == 1
+
+
+# --------------------------------------------------------------------------
+# source_kind: the machine-readable discriminator the dashboard badge reads.
+# Every return path out of generate_commentary must set it.
+# --------------------------------------------------------------------------
+
+def test_source_kind_is_llm_on_model_success(comps, headlines):
+    client = FakeClient(json.dumps(GOOD_PAYLOAD))
+    assert generate_commentary(comps, headlines, client=client)["source_kind"] == "llm"
+
+
+def test_source_kind_is_llm_after_a_retry(comps, headlines):
+    client = FakeClient("here you go:", json.dumps(GOOD_PAYLOAD))
+    result = generate_commentary(comps, headlines, client=client)
+    assert result["source_kind"] == "llm"
+    assert len(client.calls) == 2
+
+
+def test_source_kind_is_fallback_when_there_is_no_api_key(comps, headlines, monkeypatch):
+    monkeypatch.delenv("GROQ_API_KEY", raising=False)
+    result = generate_commentary(comps, headlines)
+    assert result["source_kind"] == "fallback"
+    assert result["source"] == "deterministic-fallback (no GROQ_API_KEY)"
+
+
+def test_source_kind_is_fallback_after_two_bad_parses(comps, headlines):
+    client = FakeClient("prose one", "prose two")
+    result = generate_commentary(comps, headlines, client=client)
+    assert result["source_kind"] == "fallback"
+    assert "unusable output twice" in result["source"]
+
+
+def test_source_kind_is_fallback_on_network_failure(comps, headlines):
+    client = FakeClient(RuntimeError("boom"), RuntimeError("boom again"))
+    assert generate_commentary(comps, headlines, client=client)["source_kind"] == "fallback"
+
+
+def test_fallback_commentary_sets_source_kind_directly(comps, headlines):
+    assert fallback_commentary(comps, headlines)["source_kind"] == "fallback"
+
+
+def test_fallback_commentary_sets_source_kind_even_with_no_data():
+    assert fallback_commentary(pd.DataFrame(), None)["source_kind"] == "fallback"
+
+
+@pytest.mark.parametrize(
+    "client",
+    [
+        FakeClient(json.dumps(GOOD_PAYLOAD)),
+        FakeClient("prose", "prose"),
+        FakeClient(RuntimeError("x"), RuntimeError("y")),
+    ],
+)
+def test_every_path_sets_both_source_and_source_kind(comps, headlines, client):
+    result = generate_commentary(comps, headlines, client=client)
+    assert result["source"], "source must always carry the human-readable detail"
+    assert result["source_kind"] in {"llm", "fallback"}
 
 
 def test_prose_reply_triggers_exactly_one_retry_then_succeeds(comps, headlines):

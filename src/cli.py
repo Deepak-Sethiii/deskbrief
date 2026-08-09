@@ -96,9 +96,34 @@ def cmd_comps(args: argparse.Namespace) -> int:
     return 0
 
 
+def _commentary_source_kind(commentary) -> str:
+    """"llm" or "fallback" -- the badge the dashboard renders.
+
+    commentary.py now sets source_kind explicitly on every return path, so the
+    first branch is the live one and the derivation below is dead in normal
+    operation. It is retained purely as a guard: if a future return path forgets
+    the key, this degrades to reading the descriptive `source` prefix instead of
+    mislabelling the badge.
+
+    An absent commentary resolves to "fallback" rather than "llm" so the guard
+    can never over-claim that a model wrote something. That case is itself
+    unreachable -- main() refuses --web with --no-commentary, and the web branch
+    guards again -- but "fallback" is the safe direction to fail in.
+    """
+    if not commentary:
+        return "fallback"
+    explicit = commentary.get("source_kind")
+    if explicit:
+        return str(explicit)
+    return (
+        "fallback"
+        if str(commentary.get("source", "")).startswith("deterministic-fallback")
+        else "llm"
+    )
+
+
 def cmd_report(args: argparse.Namespace) -> int:
     """Build the Excel workbook (and the deck) from whatever is already in the DB."""
-    from src.report.excel import TemplateMissingError, write_workbook
     from src.repository import load_headlines
 
     engine, table = build_comps(args)
@@ -124,20 +149,61 @@ def cmd_report(args: argparse.Namespace) -> int:
         # PNG is unreadable at slide scale.
         deck_chart_path = normalised_price_chart(prices, compact=True)
 
-    try:
-        out_path = write_workbook(table, headlines, commentary, chart_path,
-                                  template=args.template)
-    except TemplateMissingError as exc:
-        log.error("%s", exc)
-        return 1
+    out_path = None
+    if getattr(args, "skip_workbook", False):
+        # Kept inside the branch so a skipped workbook never imports openpyxl and
+        # never needs the .xlsm template to exist -- that is what lets the Linux
+        # CI job run this without the Windows-side template.
+        log.info("workbook skipped (--skip-workbook)")
+    else:
+        from src.report.excel import TemplateMissingError, write_workbook
 
+        try:
+            out_path = write_workbook(table, headlines, commentary, chart_path,
+                                      template=args.template)
+        except TemplateMissingError as exc:
+            log.error("%s", exc)
+            return 1
+
+    deck_path = None
     if not getattr(args, "no_deck", False):
         from src.report.deck import build_deck
 
         deck_path = build_deck(table, commentary, deck_chart_path or chart_path)
         log.info("deck written    : %s", deck_path)
 
-    log.info("workbook ready  : %s", out_path)
+    if getattr(args, "web", False):
+        # main() already refuses --web with --no-commentary; this catches a
+        # programmatic caller that constructs args directly, so export_web is
+        # never handed None where it expects a mapping.
+        if commentary is None:
+            log.error("--web needs commentary: refusing to publish a page without it")
+            return 1
+
+        # Lazy: web_report pulls in pandas and shutil, and must not load when the
+        # stage is skipped.
+        from src.paths import WEB_DIR
+        from src.report.web_report import export_web
+
+        latest = export_web(
+            # ticker is the DataFrame index, and to_json(orient="records") drops
+            # the index -- reset inline so the records carry it, without
+            # disturbing the indexed table the workbook and deck already used.
+            table.reset_index(),
+            headlines,
+            commentary,
+            _commentary_source_kind(commentary),
+            WEB_DIR,
+            # The compact render, not the Excel-sized one: it is what the slide
+            # and the page both want. Deck path is whatever build_deck returned;
+            # never reconstruct the timestamped filename.
+            chart_png=deck_chart_path,
+            deck_pptx=deck_path,
+        )
+        log.info("web payload     : %s", latest)
+
+    if out_path is not None:
+        log.info("workbook ready  : %s", out_path)
     return 0
 
 
@@ -217,13 +283,29 @@ def build_parser() -> argparse.ArgumentParser:
         p.add_argument("--no-commentary", action="store_true", help="skip the LLM call")
         p.add_argument("--no-chart", action="store_true", help="skip the matplotlib chart")
         p.add_argument("--no-deck", action="store_true", help="skip the PowerPoint deck")
+        p.add_argument("--skip-workbook", action="store_true",
+                       help="skip the Excel workbook (needs no .xlsm template)")
+        p.add_argument("--web", action="store_true",
+                       help="also write the static web bundle into public/")
         p.set_defaults(func=func)
 
     return parser
 
 
 def main(argv: list[str] | None = None) -> int:
-    args = build_parser().parse_args(argv)
+    parser = build_parser()
+    args = parser.parse_args(argv)
+
+    # The page renders a commentary block and a source badge. Publishing it with
+    # no commentary at all would look like a broken deploy rather than a skipped
+    # stage, so refuse the combination up front instead of writing that page.
+    if getattr(args, "web", False) and getattr(args, "no_commentary", False):
+        parser.error(
+            "--web cannot be combined with --no-commentary: the published page "
+            "renders a commentary block and a model/fallback source badge, so a "
+            "page with no commentary would be misleading. Drop one of the two."
+        )
+
     setup_logging(logging.DEBUG if args.verbose else logging.INFO)
 
     # Load .env if present. override=False so a real environment variable always
@@ -231,7 +313,7 @@ def main(argv: list[str] | None = None) -> int:
     try:
         from dotenv import load_dotenv
 
-        from src.db import PROJECT_ROOT
+        from src.paths import PROJECT_ROOT
 
         load_dotenv(PROJECT_ROOT / ".env", override=False)
     except ImportError:  # pragma: no cover - dotenv is pinned, but never fatal
