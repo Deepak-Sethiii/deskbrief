@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-12T21:20:52.631692+00:00",
+  "commentary_source": "fallback",
+  "commentary": {
+    "market_tone": "Breadth was risk-on: 7 of 8 names advanced on the day.",
+    "bullets": [
+      "Best performer on the day: ITC.NS at +4.31%.",
+      "Weakest on the day: RELIANCE.NS at -0.65%.",
+      "Median one-day move across the watchlist: +2.16%.",
+      "INFY.NS sits furthest below its 52-week high, at -38.1%."
+    ],
+    "watch_items": [
+      "Highest 30-day realised volatility: ITC.NS at 32.7% annualised.",
+      "60 headlines collected, 5 tagged to a watchlist name by substring match (unverified).",
+      "Commentary model was unavailable, so no qualitative read is included."
+    ],
+    "source": "deterministic-fallback (model returned unusable output twice)",
+    "source_kind": "fallback"
+  },
+  "comps": [
+    {
+      "ticker": "BHARTIARTL.NS",
+      "sector": "Communication Services",
+      "currency": "INR",
+      "last_close": 1805.0999755859,
+      "ret_1d": 0.0002770697,
+      "ret_5d": 0.0367583717,
+      "ret_21d": -0.0184339448,
+      "realised_vol_30d": 0.2570215226,
+      "high_52w": 2135.8200683594,
+      "pct_from_52w_high": -0.1548445478,
+      "market_cap_bn": 11096.7011517978,
+      "pe": 37.180183,
+      "ev_ebitda": 11.254
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 707.25,
+      "ret_1d": 0.0216684724,
+      "ret_5d": -0.0193427787,
+      "ret_21d": 0.0193860081,
+      "realised_vol_30d": 0.224006751,
+      "high_52w": 993.0750732422,
+      "pct_from_52w_high": -0.2878181931,
+      "market_cap_bn": 10868.486107913,
+      "pe": 15.407651,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 1355.0,
+      "ret_1d": 0.0044477391,
+      "ret_5d": 0.0338776326,
+      "ret_21d": -0.0213073312,
+      "realised_vol_30d": 0.1686817903,
+      "high_52w": 1460.0,
+      "pct_from_52w_high": -0.0719178082,
+      "market_cap_bn": 9619.44864948,
+      "pe": 17.321613,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "INFY.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 1023.4000244141,
+      "ret_1d": 0.0264794628,
+      "ret_5d": -0.0112077059,
+      "ret_21d": -0.0126386643,
+      "realised_vol_30d": 0.2897380768,
+      "high_52w": 1654.0083007812,
+      "pct_from_52w_high": -0.3812606479,
+      "market_cap_bn": 4131.35043018,
+      "pe": 13.896458,
+      "ev_ebitda": 921.127
+    },
+    {
+      "ticker": "ITC.NS",
+      "sector": "Consumer Defensive",
+      "currency": "INR",
+      "last_close": 266.0,
+      "ret_1d": 0.0431372549,
+      "ret_5d": 0.0394685672,
+      "ret_21d": 0.0258388451,
+      "realised_vol_30d": 0.3269848111,
+      "high_52w": 401.9940185547,
+      "pct_from_52w_high": -0.3382986121,
+      "market_cap_bn": 3231.6203551899,
+      "pe": 16.281565,
+      "ev_ebitda": 11.829
+    },
+    {
+      "ticker": "LT.NS",
+      "sector": "Industrials",
+      "currency": "INR",
+      "last_close": 3703.3000488281,
+      "ret_1d": 0.0215718047,
+      "ret_5d": 0.0026804968,
+      "ret_21d": -0.0636409485,
+      "realised_vol_30d": 0.1994524025,
+      "high_52w": 4375.3642578125,
+      "pct_from_52w_high": -0.1536018876,
+      "market_cap_bn": 4990.954226965,
+      "pe": 30.091248,
+      "ev_ebitda": 16.318
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "sector": "Energy",
+      "currency": "INR",
+      "last_close": 1170.3000488281,
+      "ret_1d": -0.0065364611,
+      "ret_5d": 0.002226683,
+      "ret_21d": -0.0813971359,
+      "realised_vol_30d": 0.216304332,
+      "high_52w": 1584.9718017578,
+      "pct_from_52w_high": -0.2616272116,
+      "market_cap_bn": 15682.7825367015,
+      "pe": 20.986961,
+      "ev_ebitda": 11.032
+    },
+    {
+      "ticker": "TCS.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 2156.0,
+      "ret_1d": 0.0385356455,
+      "ret_5d": 0.0390361446,
+      "ret_21d": -0.0218230096,
+      "realised_vol_30d": 0.2501783807,
+      "high_52w": 3204.2819824219,
+      "pct_from_52w_high": -0.3271503532,
+      "market_cap_bn": 7688.43597575,
+      "pe": 14.8955555,
+      "ev_ebitda": 9.972
+    }
+  ],
+  "headlines": [
+    {
+      "url_hash": "d4c1f075226298fa",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US stocks: Nasdaq ends lower as oil prices surge ahead of earnings, economic data",
+      "published_at": "2026-10-12T20:09:06.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-nasdaq-ends-lower-as-oil-prices-surge-ahead-of-earnings-economic-data/articleshow/134902064.cms",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "170391b10b9e9d01",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Cleveland Fed's Hammack backs restrictive policy, says better if it comes 'relatively quickly'",
+      "published_at": "2026-10-12T19:03:57.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/cleveland-feds-hammack-backs-restrictive-policy-says-better-if-it-comes-relatively-quickly/articleshow/134901637.cms",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "2f5a2927d6e6ce0f",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US Stocks: Dating app Bumble shares surge 52% on talks to go private at $1 billion valuation",
+      "published_at": "2026-10-12T18:41:25.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-dating-app-bumble-shares-surge-52-on-talks-to-go-private-at-1-billion-valuation-report/articleshow/134901295.cms",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "ce6bae75e6c12708",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US bank stocks near correction as earnings loom, consumer outlook in focus",
+      "published_at": "2026-10-12T17:59:50.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-bank-stocks-near-correction-as-earnings-loom-consumer-outlook-in-focus/articleshow/134900177.cms",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "41a64c89b3b9277c",
+      "ticker": "ICICIBANK.NS",
+      "source": "Business Standard Markets",
+      "title": "Zetwerk, Bonfiglioli Transmissions, Tonbo, SMT announce IPO price bands",
+      "published_at": "2026-10-12T17:54:29.000",
+      "url": "https://www.business-standard.com/markets/news/zetwerk-bonfiglioli-transmissions-tonbo-smt-announce-ipo-price-bands-126101201428_1.html",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "b66b4b8dd6a98393",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Polycab India\u2019s F&O exit: NSE sets December 30 deadline; NCLAT stays insolvency order",
+      "published_at": "2026-10-12T16:24:24.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/polycab-indias-fo-exit-nse-sets-december-30-deadline-nclat-stays-insolvency-order/articleshow/134898074.cms",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "1331250392754417",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "RBI measures to support rupee weigh on govt bonds, domestic equities",
+      "published_at": "2026-10-12T15:50:12.000",
+      "url": "https://www.business-standard.com/markets/news/rbi-measures-to-support-rupee-weigh-on-govt-bonds-domestic-equities-126101201121_1.html",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "0f8297cb60517baa",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Indian Gas Exchange secures Sebi's nod to float IPO",
+      "published_at": "2026-10-12T15:49:49.000",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/indian-gas-exchange-secures-sebis-nod-to-float-ipo/articleshow/134897335.cms",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "88d376070bc856e8",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Singularity AMC pays over Rs 40 lakh to settle AIF rule violation case with Sebi",
+      "published_at": "2026-10-12T15:46:57.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/singularity-amc-pays-over-rs-40-lakh-to-settle-aif-rule-violation-case-with-sebi/articleshow/134897222.cms",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "a12d83d9c9780569",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Defence startup Tonbo Imaging fixes IPO price band at \u20b9665-700 a share",
+      "published_at": "2026-10-12T15:46:39.000",
+      "url": "https://www.business-standard.com/markets/news/defence-startup-tonbo-imaging-fixes-ipo-price-band-at-665-700-a-share-126101201269_1.html",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "df49f9fedb8cbe63",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Jubilant Pharmova block deal: Quant Mutual Fund offloads Rs 190 crore stake amid Rs 800 crore fundraising plan; Abakkus buys 11 lakh shares",
+      "published_at": "2026-10-12T15:44:54.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/jubilant-pharmova-block-deal-quant-mutual-fund-offloads-rs-190-crore-stake-amid-rs-800-crore-fundraising-plan-abakkus-buys-11-lakh-shares/articleshow/134897154.cms",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "6a23c86259af1db4",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "SBI economists call for scrapping LTCG tax on equities",
+      "published_at": "2026-10-12T15:42:52.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sbi-economists-call-for-scrapping-ltcg-tax-on-equities/articleshow/134897107.cms",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "707d832c5232054b",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Market Trading Guide: Astra Microwave, Manappuram among 5 stock recommendations for Tuesday",
+      "published_at": "2026-10-12T15:24:15.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-trading-guide-astra-microwave-manappuram-among-5-stock-recommendations-for-tuesday/slideshow/134896872.cms",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "be7ae6243322d5ce",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Ahead of Market: 10 things that will decide stock market action on Tuesday",
+      "published_at": "2026-10-12T15:23:00.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-tuesday/articleshow/134896643.cms",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "f29297a0115a722b",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Rupee rebounds nearly 1% after RBI moves to curb speculative trades",
+      "published_at": "2026-10-12T15:07:39.000",
+      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-rebounds-nearly-1-after-rbi-moves-to-curb-speculative-trades/articleshow/134896489.cms",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "14108cf2b2f6fc4e",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "IT, telecom stocks decline as market selloff resumes amid FII outflows",
+      "published_at": "2026-10-12T14:59:52.000",
+      "url": "https://www.business-standard.com/markets/news/it-telecom-stocks-decline-as-market-selloff-resumes-amid-fii-outflows-126101201190_1.html",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "5f73495ef3bbeb53",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Goldman upgrades global equities on earnings optimism",
+      "published_at": "2026-10-12T14:24:20.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/goldman-upgrades-global-equities-on-earnings-optimism/articleshow/134895714.cms",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "a0580c25e18e0801",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US stocks muted as tech weakness offsets energy gains; earnings in focus",
+      "published_at": "2026-10-12T13:45:03.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-steady-at-open-as-oil-jumps-ahead-of-key-earnings/articleshow/134894878.cms",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "7f701321625cc8da",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Equity mutual fund inflows hit 5-month high on small, midcap rush",
+      "published_at": "2026-10-12T13:21:48.000",
+      "url": "https://www.business-standard.com/markets/news/mid-smallcap-rush-lifts-equity-mf-inflows-to-five-month-high-in-september-126101200986_1.html",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "6f11fc2c608db30b",
+      "ticker": "ICICIBANK.NS",
+      "source": "Economic Times Markets",
+      "title": "ICICI Prudential AMC Q2 Results: Profit rises 6% YoY to Rs 889 crore; co declares Rs 30/share dividend",
+      "published_at": "2026-10-12T12:55:20.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/icici-prudential-amc-q2-results-profit-rises-6-yoy-to-rs-889-crore-co-declares-rs-30/share-dividend/articleshow/134893738.cms",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "2887d99e007735bc",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "PVR Inox among 4 stocks hitting 52-week highs; rallied up to 13% in a month",
+      "published_at": "2026-10-12T12:33:44.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/pvr-inox-among-4-stocks-hitting-52-week-highs-rallied-up-to-13-in-a-month/slideshow/134893470.cms",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "cf1a35de68c41303",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "India benchmark bond posts worst day in six months on RBI measures",
+      "published_at": "2026-10-12T12:32:43.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/india-benchmark-bond-posts-worst-day-in-six-months-on-rbi-measures/articleshow/134893334.cms",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "f407bcbaf313ba5f",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "The \u20b91 Crore Portfolio Problem: When Your Money Grows, Your Mistakes Get More Expensive",
+      "published_at": "2026-10-12T12:32:03.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/the-1-crore-portfolio-problem-when-your-money-grows-your-mistakes-get-more-expensive/articleshow/134893217.cms",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "cc3dd7b330e39946",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "HCL Tech dividend alert! IT major declares Rs 12 interim dividend for FY27; Q2 profit jumps 21% YoY to Rs 5,132 crore",
+      "published_at": "2026-10-12T12:30:27.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hcl-tech-dividend-alert-it-major-declares-rs-12-interim-dividend-for-fy27-q2-profit-jumps-21-yoy-to-rs-5132-crore/articleshow/134893266.cms",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    },
+    {
+      "url_hash": "eff039245dd9db9f",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sahajanand Medical Technologies sets IPO price band at Rs 327-344 per share; issue opens on Oct 15",
+      "published_at": "2026-10-12T12:28:12.000",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/sahajanand-medical-technologies-sets-ipo-price-band-at-rs-327-344-per-share-issue-opens-on-oct-15/articleshow/134893237.cms",
+      "fetched_at": "2026-10-12T21:20:45.915"
+    }
+  ]
+}
