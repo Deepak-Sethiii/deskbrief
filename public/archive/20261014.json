@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-14T17:25:25.113019+00:00",
+  "commentary_source": "fallback",
+  "commentary": {
+    "market_tone": "Breadth was mixed: 4 of 8 names advanced on the day.",
+    "bullets": [
+      "Best performer on the day: INFY.NS at +2.44%.",
+      "Weakest on the day: ICICIBANK.NS at -1.59%.",
+      "Median one-day move across the watchlist: -0.14%.",
+      "ITC.NS sits furthest below its 52-week high, at -34.9%."
+    ],
+    "watch_items": [
+      "Highest 30-day realised volatility: INFY.NS at 31.7% annualised.",
+      "60 headlines collected, 7 tagged to a watchlist name by substring match (unverified).",
+      "Commentary model was unavailable, so no qualitative read is included."
+    ],
+    "source": "deterministic-fallback (model returned unusable output twice)",
+    "source_kind": "fallback"
+  },
+  "comps": [
+    {
+      "ticker": "BHARTIARTL.NS",
+      "sector": "Communication Services",
+      "currency": "INR",
+      "last_close": 1794.5999755859,
+      "ret_1d": -0.0065873371,
+      "ret_5d": -0.0214297662,
+      "ret_21d": -0.0195585928,
+      "realised_vol_30d": 0.2155290163,
+      "high_52w": 2135.8200683594,
+      "pct_from_52w_high": -0.1597606923,
+      "market_cap_bn": 11195.8956631814,
+      "pe": 36.963955,
+      "ev_ebitda": 11.34
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 710.700012207,
+      "ret_1d": -0.0046218316,
+      "ret_5d": 0.0113127175,
+      "ret_21d": -0.0081640858,
+      "realised_vol_30d": 0.2178712387,
+      "high_52w": 993.0750732422,
+      "pct_from_52w_high": -0.2843441233,
+      "market_cap_bn": 10957.9134764729,
+      "pe": 15.534427,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 1338.5999755859,
+      "ret_1d": -0.0158800003,
+      "ret_5d": -0.0139226699,
+      "ret_21d": -0.0087381877,
+      "realised_vol_30d": 0.1658562545,
+      "high_52w": 1460.0,
+      "pct_from_52w_high": -0.0831507017,
+      "market_cap_bn": 9610.4010478913,
+      "pe": 17.303516,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "INFY.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 1088.0,
+      "ret_1d": 0.0243856746,
+      "ret_5d": 0.0967741935,
+      "ret_21d": 0.0102135562,
+      "realised_vol_30d": 0.3171975088,
+      "high_52w": 1654.0083007812,
+      "pct_from_52w_high": -0.3422040267,
+      "market_cap_bn": 4406.773792192,
+      "pe": 14.822888,
+      "ev_ebitda": 982.568
+    },
+    {
+      "ticker": "ITC.NS",
+      "sector": "Consumer Defensive",
+      "currency": "INR",
+      "last_close": 261.5,
+      "ret_1d": 0.0019157088,
+      "ret_5d": -0.0158073467,
+      "ret_21d": 0.0135658915,
+      "realised_vol_30d": 0.2942525646,
+      "high_52w": 401.9940185547,
+      "pct_from_52w_high": -0.3494928085,
+      "market_cap_bn": 3276.7302166815,
+      "pe": 16.508839,
+      "ev_ebitda": 12.006
+    },
+    {
+      "ticker": "LT.NS",
+      "sector": "Industrials",
+      "currency": "INR",
+      "last_close": 3642.0,
+      "ret_1d": -0.0089795918,
+      "ret_5d": -0.0160745644,
+      "ret_21d": -0.054197926,
+      "realised_vol_30d": 0.2082789478,
+      "high_52w": 4375.3642578125,
+      "pct_from_52w_high": -0.1676121609,
+      "market_cap_bn": 5010.904285212,
+      "pe": 30.211529,
+      "ev_ebitda": 16.376
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "sector": "Energy",
+      "currency": "INR",
+      "last_close": 1174.5999755859,
+      "ret_1d": 0.0067712563,
+      "ret_5d": -0.0274074496,
+      "ret_21d": -0.0491379186,
+      "realised_vol_30d": 0.2036878775,
+      "high_52w": 1584.9718017578,
+      "pct_from_52w_high": -0.2589142758,
+      "market_cap_bn": 15895.2420266884,
+      "pe": 21.271278,
+      "ev_ebitda": 11.15
+    },
+    {
+      "ticker": "TCS.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 2304.8999023438,
+      "ret_1d": 0.0210870742,
+      "ret_5d": 0.1138551161,
+      "ret_21d": 0.0293881778,
+      "realised_vol_30d": 0.3124629704,
+      "high_52w": 3187.337890625,
+      "pct_from_52w_high": -0.2768573708,
+      "market_cap_bn": 8339.3295669093,
+      "pe": 16.156595,
+      "ev_ebitda": 10.924
+    }
+  ],
+  "headlines": [
+    {
+      "url_hash": "3d99feed6adb9ac4",
+      "ticker": "RELIANCE.NS",
+      "source": "Economic Times Markets",
+      "title": "Jio IPO sparks investor buzz: GMP hits 20% as Reliance\u2019s telecom arm announces price band, dates",
+      "published_at": "2026-10-14T16:48:51.000",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-sparks-investor-buzz-gmp-hits-20-as-reliances-telecom-arm-announces-price-band-dates/articleshow/134946913.cms",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "29075c70b03b2387",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Zetwerk raises \u20b92,251 crore from anchor investors ahead of \u20b95,012-cr IPO",
+      "published_at": "2026-10-14T16:30:27.000",
+      "url": "https://www.business-standard.com/markets/ipo/zetwerk-raises-2-251-crore-from-anchor-investors-ahead-of-5-012-cr-ipo-126101401332_1.html",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "475d3f06a04718c5",
+      "ticker": "RELIANCE.NS",
+      "source": "Economic Times Markets",
+      "title": "Jio IPO: 5 strengths that put the Reliance-backed digital giant in spotlight",
+      "published_at": "2026-10-14T16:20:58.000",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-5-strengths-that-put-the-reliance-backed-digital-giant-in-spotlight/articleshow/134946580.cms",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "f361bd29edf04263",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "IT's \u20b925K crore market value gain mirrors pharma's loss as Nifty falls",
+      "published_at": "2026-10-14T16:20:54.000",
+      "url": "https://www.business-standard.com/markets/news/it-s-25k-crore-market-value-gain-mirrors-pharma-s-loss-as-nifty-falls-126101401231_1.html",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "dbe439a9ef4cb3a3",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sebi confirms interim curbs on Rajesh Exports, says financial disclosure concerns remain unresolved",
+      "published_at": "2026-10-14T16:11:01.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-confirms-interim-curbs-on-rajesh-exports-says-financial-disclosure-concerns-remain-unresolved/articleshow/134946574.cms",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "f67a63b00554fc1e",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "IPO ahead! Paramotor Digital Technology files updated draft papers with Sebi for Rs 1,000 crore issue",
+      "published_at": "2026-10-14T16:04:45.000",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-ahead-paramotor-digital-technology-files-updated-draft-papers-with-sebi-for-rs-1000-crore-issue/articleshow/134946466.cms",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "7840d90773036bcb",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "HDB Financial Q2 profit climbs 34%, NIM improves year on year, eyes stronger disbursements in H2",
+      "published_at": "2026-10-14T16:02:06.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hdb-financial-q2-profit-climbs-34-nim-improves-year-on-year-eyes-stronger-disbursements-in-h2/articleshow/134946431.cms",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "23a54624028d8f89",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Ahead of Market: 10 things that will decide stock market action on Thursday",
+      "published_at": "2026-10-14T15:51:14.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-thursday/articleshow/134946296.cms",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "1ad49b2f84031aed",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Silver futures plunge 4% on MCX ahead of US CPI; rising oil adds pressure",
+      "published_at": "2026-10-14T15:34:08.000",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/silver-futures-plunge-4-on-mcx-ahead-of-us-cpi-rising-oil-adds-pressure/articleshow/134946048.cms",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "365bdcfe4c578f87",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Jio announces price band for over Rs 30,000 crore IPO. Check key dates, GMP and other details",
+      "published_at": "2026-10-14T14:54:51.000",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-announces-price-band-for-over-rs-30000-crore-ipo-check-key-dates-gmp-and-other-details/articleshow/134945465.cms",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "ad32cbfee19ca1a4",
+      "ticker": "RELIANCE.NS",
+      "source": "Economic Times Markets",
+      "title": "Akash, Isha Ambani's birthday to mark close of Reliance Jio's mega IPO",
+      "published_at": "2026-10-14T14:49:28.000",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/akash-isha-ambanis-birthday-to-mark-close-of-reliance-jios-mega-ipo/articleshow/134945459.cms",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "972ff6fe9bae8ba5",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Jio IPO to open on October 21: 10 things to know about the Rs 30,000 crore mega issue",
+      "published_at": "2026-10-14T14:42:34.000",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-to-open-on-october-21-10-things-to-know-about-the-rs-30000-crore-mega-issue/articleshow/134945374.cms",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "99782ea9b02b8b08",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Canara Bank Q2 profit rises 8% YoY to Rs 5,175 crore",
+      "published_at": "2026-10-14T14:27:31.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/canara-bank-q2-profit-rises-8-yoy-to-rs-5175-crore/articleshow/134945099.cms",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "ca8071713c900f6a",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Global Market: BoE's Huw Pill wary of market bets on four rate hikes over next year",
+      "published_at": "2026-10-14T14:20:25.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-boes-huw-pill-wary-of-market-bets-on-four-rate-hikes-over-next-year/articleshow/134944944.cms",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "427eec7b53138c3f",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US yields jump as hot consumer inflation boosts rate hike bets",
+      "published_at": "2026-10-14T14:08:53.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-yields-jump-as-hot-consumer-inflation-boosts-rate-hike-bets/articleshow/134944738.cms",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "d983e914a0f9f78b",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Sebi confirms Rajesh Exports curbs, flags incomplete information in probe",
+      "published_at": "2026-10-14T13:52:36.000",
+      "url": "https://www.business-standard.com/markets/news/sebi-confirms-rajesh-exports-curbs-flags-incomplete-information-in-probe-126101401226_1.html",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "28144c75468b8b46",
+      "ticker": "RELIANCE.NS",
+      "source": "Economic Times Markets",
+      "title": "Diwali offer for RIL shareholders! Reliance Jio sets aside Rs 2,500 crore shares in IPO reservation",
+      "published_at": "2026-10-14T13:46:59.000",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/diwali-offer-for-ril-shareholders-reliance-jio-sets-aside-rs-2500-crore-shares-in-ipo-reservation/articleshow/134944234.cms",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "123dd195aa2e7424",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US stocks: US market slides as hot CPI data fuels rate-hike bets; chips, banks weigh",
+      "published_at": "2026-10-14T13:46:03.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-opens-lower-after-hot-cpi-data-fuels-rate-hike-bets/articleshow/134944281.cms",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "d411c6b1c78f05f0",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Jio Platforms announces IPO subscription window from October 21 to 23",
+      "published_at": "2026-10-14T13:31:18.000",
+      "url": "https://www.business-standard.com/markets/ipo/jio-platforms-ipo-to-open-for-subscription-on-october-21-23-filing-126101401189_1.html",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "96304aeb64511ee9",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Gold drops over 1% as hot US inflation data boosts Fed hike bets",
+      "published_at": "2026-10-14T13:30:20.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/gold-drops-over-1-as-hot-us-inflation-data-boosts-fed-hike-bets/articleshow/134944020.cms",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "82c0addd6d2d6f00",
+      "ticker": "RELIANCE.NS",
+      "source": "Economic Times Markets",
+      "title": "Reliance Jio files RHP, announces IPO dates for India's biggest listing",
+      "published_at": "2026-10-14T13:20:41.000",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/reliance-jio-files-rhp-announces-ipo-dates-for-record-issue/articleshow/134943768.cms",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "234d77b68d0f9b46",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Bajaj Consumer Care Q2 Results: Profit jumps 66% YoY to Rs 70 crore, revenue rises 25%",
+      "published_at": "2026-10-14T13:20:13.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/bajaj-consumer-care-q2-results-profit-jumps-66-yoy-to-rs-70-crore-revenue-rises-25/articleshow/134943855.cms",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "e7f214201135efef",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Dow Jones| Nasdaq | US Stock Market Today | Live: S&P 500, Nasdaq edge lower amid tech-led rout; bank stocks in focus",
+      "published_at": "2026-10-14T12:15:05.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/dow-jones-us-stock-market-live-updates-nasdaq-sp-500-iran-war-hormuz-deal-brent-crude-oil-fed-rate-yield-inflation-data-bank-earnings-blackrock-bank-of-america-alphabet-micron-inflation-dataai-chip-stock-price-news-14th-october-2026/liveblog/134942729.cms",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "1d13f37c4fb76160",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "India bonds sink deeper on RBI commentary, inflation concerns",
+      "published_at": "2026-10-14T12:11:19.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-sink-deeper-on-rbi-commentary-inflation-concerns/articleshow/134942525.cms",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    },
+    {
+      "url_hash": "6940ea3f164e402f",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Dynamatic Technologies among 7 stocks hitting 52-week highs; rally up to 32% in a month",
+      "published_at": "2026-10-14T12:05:40.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/dynamatic-technologies-among-7-stocks-hitting-52-week-highs-rally-up-to-32-in-a-month/slideshow/134942503.cms",
+      "fetched_at": "2026-10-14T17:25:21.250"
+    }
+  ]
+}
