@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-19T18:47:03.028056+00:00",
+  "commentary_source": "fallback",
+  "commentary": {
+    "market_tone": "Breadth was risk-on: 5 of 8 names advanced on the day.",
+    "bullets": [
+      "Best performer on the day: TCS.NS at +4.89%.",
+      "Weakest on the day: RELIANCE.NS at -0.31%.",
+      "Median one-day move across the watchlist: +0.41%.",
+      "ITC.NS sits furthest below its 52-week high, at -34.5%.",
+      "1 name(s) within 5% of the 52-week high: ICICIBANK.NS."
+    ],
+    "watch_items": [
+      "Highest 30-day realised volatility: INFY.NS at 34.9% annualised.",
+      "60 headlines collected, 4 tagged to a watchlist name by substring match (unverified).",
+      "Commentary model was unavailable, so no qualitative read is included."
+    ],
+    "source": "deterministic-fallback (model returned unusable output twice)",
+    "source_kind": "fallback"
+  },
+  "comps": [
+    {
+      "ticker": "BHARTIARTL.NS",
+      "sector": "Communication Services",
+      "currency": "INR",
+      "last_close": 1905.0,
+      "ret_1d": 0.0275080906,
+      "ret_5d": 0.0553432086,
+      "ret_21d": 0.0375816993,
+      "realised_vol_30d": 0.2447425253,
+      "high_52w": 2135.8200683594,
+      "pct_from_52w_high": -0.1080709334,
+      "market_cap_bn": 11698.7316578688,
+      "pe": 39.197323,
+      "ev_ebitda": 11.779
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 728.8499755859,
+      "ret_1d": 0.0027515995,
+      "ret_5d": 0.0305407926,
+      "ret_21d": 0.0222299798,
+      "realised_vol_30d": 0.2251838977,
+      "high_52w": 993.0750732422,
+      "pct_from_52w_high": -0.2660675963,
+      "market_cap_bn": 10977.95731144,
+      "pe": 15.562841,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 1397.0,
+      "ret_1d": 0.0054699694,
+      "ret_5d": 0.03099631,
+      "ret_21d": 0.0366577807,
+      "realised_vol_30d": 0.2016057292,
+      "high_52w": 1460.0,
+      "pct_from_52w_high": -0.0431506849,
+      "market_cap_bn": 9914.809569101,
+      "pe": 17.851603,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "INFY.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 1161.1999511719,
+      "ret_1d": 0.0461260821,
+      "ret_5d": 0.1346491337,
+      "ret_21d": 0.0969204402,
+      "realised_vol_30d": 0.3486374989,
+      "high_52w": 1654.0083007812,
+      "pct_from_52w_high": -0.2979479301,
+      "market_cap_bn": 4579.7234621613,
+      "pe": 15.404632,
+      "ev_ebitda": 1021.149
+    },
+    {
+      "ticker": "ITC.NS",
+      "sector": "Consumer Defensive",
+      "currency": "INR",
+      "last_close": 263.5,
+      "ret_1d": -0.0015157026,
+      "ret_5d": -0.0093984962,
+      "ret_21d": -0.0101427952,
+      "realised_vol_30d": 0.2931240025,
+      "high_52w": 401.9940185547,
+      "pct_from_52w_high": -0.3445176101,
+      "market_cap_bn": 3267.9588547248,
+      "pe": 16.464645,
+      "ev_ebitda": 11.971
+    },
+    {
+      "ticker": "LT.NS",
+      "sector": "Industrials",
+      "currency": "INR",
+      "last_close": 3627.1000976562,
+      "ret_1d": -0.0013490921,
+      "ret_5d": -0.0205762294,
+      "ret_21d": -0.0545070268,
+      "realised_vol_30d": 0.2082890518,
+      "high_52w": 4375.3642578125,
+      "pct_from_52w_high": -0.1710175693,
+      "market_cap_bn": 5038.2840203234,
+      "pe": 30.376606,
+      "ev_ebitda": 16.454
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "sector": "Energy",
+      "currency": "INR",
+      "last_close": 1211.1999511719,
+      "ret_1d": -0.0031276122,
+      "ret_5d": 0.034948219,
+      "ret_21d": -0.0262883452,
+      "realised_vol_30d": 0.2245007478,
+      "high_52w": 1584.9718017578,
+      "pct_from_52w_high": -0.2358223977,
+      "market_cap_bn": 16266.03210727,
+      "pe": 21.767475,
+      "ev_ebitda": 11.355
+    },
+    {
+      "ticker": "TCS.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 2465.0,
+      "ret_1d": 0.0489361702,
+      "ret_5d": 0.1493989603,
+      "ret_21d": 0.1315543563,
+      "realised_vol_30d": 0.3429017679,
+      "high_52w": 3187.337890625,
+      "pct_from_52w_high": -0.2266273346,
+      "market_cap_bn": 8903.7515730462,
+      "pe": 17.250105,
+      "ev_ebitda": 11.699
+    }
+  ],
+  "headlines": [
+    {
+      "url_hash": "577e2c1a87d67e69",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Jio IPO anchor book sees over 30x demand, draws record bids worth \u20b92.5 trn",
+      "published_at": "2026-10-19T18:24:36.000",
+      "url": "https://www.business-standard.com/markets/ipo/jio-ipo-anchor-book-sees-over-30x-demand-draws-record-bids-worth-2-5-trn-126101901316_1.html",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "767515a332eddc66",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Jio IPO: LIC, BlackRock, Fidelity, GIC among 212 anchor investors to pour Rs 8,110 crore",
+      "published_at": "2026-10-19T17:34:53.000",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-lic-blackrock-fidelity-gic-among-212-anchor-investors-pour-rs-8110-crore/articleshow/135053762.cms",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "59a0721a0afe8c4f",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Tonbo Imaging India IPO subscribed nearly 136 times, led by QIB demand",
+      "published_at": "2026-10-19T17:29:36.000",
+      "url": "https://www.business-standard.com/markets/news/tonbo-imaging-india-ipo-subscribed-nearly-136-times-led-by-qib-demand-126101901284_1.html",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "fb71da7897010d48",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Private lenders weigh on equity markets as PSU banks buck the selloff",
+      "published_at": "2026-10-19T16:25:41.000",
+      "url": "https://www.business-standard.com/markets/news/private-lenders-weigh-on-equity-markets-as-psu-banks-buck-the-selloff-126101901036_1.html",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "32b25ecdbaf99ca8",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "AI stocks rebound as CoreWeave jumps on Goldman Sachs upgrade",
+      "published_at": "2026-10-19T16:17:35.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/ai-stocks-rebound-as-coreweave-jumps-on-goldman-upgrade/articleshow/135052127.cms",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "bdb54346edf278b9",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Ireda net profit grows to Rs 554 cr in Sep qtr",
+      "published_at": "2026-10-19T15:59:01.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/ireda-net-profit-grows-to-rs-554-cr-in-sep-qtr/articleshow/135051929.cms",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "041bb2386a4d86d1",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Amazon says its AI chips will work with popular coding language, challenging Nvidia",
+      "published_at": "2026-10-19T15:52:49.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/amazon-says-its-ai-chips-will-work-with-popular-coding-language-challenging-nvidia/articleshow/135051867.cms",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "fa7b23a5a85d2fab",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Global Markets: French markets tumble as riots add to political crisis",
+      "published_at": "2026-10-19T15:22:55.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-markets-french-markets-tumble-as-riots-add-to-political-crisis/articleshow/135051572.cms",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "bf93087ee9c40053",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US Treasury yields nudge higher as AI fears ebb",
+      "published_at": "2026-10-19T15:21:19.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/us-treasury-yields-nudge-higher-as-ai-fears-ebb/articleshow/135051546.cms",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "fbbff20726f0be80",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Bajaj Finance Q2 consolidated net profit rises 29% to Rs 6,367 crore",
+      "published_at": "2026-10-19T15:13:16.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/bajaj-finance-q2-consolidated-net-profit-rises-29-to-rs-6367-crore/articleshow/135051459.cms",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "33ca5347791e0bb3",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Waaree Renewable Technologies Q2 Results: Net profit falls 29% to Rs 81 crore",
+      "published_at": "2026-10-19T15:11:32.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/waaree-renewable-technologies-q2-results-net-profit-falls-29-to-rs-81-crore/articleshow/135051423.cms",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "2e5b727b737cabdd",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Titan redeems Rs 1,000 crore commercial paper",
+      "published_at": "2026-10-19T13:51:12.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/titan-redeems-rs-1000-crore-commercial-paper/articleshow/135050383.cms",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "78973a2c9dbebffc",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Piramal Finance Q2 net profit soars 67% to Rs 545 crore",
+      "published_at": "2026-10-19T13:49:35.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/piramal-finance-q2-net-profit-soars-67-to-rs-545-crore/articleshow/135050351.cms",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "c4ea98f68934ad63",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "PC Jeweller among 8 stocks that hit 52-week high and rallied up to 42% in a month",
+      "published_at": "2026-10-19T13:44:25.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/pc-jeweller-among-8-stocks-that-hit-52-week-high-and-rallied-up-to-42-in-a-month/slideshow/135050343.cms",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "37e01307741f6d12",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US stocks today: S&P 500, Nasdaq climb as AI-linked stocks recover ahead of earnings",
+      "published_at": "2026-10-19T13:38:31.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-sp-500-nasdaq-open-higher-as-ai-stocks-rebound-ahead-of-major-earnings/articleshow/135050156.cms",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "057a89d00cdc5218",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "India bonds give up day's gains as oil price spike adds to rate hike fears",
+      "published_at": "2026-10-19T12:30:45.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-india-bonds-give-up-days-gains-as-oil-price-spike-adds-to-rate-hike-fears/articleshow/135048949.cms",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "d92c23d01fa15189",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Bajaj Finance Q2 Results: Net profit jumps 29% YoY to Rs 6,367 crore, NII up 24%",
+      "published_at": "2026-10-19T12:10:07.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/bajaj-finance-q2-results-net-profit-jumps-29-yoy-to-rs-6367-crore-nii-up-24/articleshow/135048431.cms",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "a9ee3fd2c15051a6",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Dow Jones| Nasdaq | S&P 500 | US Stock Market Today |Live Updates: S&P 500, Nasdaq climb as AI-linked stocks recover ahead of earnings",
+      "published_at": "2026-10-19T12:07:25.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/dow-jones-stock-us-market-live-updates-nasdaq-sp-500-iran-israel-war-hormuz-deal-brent-crude-oil-fed-rate-inflation-treasury-yields-earnings-forecast-coreweave-broadcom-micron-stock-price-news-19th-october-2026/liveblog/135048592.cms",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "5996ecc4a49c3a06",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Elon Musk pledges a share of SpaceX company to 'every kid in America'",
+      "published_at": "2026-10-19T12:06:58.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/elon-musk-pledges-a-share-of-spacex-company-to-every-kid-in-america/articleshow/135048478.cms",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "8ad014249dae5e2d",
+      "ticker": "BHARTIARTL.NS",
+      "source": "Economic Times Markets",
+      "title": "Jio vs Airtel vs Voda Idea: Comparing ARPU, Margins, Subscribers & More",
+      "published_at": "2026-10-19T12:05:20.000",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-vs-airtel-vs-voda-idea-comparing-arpu-margins-subscribers-more/videoshow/135048465.cms",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "49064160908bd24b",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "CME to launch tungsten futures to meet rising demand for critical minerals",
+      "published_at": "2026-10-19T12:05:13.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/cme-to-launch-tungsten-futures-to-meet-rising-demand-for-critical-minerals/articleshow/135048438.cms",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "cb8d8f326bf1cb39",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Copper falls as LME stocks edge higher and mine supply concerns ease",
+      "published_at": "2026-10-19T12:02:58.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/metals-copper-falls-as-lme-stocks-edge-higher-and-mine-supply-concerns-ease/articleshow/135048371.cms",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "7f4058531c842358",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sterling hits 17-month high against euro",
+      "published_at": "2026-10-19T12:01:04.000",
+      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/sterling-hits-17-month-high-against-euro/articleshow/135048275.cms",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "80d4022948e0d6a9",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Jio IPO draws Rs 2.5 lakh crore in anchor bids from over 70 investors",
+      "published_at": "2026-10-19T11:29:33.000",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-draws-rs-2-5-lakh-crore-in-anchor-bids-from-over-70-investors/articleshow/135047685.cms",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    },
+    {
+      "url_hash": "76e998d79a4be515",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Hindustan Zinc Q2 Results: Net profit skyrockets 142% YoY to Rs 6,412 crore, revenue soars 77%",
+      "published_at": "2026-10-19T10:59:09.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hindustan-zinc-q2-results-net-profit-skyrockets-142-yoy-to-rs-6412-crore-revenue-soars-77/articleshow/135047098.cms",
+      "fetched_at": "2026-10-19T18:46:53.225"
+    }
+  ]
+}
