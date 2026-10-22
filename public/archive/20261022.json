@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-22T17:26:04.349121+00:00",
+  "commentary_source": "fallback",
+  "commentary": {
+    "market_tone": "Breadth was risk-off: 3 of 8 names advanced on the day.",
+    "bullets": [
+      "Best performer on the day: ICICIBANK.NS at +0.97%.",
+      "Weakest on the day: RELIANCE.NS at -2.03%.",
+      "Median one-day move across the watchlist: -1.03%.",
+      "ITC.NS sits furthest below its 52-week high, at -35.6%.",
+      "1 name(s) within 5% of the 52-week high: ICICIBANK.NS."
+    ],
+    "watch_items": [
+      "Highest 30-day realised volatility: TCS.NS at 33.9% annualised.",
+      "60 headlines collected, 4 tagged to a watchlist name by substring match (unverified).",
+      "Commentary model was unavailable, so no qualitative read is included."
+    ],
+    "source": "deterministic-fallback (model returned unusable output twice)",
+    "source_kind": "fallback"
+  },
+  "comps": [
+    {
+      "ticker": "BHARTIARTL.NS",
+      "sector": "Communication Services",
+      "currency": "INR",
+      "last_close": 1895.0,
+      "ret_1d": 0.0017444885,
+      "ret_5d": 0.055945629,
+      "ret_21d": 0.0428131471,
+      "realised_vol_30d": 0.2440813727,
+      "high_52w": 2135.8200683594,
+      "pct_from_52w_high": -0.1127529757,
+      "market_cap_bn": 11822.25708813,
+      "pe": 39.611202,
+      "ev_ebitda": 11.886
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 694.049987793,
+      "ret_1d": -0.018247435,
+      "ret_5d": -0.0234276405,
+      "ret_21d": -0.0603168011,
+      "realised_vol_30d": 0.2310974294,
+      "high_52w": 993.0750732422,
+      "pct_from_52w_high": -0.3011102519,
+      "market_cap_bn": 10701.1954185346,
+      "pe": 15.170491,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 1398.5,
+      "ret_1d": 0.0097472924,
+      "ret_5d": 0.0447482635,
+      "ret_21d": 0.0439683678,
+      "realised_vol_30d": 0.1969443608,
+      "high_52w": 1460.0,
+      "pct_from_52w_high": -0.0421232877,
+      "market_cap_bn": 10040.4498062185,
+      "pe": 18.077818,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "INFY.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 1153.3499755859,
+      "ret_1d": -0.0125428291,
+      "ret_5d": 0.0600643158,
+      "ret_21d": 0.1204098973,
+      "realised_vol_30d": 0.3239286185,
+      "high_52w": 1654.0083007812,
+      "pct_from_52w_high": -0.3026939617,
+      "market_cap_bn": 4671.4837408573,
+      "pe": 15.713215,
+      "ev_ebitda": 1041.614
+    },
+    {
+      "ticker": "ITC.NS",
+      "sector": "Consumer Defensive",
+      "currency": "INR",
+      "last_close": 258.8999938965,
+      "ret_1d": -0.0118320844,
+      "ret_5d": -0.009942662,
+      "ret_21d": -0.0259593462,
+      "realised_vol_30d": 0.2954267418,
+      "high_52w": 401.9940185547,
+      "pct_from_52w_high": -0.3559605816,
+      "market_cap_bn": 3244.1507957907,
+      "pe": 16.344696,
+      "ev_ebitda": 11.878
+    },
+    {
+      "ticker": "LT.NS",
+      "sector": "Industrials",
+      "currency": "INR",
+      "last_close": 3638.3000488281,
+      "ret_1d": 0.0006325767,
+      "ret_5d": -0.0010159119,
+      "ret_21d": -0.0589954116,
+      "realised_vol_30d": 0.2067510313,
+      "high_52w": 4375.3642578125,
+      "pct_from_52w_high": -0.1684577936,
+      "market_cap_bn": 5005.8136478748,
+      "pe": 30.180838,
+      "ev_ebitda": 16.361
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "sector": "Energy",
+      "currency": "INR",
+      "last_close": 1184.5,
+      "ret_1d": -0.0202646816,
+      "ret_5d": 0.0084284221,
+      "ret_21d": -0.0450661265,
+      "realised_vol_30d": 0.2283652116,
+      "high_52w": 1584.9718017578,
+      "pct_from_52w_high": -0.2526680925,
+      "market_cap_bn": 16029.2138361575,
+      "pe": 21.450562,
+      "ev_ebitda": 11.224
+    },
+    {
+      "ticker": "TCS.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 2506.8999023438,
+      "ret_1d": -0.0087386705,
+      "ret_5d": 0.0876393807,
+      "ret_21d": 0.1972573386,
+      "realised_vol_30d": 0.3391252215,
+      "high_52w": 3187.337890625,
+      "pct_from_52w_high": -0.2134815986,
+      "market_cap_bn": 9070.1832455453,
+      "pe": 17.57255,
+      "ev_ebitda": 11.928
+    }
+  ],
+  "headlines": [
+    {
+      "url_hash": "8726838db88a7a8b",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Pershing's Ackman sees a $1 trillion Israeli company within a decade",
+      "published_at": "2026-10-22T16:56:49.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/pershings-ackman-sees-a-1-trillion-israeli-company-within-a-decade/articleshow/135123317.cms",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "ec79a771c4409948",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Average long-term US mortgage rate eases to 7.32% in first pullback since late August",
+      "published_at": "2026-10-22T16:52:07.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/average-long-term-us-mortgage-rate-eases-to-7-32-in-first-pullback-since-late-august/articleshow/135123287.cms",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "0993ae0815e8abe1",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Jio Platforms IPO subscribed 5.57x on day 2; QIBs led with 13.29x bids",
+      "published_at": "2026-10-22T16:19:53.000",
+      "url": "https://www.business-standard.com/markets/news/jio-platforms-ipo-subscribed-5-57x-on-day-2-qibs-led-with-13-29x-bids-126102201448_1.html",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "0a18265c692a3e7b",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Ahead of Market: 10 things that will decide stock market action on Friday",
+      "published_at": "2026-10-22T16:03:41.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-friday/articleshow/135122517.cms",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "29bc39450615b5a4",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Yes Bank unlikely to pay AT1 bond coupons despite bond holders demand, sources say",
+      "published_at": "2026-10-22T16:01:43.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/yes-bank-unlikely-to-pay-at1-bond-coupons-despite-bond-holders-demand-sources-say/articleshow/135122504.cms",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "174152aba2429866",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sebi warns investors against WhatsApp stock tips. Here's how you can avoid such traps",
+      "published_at": "2026-10-22T15:17:48.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-warns-investors-against-whatsapp-stock-tips-heres-how-you-can-avoid-such-traps/articleshow/135121957.cms",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "97392bec0654f0a8",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Anthropic IPO stands alone as AI market jitters sideline others",
+      "published_at": "2026-10-22T15:16:29.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ipo-stands-alone-as-ai-market-jitters-sideline-others/articleshow/135121938.cms",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "7ebdc08106d68882",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Sebi warns investors against fraudulent WhatsApp stock tip groups",
+      "published_at": "2026-10-22T15:15:23.000",
+      "url": "https://www.business-standard.com/markets/news/sebi-warns-investors-against-fraudulent-whatsapp-stock-tip-groups-126102201541_1.html",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "6ac55630c3b5c42e",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Oil price surge keeps Nifty in red, Sensex sheds 460 points on Thursday",
+      "published_at": "2026-10-22T15:03:06.000",
+      "url": "https://www.business-standard.com/markets/news/oil-price-surge-keeps-nifty-in-red-sensex-sheds-460-points-on-thursday-126102201522_1.html",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "ec923f5b54b3270f",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "NCDEX launches NDEX and FINNDEX to expand into equity benchmarks",
+      "published_at": "2026-10-22T14:25:22.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ncdex-launches-ndex-and-finndex-to-expand-into-equity-benchmarks/articleshow/135121233.cms",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "ece0d07b556e2879",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "CreditAccess Grameen Q2 profit jumps fourfold to Rs 502 crore",
+      "published_at": "2026-10-22T14:22:46.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/creditaccess-grameen-q2-profit-jumps-fourfold-to-rs-502-crore/articleshow/135121186.cms",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "daaa4babeaa76ade",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Tesla shares slip as capex cut clouds Musk\u2019s AI, robotics ambitions",
+      "published_at": "2026-10-22T14:18:54.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/tesla-shares-slip-after-capex-cut-raises-doubts-over-musks-ai-and-robotics-push/articleshow/135121152.cms",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "f43e297769537b28",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Kolkata home registrations dip 12 per cent in Jan-Sep; larger flats gain share",
+      "published_at": "2026-10-22T14:17:16.000",
+      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/kolkata-home-registrations-dip-12-per-cent-in-jan-sep-larger-flats-gain-share/articleshow/135121131.cms",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "73f473cbca320e41",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Hatsun Agro Product Q2 Results: Profit rises 5.6% on strong sales",
+      "published_at": "2026-10-22T14:15:28.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hatsun-agro-product-q2-results-profit-rises-5-6-on-strong-sales/articleshow/135121117.cms",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "12b4b0b137d80d08",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US stocks today: US stocks slide as AI spending jitters hit Nasdaq, oil prices rebound",
+      "published_at": "2026-10-22T13:39:36.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-open-lower-as-ai-jitters-return-oil-rises/articleshow/135120582.cms",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "40faf12fcb4afc36",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Sebi allows margin relief on subsequent trades against early pay-in",
+      "published_at": "2026-10-22T13:27:22.000",
+      "url": "https://www.business-standard.com/markets/news/sebi-allows-margin-relief-on-subsequent-trades-against-early-pay-in-126102201148_1.html",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "66bb9a3537a4156a",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Record galore! Jio IPO claims crown for highest QIB demand among India\u2019s 5 largest issues, edges past NSE",
+      "published_at": "2026-10-22T13:21:18.000",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/record-galore-jio-ipo-claims-crown-for-highest-qib-demand-among-indias-5-largest-issues-edges-past-nse/articleshow/135120259.cms",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "a0372709f79d4bf1",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US stocks 2026: Moderna, SanDisk lead top 10 gainers delivering up to 734% returns",
+      "published_at": "2026-10-22T12:46:47.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-2026-moderna-sandisk-lead-top-10-gainers-delivering-up-to-734-returns/articleshow/135119576.cms",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "febbeb683e46cba0",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "SoFi targets idle crypto cash with interest-bearing tokenized deposit",
+      "published_at": "2026-10-22T12:45:03.000",
+      "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/sofi-targets-idle-crypto-cash-with-interest-bearing-tokenized-deposit/articleshow/135119511.cms",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "725a9fffcfdec7cd",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Colgate-Palmolive India Q2 Results: Profit rises 4.3% to Rs 341.6 crore",
+      "published_at": "2026-10-22T12:42:38.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/colgate-palmolive-india-q2-results-profit-rises-4-3-to-rs-341-6-crore/articleshow/135119461.cms",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "600a36917f6c75ea",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sebi allows margin relief against early pay-in of securities for subsequent trades",
+      "published_at": "2026-10-22T12:41:10.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-allows-margin-relief-against-early-pay-in-of-securities-for-subsequent-trades/articleshow/135119438.cms",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "d984b95e0048eb14",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Meta falls as investors balance Muse growth with rising AI costs",
+      "published_at": "2026-10-22T12:39:28.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/meta-falls-as-investors-balance-muse-growth-with-rising-ai-costs/articleshow/135119388.cms",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "38465abffc535e21",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Union Pacific's third-quarter profit rises on pricing strength",
+      "published_at": "2026-10-22T12:36:30.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/union-pacifics-third-quarter-profit-rises-on-pricing-strength/articleshow/135119313.cms",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "308bb0d13a404685",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "HPCL Q2 Results: Profit slips 6% YoY to Rs 3,625 crore, revenue jumps 26%",
+      "published_at": "2026-10-22T12:24:02.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hpcl-q2-results-profit-slips-6-yoy-to-rs-3625-crore-revenue-jumps-26/articleshow/135119002.cms",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    },
+    {
+      "url_hash": "58241dbe75a49dd3",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Mahindra Lifespace Q2 profit down 66 pc to Rs 16 cr",
+      "published_at": "2026-10-22T12:21:29.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/mahindra-lifespace-q2-profit-down-66-pc-to-rs-16-cr/articleshow/135118930.cms",
+      "fetched_at": "2026-10-22T17:26:02.436"
+    }
+  ]
+}
