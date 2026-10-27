@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-27T18:08:19.477258+00:00",
+  "commentary_source": "fallback",
+  "commentary": {
+    "market_tone": "Breadth was risk-off: 1 of 8 names advanced on the day.",
+    "bullets": [
+      "Best performer on the day: BHARTIARTL.NS at +3.20%.",
+      "Weakest on the day: TCS.NS at -1.50%.",
+      "Median one-day move across the watchlist: -0.44%.",
+      "ITC.NS sits furthest below its 52-week high, at -35.3%."
+    ],
+    "watch_items": [
+      "Highest 30-day realised volatility: TCS.NS at 34.3% annualised.",
+      "60 headlines collected, 4 tagged to a watchlist name by substring match (unverified).",
+      "Commentary model was unavailable, so no qualitative read is included."
+    ],
+    "source": "deterministic-fallback (model returned unusable output twice)",
+    "source_kind": "fallback"
+  },
+  "comps": [
+    {
+      "ticker": "BHARTIARTL.NS",
+      "sector": "Communication Services",
+      "currency": "INR",
+      "last_close": 1978.8000488281,
+      "ret_1d": 0.0319687347,
+      "ret_5d": 0.0552474938,
+      "ret_21d": 0.1083230771,
+      "realised_vol_30d": 0.2585492316,
+      "high_52w": 2135.8200683594,
+      "pct_from_52w_high": -0.073517438,
+      "market_cap_bn": 12345.0569410292,
+      "pe": 40.816833,
+      "ev_ebitda": 12.342
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 680.200012207,
+      "ret_1d": -0.0114090193,
+      "ret_5d": -0.0446629042,
+      "ret_21d": -0.0753126226,
+      "realised_vol_30d": 0.2236859722,
+      "high_52w": 993.0750732422,
+      "pct_from_52w_high": -0.3150568063,
+      "market_cap_bn": 10493.8658784638,
+      "pe": 14.86776,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 1386.9000244141,
+      "ret_1d": -0.0114753924,
+      "ret_5d": 0.0042722842,
+      "ret_21d": 0.045296935,
+      "realised_vol_30d": 0.200391762,
+      "high_52w": 1460.0,
+      "pct_from_52w_high": -0.0500684764,
+      "market_cap_bn": 9957.3592348616,
+      "pe": 17.031807,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "INFY.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 1163.0,
+      "ret_1d": -0.0025728988,
+      "ret_5d": 0.0285664192,
+      "ret_21d": 0.1627674323,
+      "realised_vol_30d": 0.3248869747,
+      "high_52w": 1654.0083007812,
+      "pct_from_52w_high": -0.2968596352,
+      "market_cap_bn": 4710.587940443,
+      "pe": 15.486019,
+      "ev_ebitda": 1043.338
+    },
+    {
+      "ticker": "ITC.NS",
+      "sector": "Consumer Defensive",
+      "currency": "INR",
+      "last_close": 260.0,
+      "ret_1d": -0.0019193858,
+      "ret_5d": -0.003067438,
+      "ret_21d": -0.0334572491,
+      "realised_vol_30d": 0.2966492725,
+      "high_52w": 401.9940185547,
+      "pct_from_52w_high": -0.3532242073,
+      "market_cap_bn": 3258.29727106,
+      "pe": 16.41414,
+      "ev_ebitda": 11.932
+    },
+    {
+      "ticker": "LT.NS",
+      "sector": "Industrials",
+      "currency": "INR",
+      "last_close": 3665.1000976562,
+      "ret_1d": -0.0040488865,
+      "ret_5d": 0.0008739167,
+      "ret_21d": -0.054460517,
+      "realised_vol_30d": 0.2072378786,
+      "high_52w": 4375.3642578125,
+      "pct_from_52w_high": -0.1623325781,
+      "market_cap_bn": 5042.6869261605,
+      "pe": 30.403152,
+      "ev_ebitda": 16.467
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "sector": "Energy",
+      "currency": "INR",
+      "last_close": 1196.1999511719,
+      "ret_1d": -0.0046597582,
+      "ret_5d": -0.0048253318,
+      "ret_21d": -0.0243067282,
+      "realised_vol_30d": 0.2296647343,
+      "high_52w": 1584.9718017578,
+      "pct_from_52w_high": -0.2452862885,
+      "market_cap_bn": 16187.5431052217,
+      "pe": 21.66244,
+      "ev_ebitda": 11.312
+    },
+    {
+      "ticker": "TCS.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 2496.8999023438,
+      "ret_1d": -0.0150296243,
+      "ret_5d": 0.0146287949,
+      "ret_21d": 0.2056549406,
+      "realised_vol_30d": 0.3434012892,
+      "high_52w": 3187.337890625,
+      "pct_from_52w_high": -0.2166190131,
+      "market_cap_bn": 9034.0023703653,
+      "pe": 17.502453,
+      "ev_ebitda": 11.878
+    }
+  ],
+  "headlines": [
+    {
+      "url_hash": "ff98ae4c7852dc55",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Prediction market Kalshi expands safeguards for young traders",
+      "published_at": "2026-10-27T17:19:02.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/prediction-market-kalshi-expands-safeguards-for-young-traders/articleshow/135241699.cms",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "e522d67e86b10a94",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "GM to transfer stock listing to Nasdaq",
+      "published_at": "2026-10-27T17:14:44.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/gm-to-transfer-stock-listing-to-nasdaq/articleshow/135241585.cms",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "67108be787f45003",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Trading starts on LME's first contract from Shanghai exchange collaboration",
+      "published_at": "2026-10-27T17:10:33.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/trading-starts-on-lmes-first-contract-from-shanghai-exchange-collaboration/articleshow/135241517.cms",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "a7a20b99a05f62ee",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Allied Blenders Q2 Results: Profit rises 9.7% to Rs 69 crore, revenue up 6.8%",
+      "published_at": "2026-10-27T16:59:10.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/allied-blenders-q2-results-profit-rises-9-7-to-rs-69-crore-revenue-up-6-8/articleshow/135240967.cms",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "0d27a58a38f88c81",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Indus Towers Q2 Results: Net profit slips 2.5% to Rs 1,793 crore",
+      "published_at": "2026-10-27T16:56:07.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/indus-towers-q2-results-net-profit-slips-2-5-to-rs-1793-crore/articleshow/135240759.cms",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "9a099fd24796b20e",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "SAIL Q2 Results: Net profit surges four-fold to Rs 1750 crore on higher revenue",
+      "published_at": "2026-10-27T16:48:09.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/sail-q2-results-net-profit-surges-four-fold-to-rs-1750-crore-on-higher-revenue/articleshow/135240695.cms",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "80cddec8e54c3584",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "SpiceJet's domestic market share falls below Star Air for the first time",
+      "published_at": "2026-10-27T16:42:35.000",
+      "url": "https://www.business-standard.com/industry/aviation/spicejet-s-domestic-market-share-falls-below-star-air-for-the-first-time-126102701761_1.html",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "15c1423431a7cdc4",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "United Breweries Q2 Results: Profit jumps nearly 3 times to Rs 134 crore on volume growth, premiumisation",
+      "published_at": "2026-10-27T16:39:32.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/united-breweries-q2-results-profit-jumps-nearly-3-times-to-rs-134-crore-on-volume-growth-premiumisation/articleshow/135240644.cms",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "b40ab1a9d4b1dc26",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "SBI Life Insurance Q2 Results: Net profit grows 11% YoY to Rs 549 crore",
+      "published_at": "2026-10-27T16:31:57.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/sbi-life-insurance-q2-results-net-profit-grows-11-yoy-to-rs-549-crore/articleshow/135240500.cms",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "94893b3295545044",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Tata Capital Q2 net profit rises 51% on higher income",
+      "published_at": "2026-10-27T15:41:07.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-capital-q2-net-profit-rises-51-on-higher-income/articleshow/135239343.cms",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "b4dfad8b97d69227",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Ahead of Market: 10 things that will decide stock market action on Wednesday",
+      "published_at": "2026-10-27T15:37:19.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-wednesday/articleshow/135239298.cms",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "86f39ec1870adf55",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Waaree Energies Q2 Results: Profit falls 15% YoY to Rs 719 crore, revenue rises 24%",
+      "published_at": "2026-10-27T15:26:33.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/waaree-energies-q2-results-profit-falls-15-yoy-to-rs-719-crore-revenue-rises-24/articleshow/135239084.cms",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "652db30fc703160c",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US Fed opens two-day meeting with markets expecting rate hold",
+      "published_at": "2026-10-27T14:51:31.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/us-fed-opens-two-day-meeting-with-markets-expecting-rate-hold/articleshow/135238252.cms",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "768f19ee186717d3",
+      "ticker": "RELIANCE.NS",
+      "source": "Economic Times Markets",
+      "title": "RIL to announce Q2 results on October 30, board to also consider fundraising",
+      "published_at": "2026-10-27T14:14:58.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/ril-to-announce-q2-results-on-october-30-board-to-also-consider-fundraising/articleshow/135237289.cms",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "9f1bb6ff88063f29",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Global bond issuance set to grow at slowest pace in five years in 2027, S&P Global Ratings says",
+      "published_at": "2026-10-27T14:12:15.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/global-bond-issuance-set-to-grow-at-slowest-pace-in-five-years-in-2027-sp-global-ratings-says/articleshow/135237268.cms",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "420db6b0942630f2",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "JetBlue shares surge 12% as airline seeks to calm financial concerns",
+      "published_at": "2026-10-27T14:10:58.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/jetblue-shares-surge-12-as-airline-seeks-to-calm-financial-concerns/articleshow/135237199.cms",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "be4641a77d4fe58a",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US stocks today: S&P 500, Nasdaq advance as oil eases ahead of Fed decision",
+      "published_at": "2026-10-27T13:37:38.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-sp-500-nasdaq-open-higher-as-oil-pulls-back-ahead-of-fed-decision/articleshow/135236366.cms",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "6bf5f20524bf40cb",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "PVR Inox among stocks that hit 52-week highs and rallied up to 20% in a month",
+      "published_at": "2026-10-27T13:28:57.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/pvr-inox-among-stocks-that-hit-52-week-highs-and-rallied-up-to-20-in-a-month/slideshow/135236374.cms",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "4cc1d5aad830ca36",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Gen Z's SIP competitor is lifestyle: Sakchi Jain on growing credit culture",
+      "published_at": "2026-10-27T13:28:42.000",
+      "url": "https://www.business-standard.com/markets/news/gen-z-s-sip-competitor-is-lifestyle-sakchi-jain-on-growing-credit-culture-126102701404_1.html",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "73c345f80de11b05",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "JSW Infrastructure Q2 Results: Net profit falls 11% to Rs 328 crore",
+      "published_at": "2026-10-27T13:26:43.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/jsw-infrastructure-q2-results-net-profit-falls-11-to-rs-328-crore/articleshow/135236084.cms",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "9f0bb0dd3ecf7c64",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sebi extends deadline for debenture trustees to comply with norms till April 2027",
+      "published_at": "2026-10-27T13:23:44.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-extends-deadline-for-debenture-trustees-to-comply-with-norms-till-april-2027/articleshow/135235986.cms",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "01fd5b439e00aa4c",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Coca-Cola raises profit forecast as premium drinks, sodas hold strong",
+      "published_at": "2026-10-27T13:21:14.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/coca-cola-raises-profit-forecast-as-premium-drinks-sodas-hold-strong/articleshow/135235940.cms",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "6cb3fafa184938f8",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Derivatives trading may need more guardrails, says Sebi's KVR Murty",
+      "published_at": "2026-10-27T12:59:29.000",
+      "url": "https://www.business-standard.com/markets/news/sebi-may-consider-more-guardrails-for-derivatives-trading-says-murty-126102701292_1.html",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "2ba6431a1987055a",
+      "ticker": "BHARTIARTL.NS",
+      "source": "Economic Times Markets",
+      "title": "Market wrap: Bharti Airtel, Tata Consumer, Asian Paints, Coal India top gainers and losers on Nifty and Sensex on Tuesday",
+      "published_at": "2026-10-27T12:28:53.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-bharti-airtel-tata-consumer-asian-paints-coal-india-top-gainers-and-losers-on-nifty-and-sensex-on-tuesday/articleshow/135234189.cms",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    },
+    {
+      "url_hash": "465712d46bec714e",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Tata Capital Q2 Results: Profit jumps 51% to Rs 1,660 crore; NII up 23%",
+      "published_at": "2026-10-27T12:20:40.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-capital-q2-results-profit-jumps-51-to-rs-1660-crore-nii-up-23/articleshow/135234003.cms",
+      "fetched_at": "2026-10-27T18:08:16.104"
+    }
+  ]
+}
