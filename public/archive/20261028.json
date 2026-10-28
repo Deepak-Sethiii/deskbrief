@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-28T18:25:09.753666+00:00",
+  "commentary_source": "fallback",
+  "commentary": {
+    "market_tone": "Breadth was risk-off: 2 of 8 names advanced on the day.",
+    "bullets": [
+      "Best performer on the day: LT.NS at +3.72%.",
+      "Weakest on the day: INFY.NS at -3.43%.",
+      "Median one-day move across the watchlist: -1.07%.",
+      "ITC.NS sits furthest below its 52-week high, at -35.4%."
+    ],
+    "watch_items": [
+      "Highest 30-day realised volatility: TCS.NS at 34.5% annualised.",
+      "60 headlines collected, 6 tagged to a watchlist name by substring match (unverified).",
+      "Commentary model was unavailable, so no qualitative read is included."
+    ],
+    "source": "deterministic-fallback (model returned unusable output twice)",
+    "source_kind": "fallback"
+  },
+  "comps": [
+    {
+      "ticker": "BHARTIARTL.NS",
+      "sector": "Communication Services",
+      "currency": "INR",
+      "last_close": 1948.0999755859,
+      "ret_1d": -0.0155144898,
+      "ret_5d": 0.0298144663,
+      "ret_21d": 0.09975158,
+      "realised_vol_30d": 0.2637973559,
+      "high_52w": 2135.8200683594,
+      "pct_from_52w_high": -0.0878913423,
+      "market_cap_bn": 12153.5296806104,
+      "pe": 40.721153,
+      "ev_ebitda": 12.175
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 685.299987793,
+      "ret_1d": 0.0074977587,
+      "ret_5d": -0.0306245478,
+      "ret_21d": -0.0469369315,
+      "realised_vol_30d": 0.2218958675,
+      "high_52w": 993.0750732422,
+      "pct_from_52w_high": -0.3099212675,
+      "market_cap_bn": 10572.5463530622,
+      "pe": 14.979235,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 1377.5999755859,
+      "ret_1d": -0.0067056375,
+      "ret_5d": -0.0053429779,
+      "ret_21d": 0.0580644974,
+      "realised_vol_30d": 0.1911737505,
+      "high_52w": 1460.0,
+      "pct_from_52w_high": -0.0564383729,
+      "market_cap_bn": 9890.5887932629,
+      "pe": 16.917597,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "INFY.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 1123.1500244141,
+      "ret_1d": -0.0342648113,
+      "ret_5d": -0.0383989517,
+      "ret_21d": 0.1195673951,
+      "realised_vol_30d": 0.3276606564,
+      "high_52w": 1654.0083007812,
+      "pct_from_52w_high": -0.3209526071,
+      "market_cap_bn": 4549.1805333733,
+      "pe": 14.955394,
+      "ev_ebitda": 1007.565
+    },
+    {
+      "ticker": "ITC.NS",
+      "sector": "Consumer Defensive",
+      "currency": "INR",
+      "last_close": 259.5,
+      "ret_1d": -0.0019230769,
+      "ret_5d": -0.0095419847,
+      "ret_21d": -0.0214932577,
+      "realised_vol_30d": 0.2959387402,
+      "high_52w": 401.9940185547,
+      "pct_from_52w_high": -0.3544680069,
+      "market_cap_bn": 3252.0313147695,
+      "pe": 16.382576,
+      "ev_ebitda": 11.907
+    },
+    {
+      "ticker": "LT.NS",
+      "sector": "Industrials",
+      "currency": "INR",
+      "last_close": 3801.3000488281,
+      "ret_1d": 0.0371613183,
+      "ret_5d": 0.0454620596,
+      "ret_21d": 0.0092661819,
+      "realised_vol_30d": 0.2284988156,
+      "high_52w": 4375.3642578125,
+      "pct_from_52w_high": -0.1312037525,
+      "market_cap_bn": 5230.1600197212,
+      "pe": 29.281311,
+      "ev_ebitda": 16.419
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "sector": "Energy",
+      "currency": "INR",
+      "last_close": 1158.0,
+      "ret_1d": -0.0319344196,
+      "ret_5d": -0.0421836228,
+      "ret_21d": -0.0330661126,
+      "realised_vol_30d": 0.2421905445,
+      "high_52w": 1584.9718017578,
+      "pct_from_52w_high": -0.2693876328,
+      "market_cap_bn": 15670.60331133,
+      "pe": 20.970663,
+      "ev_ebitda": 11.026
+    },
+    {
+      "ticker": "TCS.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 2460.0,
+      "ret_1d": -0.0147782866,
+      "ret_5d": -0.0272835113,
+      "ret_21d": 0.1943195574,
+      "realised_vol_30d": 0.3454207985,
+      "high_52w": 3187.337890625,
+      "pct_from_52w_high": -0.2281960418,
+      "market_cap_bn": 8900.49529428,
+      "pe": 17.243795,
+      "ev_ebitda": 11.695
+    }
+  ],
+  "headlines": [
+    {
+      "url_hash": "85b863d500f037b5",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US Federal Reserve holds interest rates steady as stubborn inflation puts future rate hikes in focus",
+      "published_at": "2026-10-28T18:01:23.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/fed-rate-us-federal-reserve-holds-interest-rates-steady-as-stubborn-inflation-puts-future-rate-hikes-in-focus/articleshow/135275622.cms",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "1e786beab18ab0b9",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "BFSI Insight Summit: SIFs, new PMS rules to democratise wealth management",
+      "published_at": "2026-10-28T17:53:22.000",
+      "url": "https://www.business-standard.com/specials/bs-events/bfsi-insight-summit-sifs-new-pms-rules-to-democratise-wealth-management-126102801336_1.html",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "b4c1c6c7d647e9f2",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "BFSI Insight Summit 2026: 'Value investing works; stock selection key'",
+      "published_at": "2026-10-28T17:49:48.000",
+      "url": "https://www.business-standard.com/specials/bs-events/bfsi-insight-summit-2026-value-investing-works-stock-selection-key-126102801835_1.html",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "c44e516f789a094e",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "BFSI Insight Summit 2026: 'Lower taxes may bring back foreign investors'",
+      "published_at": "2026-10-28T17:36:57.000",
+      "url": "https://www.business-standard.com/specials/bs-events/bfsi-insight-summit-2026-lower-taxes-may-bring-back-foreign-investors-126102801611_1.html",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "a11bc26d6a7319b1",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "World Bank sees commodity prices surging 23% in 2026 on Middle East war",
+      "published_at": "2026-10-28T17:26:20.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/world-bank-sees-commodity-prices-surging-23-in-2026-on-middle-east-war/articleshow/135274754.cms",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "04c40e6f7b247b48",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "BFSI Summit 2026: 'Digital access could widen MF investor base to 200 mn'",
+      "published_at": "2026-10-28T17:16:10.000",
+      "url": "https://www.business-standard.com/specials/bs-events/bfsi-summit-2026-digital-access-could-widen-mf-investor-base-to-200-mn-126102801695_1.html",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "3ad2e571bfe6be0c",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Satin Creditcare Q2 profit surges over three-fold as asset quality improves",
+      "published_at": "2026-10-28T16:08:45.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/satin-creditcare-q2-profit-surges-over-three-fold-as-asset-quality-improves/articleshow/135272520.cms",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "244fcc75a543c86e",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Cholamandalam Investment Q2 net profit rises 41% on strong income growth, plans Rs 5000 crore capital raise",
+      "published_at": "2026-10-28T16:04:42.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/cholamandalam-investment-q2-net-profit-rises-41-on-strong-income-growth-plans-rs-5000-crore-capital-raise/articleshow/135272371.cms",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "dbbfcaf5b0d46899",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Hero MotoCorp Q2 profit jumps 41% as scooter and EV sales surge",
+      "published_at": "2026-10-28T16:01:33.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hero-motocorp-q2-profit-jumps-41-as-scooter-and-ev-sales-surge/articleshow/135272243.cms",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "7c81cb9a0ae30c79",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Ahead of Market: 10 things that will decide stock market action on Thursday",
+      "published_at": "2026-10-28T15:38:47.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-wednesday/articleshow/135271636.cms",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "1ccebdf7910b664e",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "British homebuilder shares slump on lack of clarity over first-time buyer plan in budget",
+      "published_at": "2026-10-28T15:36:36.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/british-homebuilder-shares-slump-on-lack-of-clarity-over-first-time-buyer-plan-in-budget/articleshow/135271559.cms",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "f418c50b3933ffc4",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Weak returns at home fuel India's overseas retail investing boom",
+      "published_at": "2026-10-28T15:33:19.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/weak-returns-at-home-fuel-indias-overseas-retail-investing-boom/articleshow/135271438.cms",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "ff0bc3c834394cf6",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Hero MotoCorp Q2 Results: Profit surges 41% YoY to Rs 1,861 crore, revenue jumps 23%",
+      "published_at": "2026-10-28T15:08:33.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hero-motocorp-q2-results-profit-surges-41-yoy-to-rs-1861-crore-revenue-jumps-23/articleshow/135270862.cms",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "7ce03fb64fbd94d2",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sebi to review FPI compliance norms, issue consultation paper to align with global standards",
+      "published_at": "2026-10-28T14:10:10.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-to-review-fpi-compliance-norms-issue-consultation-paper-to-align-with-global-standards/articleshow/135269023.cms",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "288f1093d83fc4da",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "SAT sets aside \u20b91.49 crore MCX penalty on Ventura over invalid order",
+      "published_at": "2026-10-28T13:57:16.000",
+      "url": "https://www.business-standard.com/markets/news/sat-sets-aside-1-49-crore-mcx-penalty-on-ventura-over-invalid-order-126102801676_1.html",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "9a71d402b644eb40",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Acutaas Chemicals among 5 stocks hitting 52-week highs; rallied up to 18% in a month",
+      "published_at": "2026-10-28T13:44:25.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/acutaas-chemicals-among-5-stocks-hitting-52-week-highs-rallied-up-to-18-in-a-month/slideshow/135268346.cms",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "02e4b36fdf197c3a",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Vedanta Aluminium Q2 Results: Profit doubles to Rs 6,187 crore, revenue jumps 41%",
+      "published_at": "2026-10-28T13:43:05.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/vedanta-aluminium-q2-results-profit-doubles-to-rs-6187-crore-revenue-jumps-41/articleshow/135268184.cms",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "6ca8208fd734ebfd",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US stocks today: US stocks turn choppy as megacaps offset chip gains before Fed meet",
+      "published_at": "2026-10-28T13:39:22.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-sp-500-nasdaq-open-higher-as-sk-hynix-lifts-chips-fed-meet-in-focus/articleshow/135267943.cms",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "c195dcb3a6a3b744",
+      "ticker": "RELIANCE.NS",
+      "source": "Business Standard Markets",
+      "title": "Jio Platforms IPO surge ends Tata's reign as India's most valuable group",
+      "published_at": "2026-10-28T13:26:18.000",
+      "url": "https://www.business-standard.com/markets/news/jio-platforms-ipo-surge-ends-tata-s-reign-as-india-s-most-valuable-group-126102801600_1.html",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "7a04153639aa1d2d",
+      "ticker": "RELIANCE.NS",
+      "source": "Economic Times Markets",
+      "title": "Sebi signs MoU with Bank of England to strengthen oversight of clearing corporations",
+      "published_at": "2026-10-28T13:15:56.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-signs-mou-with-bank-of-england-to-strengthen-oversight-of-clearing-corporations/articleshow/135267165.cms",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "bbf59e7a7ec0ad80",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "India not yet a consensus buy amid oil, tech disruptions: Global brokerages",
+      "published_at": "2026-10-28T13:09:09.000",
+      "url": "https://www.business-standard.com/markets/news/india-not-yet-a-consensus-buy-amid-oil-tech-disruptions-global-brokerages-126102801498_1.html",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "19a2afaf731811e4",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Knowledge, courage, patience: Vijay Kedia's mantra for stock market success",
+      "published_at": "2026-10-28T12:35:37.000",
+      "url": "https://www.business-standard.com/markets/interviews/knowledge-courage-patience-vijay-kedia-s-mantra-for-stock-market-success-126102801463_1.html",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "4608e3749068b4dd",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "India bonds end flat as oil woes come up against short covering",
+      "published_at": "2026-10-28T12:34:01.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-end-flat-as-oil-woes-come-up-against-short-covering/articleshow/135265739.cms",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "725fcb695c05feb6",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Bandhan Bank Q2 profit jumps 5.6 times as asset quality improves",
+      "published_at": "2026-10-28T12:32:34.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/bandhan-bank-q2-profit-jumps-5-6-times-as-asset-quality-improves/articleshow/135265654.cms",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    },
+    {
+      "url_hash": "3f693162cda8a0a1",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Meesho Q2 Results: Loss narrows to Rs 132 crore YoY, revenue rises 34%",
+      "published_at": "2026-10-28T12:30:58.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/meesho-q2-results-loss-narrows-to-rs-132-crore-yoy-revenue-rises-34/articleshow/135265538.cms",
+      "fetched_at": "2026-10-28T18:25:06.904"
+    }
+  ]
+}
