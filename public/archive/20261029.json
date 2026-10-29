@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-29T18:35:09.017540+00:00",
+  "commentary_source": "fallback",
+  "commentary": {
+    "market_tone": "Breadth was risk-off: 2 of 8 names advanced on the day.",
+    "bullets": [
+      "Best performer on the day: LT.NS at +3.72%.",
+      "Weakest on the day: INFY.NS at -3.43%.",
+      "Median one-day move across the watchlist: -1.07%.",
+      "ITC.NS sits furthest below its 52-week high, at -35.4%."
+    ],
+    "watch_items": [
+      "Highest 30-day realised volatility: TCS.NS at 34.5% annualised.",
+      "60 headlines collected, 2 tagged to a watchlist name by substring match (unverified).",
+      "Commentary model was unavailable, so no qualitative read is included."
+    ],
+    "source": "deterministic-fallback (model returned unusable output twice)",
+    "source_kind": "fallback"
+  },
+  "comps": [
+    {
+      "ticker": "BHARTIARTL.NS",
+      "sector": "Communication Services",
+      "currency": "INR",
+      "last_close": 1948.0999755859,
+      "ret_1d": -0.0155144898,
+      "ret_5d": 0.0298144663,
+      "ret_21d": 0.09975158,
+      "realised_vol_30d": 0.2637973559,
+      "high_52w": 2135.8200683594,
+      "pct_from_52w_high": -0.0878913423,
+      "market_cap_bn": 12303.2576271774,
+      "pe": 41.222824,
+      "ev_ebitda": 12.305
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 685.299987793,
+      "ret_1d": 0.0074977587,
+      "ret_5d": -0.0306245478,
+      "ret_21d": -0.0469369315,
+      "realised_vol_30d": 0.2218958675,
+      "high_52w": 993.0750732422,
+      "pct_from_52w_high": -0.3099212675,
+      "market_cap_bn": 10541.6913056036,
+      "pe": 14.935519,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 1377.5999755859,
+      "ret_1d": -0.0067056375,
+      "ret_5d": -0.0053429779,
+      "ret_21d": 0.0580644974,
+      "realised_vol_30d": 0.1911737505,
+      "high_52w": 1460.0,
+      "pct_from_52w_high": -0.0564383729,
+      "market_cap_bn": 9956.6796933414,
+      "pe": 17.028122,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "INFY.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 1123.1500244141,
+      "ret_1d": -0.0342648113,
+      "ret_5d": -0.0383989517,
+      "ret_21d": 0.1195673951,
+      "realised_vol_30d": 0.3276606564,
+      "high_52w": 1654.0083007812,
+      "pct_from_52w_high": -0.3209526071,
+      "market_cap_bn": 4643.7567271865,
+      "pe": 15.266312,
+      "ev_ebitda": 1028.526
+    },
+    {
+      "ticker": "ITC.NS",
+      "sector": "Consumer Defensive",
+      "currency": "INR",
+      "last_close": 259.5,
+      "ret_1d": -0.0019230769,
+      "ret_5d": -0.0095419847,
+      "ret_21d": -0.0214932577,
+      "realised_vol_30d": 0.2959387402,
+      "high_52w": 401.9940185547,
+      "pct_from_52w_high": -0.3544680069,
+      "market_cap_bn": 3320.956833965,
+      "pe": 16.729797,
+      "ev_ebitda": 12.178
+    },
+    {
+      "ticker": "LT.NS",
+      "sector": "Industrials",
+      "currency": "INR",
+      "last_close": 3801.3000488281,
+      "ret_1d": 0.0371613183,
+      "ret_5d": 0.0454620596,
+      "ret_21d": 0.0092661819,
+      "realised_vol_30d": 0.2284988156,
+      "high_52w": 4375.3642578125,
+      "pct_from_52w_high": -0.1312037525,
+      "market_cap_bn": 5279.4167137264,
+      "pe": 29.557077,
+      "ev_ebitda": 16.557
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "sector": "Energy",
+      "currency": "INR",
+      "last_close": 1158.0,
+      "ret_1d": -0.0319344196,
+      "ret_5d": -0.0421836228,
+      "ret_21d": -0.0330661126,
+      "realised_vol_30d": 0.2421905445,
+      "high_52w": 1584.9718017578,
+      "pct_from_52w_high": -0.2693876328,
+      "market_cap_bn": 15797.808554099,
+      "pe": 21.14089,
+      "ev_ebitda": 11.096
+    },
+    {
+      "ticker": "TCS.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 2460.0,
+      "ret_1d": -0.0147782866,
+      "ret_5d": -0.0272835113,
+      "ret_21d": 0.1943195574,
+      "realised_vol_30d": 0.3454207985,
+      "high_52w": 3187.337890625,
+      "pct_from_52w_high": -0.2281960418,
+      "market_cap_bn": 8965.620869604,
+      "pe": 17.36997,
+      "ev_ebitda": 11.784
+    }
+  ],
+  "headlines": [
+    {
+      "url_hash": "4bbb38d4be93a4b8",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "eMudhra stock recovers slightly after sharp fall over security concerns",
+      "published_at": "2026-10-29T17:47:51.000",
+      "url": "https://www.business-standard.com/markets/news/emudhra-stock-recovers-slightly-after-sharp-fall-over-security-concerns-126102901616_1.html",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "3d937ab666d8a995",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Alphabet\u2019s AI risks deepen as filing reveals $98 billion in commitments beyond the $1 trillion spending",
+      "published_at": "2026-10-29T17:37:58.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/alphabets-ai-risks-deepen-as-filing-reveals-98-5-billion-in-commitments-beyond-the-1-trillion-spending/articleshow/135325480.cms",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "e70d70d0c0e7754f",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sagility block deal: Promoter Sagility BV likely to sell 12% stake for Rs 2,377 crore",
+      "published_at": "2026-10-29T15:56:22.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sagility-block-deal-promoter-sagility-bv-likely-to-sell-12-stake-for-rs-2377-crore/articleshow/135322817.cms",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "2b985b6aa61107b9",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Ahead of Market: 10 things that will decide stock market action on Friday",
+      "published_at": "2026-10-29T15:38:44.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-friday/articleshow/135322160.cms",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "bb11b53c11f9205d",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Market Trading Guide: Eternal among 2 stocks to buy for Friday for healthy returns",
+      "published_at": "2026-10-29T15:19:42.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-trading-guide-eternal-among-2-stocks-to-buy-for-friday-for-healthy-returns/articleshow/135321713.cms",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "c17142636ac15d29",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Ambuja Cements\u2019 profit slumps 90% on higher costs, high previous-year base",
+      "published_at": "2026-10-29T14:54:27.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/ambuja-cements-profit-slumps-90-on-higher-costs-high-previous-year-base/articleshow/135320851.cms",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "2db1cc20408c5ffe",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Milky Mist Q2 revenue surges 42% YoY, EBITDA soars 54%",
+      "published_at": "2026-10-29T14:44:41.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/milky-mist-q2-revenue-surges-42-yoy-ebitda-soars-54/articleshow/135320553.cms",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "dfcc17d8d4122c95",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Brigade Group reports 29% growth in Q2 net profit at Rs 219 crore",
+      "published_at": "2026-10-29T14:39:53.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/brigade-group-reports-29-growth-in-q2-net-profit-at-rs-219-crore/articleshow/135320326.cms",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "fd5bde16cf2708da",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Benchmarks rise over 1% on positive Q2 earnings, easing crude prices",
+      "published_at": "2026-10-29T14:36:19.000",
+      "url": "https://www.business-standard.com/markets/news/sensex-nifty-rise-over-1-as-q2-earnings-easing-crude-boost-sentiment-126102901533_1.html",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "74dc1af43b30595a",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Google shares crash 13% after $9 billion cash burn sparks AI spending fears",
+      "published_at": "2026-10-29T14:11:28.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/google-shares-crash-13-after-9-billion-cash-burn-sparks-ai-spending-fears/articleshow/135319102.cms",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "10d3913289d13050",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "India's pharma, healthcare deal volumes rise 23% in Q3 2026: Report",
+      "published_at": "2026-10-29T13:44:11.000",
+      "url": "https://www.business-standard.com/markets/news/india-s-pharma-healthcare-deal-volumes-rise-23-in-q3-2026-report-126102901515_1.html",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "a61d5d0faf291a1a",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "ET EXPLAINER: What do the new REIT regulation amendments mean for investors?",
+      "published_at": "2026-10-29T13:40:03.000",
+      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/et-explainer-what-do-the-new-reit-regulation-amendments-mean-for-investors/articleshow/135317911.cms",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "daa72586fa06a502",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US stocks today: Nasdaq slides over 1% as Alphabet's AI spending revives investor concerns",
+      "published_at": "2026-10-29T13:39:36.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-fall-at-open-as-alphabet-results-reignite-ai-spending-fears/articleshow/135317765.cms",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "3861df91f43b5a8b",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Euro nudges lower after ECB holds steady, stocks inch up",
+      "published_at": "2026-10-29T13:37:39.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/euro-nudges-lower-after-ecb-holds-steady-stocks-inch-up/articleshow/135317787.cms",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "da430982ffbe02e3",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US inflation heats up in September; consumer spending rises",
+      "published_at": "2026-10-29T13:34:37.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-inflation-heats-up-in-september-consumer-spending-rises/articleshow/135317736.cms",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "410ea318100e8266",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "ECB keeps rates unchanged but points to mounting inflation risk",
+      "published_at": "2026-10-29T13:32:52.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/ecb-keeps-rates-unchanged-but-points-to-mounting-inflation-risk/articleshow/135317600.cms",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "f40e8351068b7fe6",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Vedanta Power Q2 results: Company swings to profit at Rs 83 crore; revenue rises 38% YoY",
+      "published_at": "2026-10-29T13:18:34.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/vedanta-power-q2-results-company-swings-to-profit-at-rs-83-crore-revenue-rises-38-yoy/articleshow/135317122.cms",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "c8349670cc3b8a35",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Motilal Oswal Q2 Results: PAT nearly quadruples to Rs 1,070 crore; revenue up 20%",
+      "published_at": "2026-10-29T13:16:04.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/motilal-oswal-q2-results-pat-nearly-quadruples-to-rs-1070-crore-revenue-up-20/articleshow/135316998.cms",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "1a8ca0e906ec0d80",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "NSE flags gaps in margin trading facility and client fund handling",
+      "published_at": "2026-10-29T13:11:15.000",
+      "url": "https://www.business-standard.com/markets/news/nse-flags-broker-lapses-in-margin-trading-client-funds-and-cybersecurity-126102901449_1.html",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "bbdaccad82c9e170",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Shukra Medtech, Laurus Labs among 4 healthcare stocks to hit 52-week highs and rally up to 26% in a month",
+      "published_at": "2026-10-29T12:26:43.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/shukra-medtech-laurus-labs-among-4-healthcare-stocks-to-hit-52-week-highs-and-rally-up-to-26-in-a-month/slideshow/135311397.cms",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "d6283a60cd9ff0c3",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Bitcoin trades near $80,000 after Fed holds rates, signals possibility of further tightening",
+      "published_at": "2026-10-29T12:23:33.000",
+      "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-trades-near-80000-after-fed-holds-rates-signals-possibility-of-further-tightening/articleshow/135309957.cms",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "1c8eafb6c1f62159",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Mahindra Lifespace Developers pre-sales rise 66% to nearly Rs 2,000 cr in Apr-Sep",
+      "published_at": "2026-10-29T12:17:02.000",
+      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/mahindra-lifespace-developers-pre-sales-rise-66-to-nearly-rs-2000-cr-in-apr-sep/articleshow/135309551.cms",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "98c5f325c100c6dd",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Companies with high credit ratings shifting to bond market as bank loans become dearer",
+      "published_at": "2026-10-29T12:13:53.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/companies-with-high-credit-ratings-shifting-to-bond-market-as-bank-loans-become-dearer/articleshow/135309264.cms",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "6e044ccacadfffe9",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "India's 10-year bond has best day in 3 months on Treasury rally, easing oil",
+      "published_at": "2026-10-29T12:11:44.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/indias-10-year-bond-has-best-day-in-3-months-on-treasury-rally-easing-oil/articleshow/135308975.cms",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    },
+    {
+      "url_hash": "5e7976571067ce64",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US Stock Market Live Updates: US stocks slide as Alphabet's AI spending fears hit tech shares",
+      "published_at": "2026-10-29T12:10:42.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-alphabet-microsoft-nvidia-intel-amazon-fortinet-servicenow-earnings-alphabet-google-ai-spending-fears-fed-rate-decision-pce-inflation-gdp-data-treasury-yield-news-29th-october-2026/liveblog/135310262.cms",
+      "fetched_at": "2026-10-29T18:35:02.290"
+    }
+  ]
+}
