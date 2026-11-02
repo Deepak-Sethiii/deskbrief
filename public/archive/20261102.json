@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-02T21:50:38.549235+00:00",
+  "commentary_source": "fallback",
+  "commentary": {
+    "market_tone": "Breadth was risk-on: 7 of 8 names advanced on the day.",
+    "bullets": [
+      "Best performer on the day: INFY.NS at +3.36%.",
+      "Weakest on the day: RELIANCE.NS at -0.21%.",
+      "Median one-day move across the watchlist: +0.86%.",
+      "ITC.NS sits furthest below its 52-week high, at -33.7%.",
+      "1 name(s) within 5% of the 52-week high: ICICIBANK.NS."
+    ],
+    "watch_items": [
+      "Highest 30-day realised volatility: INFY.NS at 33.9% annualised.",
+      "60 headlines collected, 6 tagged to a watchlist name by substring match (unverified).",
+      "Commentary model was unavailable, so no qualitative read is included."
+    ],
+    "source": "deterministic-fallback (model returned unusable output twice)",
+    "source_kind": "fallback"
+  },
+  "comps": [
+    {
+      "ticker": "BHARTIARTL.NS",
+      "sector": "Communication Services",
+      "currency": "INR",
+      "last_close": 1973.6999511719,
+      "ret_1d": 0.0008113055,
+      "ret_5d": 0.0431266723,
+      "ret_21d": 0.1233352027,
+      "realised_vol_30d": 0.2654246103,
+      "high_52w": 2135.8200683594,
+      "pct_from_52w_high": -0.0759053254,
+      "market_cap_bn": 12414.3057412506,
+      "pe": 41.5949,
+      "ev_ebitda": 12.402
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 692.799987793,
+      "ret_1d": 0.0139031175,
+      "ret_5d": 0.0,
+      "ret_21d": -0.0224354792,
+      "realised_vol_30d": 0.2228745348,
+      "high_52w": 993.0750732422,
+      "pct_from_52w_high": -0.3023689684,
+      "market_cap_bn": 10802.605443,
+      "pe": 15.300547,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 1398.0,
+      "ret_1d": 0.0082215669,
+      "ret_5d": 0.0027256125,
+      "ret_21d": 0.0577287218,
+      "realised_vol_30d": 0.1905090729,
+      "high_52w": 1460.0,
+      "pct_from_52w_high": -0.0424657534,
+      "market_cap_bn": 9962.5754885132,
+      "pe": 17.037947,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "INFY.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 1185.0,
+      "ret_1d": 0.0335804623,
+      "ret_5d": 0.0270410382,
+      "ret_21d": 0.1920330239,
+      "realised_vol_30d": 0.3393082546,
+      "high_52w": 1654.0083007812,
+      "pct_from_52w_high": -0.2835586137,
+      "market_cap_bn": 4702.487187321,
+      "pe": 15.459388,
+      "ev_ebitda": 1041.542
+    },
+    {
+      "ticker": "ITC.NS",
+      "sector": "Consumer Defensive",
+      "currency": "INR",
+      "last_close": 265.6000061035,
+      "ret_1d": 0.002264174,
+      "ret_5d": 0.0298565816,
+      "ret_21d": 0.0108468358,
+      "realised_vol_30d": 0.2934502544,
+      "high_52w": 400.8021240234,
+      "pct_from_52w_high": -0.3373288459,
+      "market_cap_bn": 3338.5015115784,
+      "pe": 16.818182,
+      "ev_ebitda": 12.246
+    },
+    {
+      "ticker": "LT.NS",
+      "sector": "Industrials",
+      "currency": "INR",
+      "last_close": 3871.6999511719,
+      "ret_1d": 0.0090171881,
+      "ret_5d": 0.0616122707,
+      "ret_21d": 0.0297074338,
+      "realised_vol_30d": 0.2282984722,
+      "high_52w": 4375.3642578125,
+      "pct_from_52w_high": -0.1151136858,
+      "market_cap_bn": 5420.8579162416,
+      "pe": 30.348942,
+      "ev_ebitda": 16.954
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "sector": "Energy",
+      "currency": "INR",
+      "last_close": 1164.9000244141,
+      "ret_1d": -0.002141511,
+      "ret_5d": -0.0210924165,
+      "ret_21d": -0.0186183451,
+      "realised_vol_30d": 0.2429311955,
+      "high_52w": 1584.9718017578,
+      "pct_from_52w_high": -0.2650342277,
+      "market_cap_bn": 17592.2144255,
+      "pe": 21.423862,
+      "ev_ebitda": 11.713
+    },
+    {
+      "ticker": "TCS.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 2502.6000976562,
+      "ret_1d": 0.0099274002,
+      "ret_5d": -0.0108300009,
+      "ret_21d": 0.226911146,
+      "realised_vol_30d": 0.3328501841,
+      "high_52w": 3187.337890625,
+      "pct_from_52w_high": -0.2148306256,
+      "market_cap_bn": 9051.3695437806,
+      "pe": 17.536098,
+      "ev_ebitda": 11.902
+    }
+  ],
+  "headlines": [
+    {
+      "url_hash": "5b3f3f8ab6ecfa49",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US stocks today: Nasdaq ends over 1% lower as AI worries persist",
+      "published_at": "2026-11-02T21:20:46.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-nasdaq-ends-over-1-lower-as-ai-worries-persist/articleshow/135474287.cms",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "5dc61d18ebb533db",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "El Nino could add to US inflation pressures in 2027, San Francisco Fed paper warns",
+      "published_at": "2026-11-02T20:01:04.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/el-nino-could-add-to-us-inflation-pressures-in-2027-san-francisco-fed-paper-warns/articleshow/135473482.cms",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "735f3575d5e9f56a",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US manufacturing strengthens in October, input prices stay high",
+      "published_at": "2026-11-02T19:17:36.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-manufacturing-strengthens-in-october-input-prices-stay-high/articleshow/135472594.cms",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "73d967bc27f5024d",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Meta eyes at least $20 billion from potential bond offerings, Bloomberg News reports",
+      "published_at": "2026-11-02T18:58:02.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/meta-eyes-at-least-20-billion-from-potential-bond-offerings-bloomberg-news-reports/articleshow/135472448.cms",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "7cfde81ac509b984",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Anthropic revenue jumps 1,100% ahead of IPO as AI spending commitments near $900 billion",
+      "published_at": "2026-11-02T18:51:10.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/anthropic-revenue-jumps-1100-ahead-of-ipo-as-ai-spending-commitments-near-900-billion/articleshow/135472235.cms",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "de09f870b3b4e6ba",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "IPO fundraising rises 30% to record \u20b984,400 crore in H1FY27: Report",
+      "published_at": "2026-11-02T17:49:35.000",
+      "url": "https://www.business-standard.com/markets/news/ipo-fundraising-rises-30-to-record-84-400-crore-in-h1fy27-report-126110201078_1.html",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "dbfdc28b6200c1e7",
+      "ticker": "RELIANCE.NS",
+      "source": "Business Standard Markets",
+      "title": "Reliance Industries takes the wheel, surges 12% to steer benchmarks higher",
+      "published_at": "2026-11-02T17:33:44.000",
+      "url": "https://www.business-standard.com/markets/news/reliance-industries-takes-the-wheel-surges-12-to-steer-benchmarks-higher-126110201415_1.html",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "31c68eb06f524b59",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Market Trading Guide: Tata Steel among 5 stocks to buy on Tuesday for healthy returns",
+      "published_at": "2026-11-02T16:27:59.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-trading-guide-tata-steel-among-5-stocks-to-buy-on-tuesday-for-healthy-returns/articleshow/135467317.cms",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "cf9606f66596ccb9",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Oracle plans to raise $20 billion through bonds and stock sales",
+      "published_at": "2026-11-02T15:51:46.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/oracle-plans-to-raise-20-billion-through-bonds-and-stock-sales/articleshow/135466960.cms",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "ba8ee23cc35749b4",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Marvell to buy Lumentum in $115 billion deal in AI data-center bet",
+      "published_at": "2026-11-02T15:50:07.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/marvell-to-buy-lumentum-in-115-billion-deal-in-ai-data-center-bet/articleshow/135466901.cms",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "cc608308f3e40d81",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Ahead of Market: 10 things that will decide stock market action on Tuesday",
+      "published_at": "2026-11-02T15:47:30.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-tuesday/articleshow/135466871.cms",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "d05c196430947b0c",
+      "ticker": "HDFCBANK.NS",
+      "source": "Economic Times Markets",
+      "title": "EAAA India draws HDFC MF, Carnelian Asset, and L&T in Rs 316 crore listing-day bulk deals",
+      "published_at": "2026-11-02T15:45:29.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/eaaa-india-draws-hdfc-mf-carnelian-asset-and-lt-in-rs-316-crore-listing-day-bulk-deals/articleshow/135466785.cms",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "094ffe4387b8ae96",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Why traders are moving away from equity F&O to commodities? Nithin Kamath explains",
+      "published_at": "2026-11-02T15:08:15.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/why-traders-are-moving-away-from-equity-fo-to-commodities-nithin-kamath-explains/articleshow/135466022.cms",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "2294cd32b5727071",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "IPO-bound StockGro's profit jumps 3-fold to Rs 113 cr in FY26 on strong revenue growth",
+      "published_at": "2026-11-02T15:04:47.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ipo-bound-stockgros-profit-jumps-3-fold-to-rs-113-cr-in-fy26-on-strong-revenue-growth/articleshow/135465910.cms",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "7e631bf66ebcb9be",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sebi cuts cooling-off period for OFS by privately listed illiquid InvITs to 8 weeks",
+      "published_at": "2026-11-02T14:59:59.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-cuts-cooling-off-period-for-ofs-by-privately-listed-illiquid-invits-to-8-weeks/articleshow/135465856.cms",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "54abdf1a0bada939",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sri Lotus Developers and Realty promoters to sell 2.38 cr shares via OFS",
+      "published_at": "2026-11-02T14:57:53.000",
+      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/sri-lotus-developers-and-realty-promoters-to-sell-2-38-cr-shares-via-ofs/articleshow/135465830.cms",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "f4db1a9be36477c1",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sebi issues rules for depositary receipts on REITs, InvITs units",
+      "published_at": "2026-11-02T14:47:41.000",
+      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/sebi-issues-rules-for-depositary-receipts-on-reits-invits-units/articleshow/135465653.cms",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "509bde9f8604d8a0",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Fusion Finance swings to Rs 86.5 crore profit as asset quality improves",
+      "published_at": "2026-11-02T14:43:13.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/fusion-finance-swings-to-rs-86-5-crore-profit-as-asset-quality-improves/articleshow/135465579.cms",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "f1b6362fa28397bf",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US stocks today: US stocks rise as oil tumbles on peace hopes, investors eye midterm election",
+      "published_at": "2026-11-02T14:39:18.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-open-higher-as-ai-trade-steadies-oil-falls/articleshow/135465480.cms",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "013c645cb95510ab",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "High-yield US stocks: 10 companies offering dividend yields of up to 16.65%",
+      "published_at": "2026-11-02T14:09:35.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/high-yield-us-stocks-10-companies-offering-dividend-yields-of-up-to-16-65/articleshow/135464561.cms",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "675904133febf108",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Sebi cuts cool-off period for OFS by off-market illiquid Invits to 8 weeks",
+      "published_at": "2026-11-02T14:03:52.000",
+      "url": "https://www.business-standard.com/markets/news/sebi-cuts-ofs-cooling-off-for-privately-listed-illiquid-invits-to-8-weeks-126110201342_1.html",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "8a62497b876a3a16",
+      "ticker": "ITC.NS",
+      "source": "Economic Times Markets",
+      "title": "ITC Q2 Results: Profit falls 18% to Rs 4,229 crore, revenue rises 5%",
+      "published_at": "2026-11-02T13:53:33.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/itc-q2-results-profit-falls-18-to-rs-4229-crore-revenue-rises-5/articleshow/135464317.cms",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "bf507a6763e32a92",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Coforge among 4 stocks that hit 52-week highs and rallied up to 15% in a month",
+      "published_at": "2026-11-02T13:31:31.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/coforge-among-4-stocks-that-hit-52-week-highs-and-rallied-up-to-15-in-a-month/slideshow/135463866.cms",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "f24e2d9d5b3b1647",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Coal India files DRHP to sell 10% stake in subsidiary SECL through IPO",
+      "published_at": "2026-11-02T13:17:21.000",
+      "url": "https://www.business-standard.com/companies/news/coal-india-files-drhp-to-sell-10-stake-in-subsidiary-secl-through-ipo-126110201248_1.html",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    },
+    {
+      "url_hash": "5f32d0f605aeda41",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US Stock Market Highlights: US stocks rise as oil tumbles on Iran peace hopes, investors eye midterm elections",
+      "published_at": "2026-11-02T13:11:31.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-us-midterm-elections-ai-stocks-tech-stocks-openai-anthropic-intel-amd-apple-alphabet-spacex-earnings-oil-prices-treasury-yields-news-2nd-november-2026/liveblog/135463461.cms",
+      "fetched_at": "2026-11-02T21:50:30.268"
+    }
+  ]
+}
