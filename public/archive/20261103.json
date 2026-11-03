@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-03T19:41:30.785279+00:00",
+  "commentary_source": "fallback",
+  "commentary": {
+    "market_tone": "Breadth was risk-on: 5 of 8 names advanced on the day.",
+    "bullets": [
+      "Best performer on the day: RELIANCE.NS at +11.60%.",
+      "Weakest on the day: INFY.NS at -2.03%.",
+      "Median one-day move across the watchlist: +0.56%.",
+      "ITC.NS sits furthest below its 52-week high, at -32.5%.",
+      "1 name(s) within 5% of the 52-week high: ICICIBANK.NS."
+    ],
+    "watch_items": [
+      "Highest 30-day realised volatility: RELIANCE.NS at 40.3% annualised.",
+      "60 headlines collected, 2 tagged to a watchlist name by substring match (unverified).",
+      "Commentary model was unavailable, so no qualitative read is included."
+    ],
+    "source": "deterministic-fallback (model returned unusable output twice)",
+    "source_kind": "fallback"
+  },
+  "comps": [
+    {
+      "ticker": "BHARTIARTL.NS",
+      "sector": "Communication Services",
+      "currency": "INR",
+      "last_close": 1989.9000244141,
+      "ret_1d": 0.0082079716,
+      "ret_5d": 0.0377575095,
+      "ret_21d": 0.1428981979,
+      "realised_vol_30d": 0.2522330972,
+      "high_52w": 2135.8200683594,
+      "pct_from_52w_high": -0.0683203825,
+      "market_cap_bn": 12882.82896411,
+      "pe": 43.164715,
+      "ev_ebitda": 12.81
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 700.0,
+      "ret_1d": 0.0103926275,
+      "ret_5d": 0.0173679419,
+      "ret_21d": -0.0293954685,
+      "realised_vol_30d": 0.2118861503,
+      "high_52w": 993.0750732422,
+      "pct_from_52w_high": -0.295118749,
+      "market_cap_bn": 11196.128926995,
+      "pe": 15.8579235,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 1387.4000244141,
+      "ret_1d": -0.0075822429,
+      "ret_5d": -0.0111190132,
+      "ret_21d": 0.0585991533,
+      "realised_vol_30d": 0.1909353942,
+      "high_52w": 1460.0,
+      "pct_from_52w_high": -0.0497260107,
+      "market_cap_bn": 10228.981392091,
+      "pe": 17.493553,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "INFY.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 1135.0,
+      "ret_1d": -0.0202531579,
+      "ret_5d": -0.0042881943,
+      "ret_21d": 0.1217391184,
+      "realised_vol_30d": 0.3656079364,
+      "high_52w": 1616.9676513672,
+      "pct_from_52w_high": -0.2980688271,
+      "market_cap_bn": 4650.2373296841,
+      "pe": 15.287617,
+      "ev_ebitda": 1029.962
+    },
+    {
+      "ticker": "ITC.NS",
+      "sector": "Consumer Defensive",
+      "currency": "INR",
+      "last_close": 266.3999938965,
+      "ret_1d": 0.0030120022,
+      "ret_5d": 0.022648729,
+      "ret_21d": 0.041031654,
+      "realised_vol_30d": 0.2902250233,
+      "high_52w": 394.6997680664,
+      "pct_from_52w_high": -0.3250566242,
+      "market_cap_bn": 3432.4908559359,
+      "pe": 18.175182,
+      "ev_ebitda": 13.259
+    },
+    {
+      "ticker": "LT.NS",
+      "sector": "Industrials",
+      "currency": "INR",
+      "last_close": 3939.8999023438,
+      "ret_1d": 0.0176149888,
+      "ret_5d": 0.0706249735,
+      "ret_21d": 0.0667406743,
+      "realised_vol_30d": 0.2309735727,
+      "high_52w": 4375.3642578125,
+      "pct_from_52w_high": -0.0995264234,
+      "market_cap_bn": 5432.2777798688,
+      "pe": 30.412878,
+      "ev_ebitda": 16.986
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "sector": "Energy",
+      "currency": "INR",
+      "last_close": 1300.0,
+      "ret_1d": 0.1159755968,
+      "ret_5d": 0.0817107232,
+      "ret_21d": 0.1132996954,
+      "realised_vol_30d": 0.4026931326,
+      "high_52w": 1584.9718017578,
+      "pct_from_52w_high": -0.1797961336,
+      "market_cap_bn": 17699.1209593165,
+      "pe": 21.554054,
+      "ev_ebitda": 11.771
+    },
+    {
+      "ticker": "TCS.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 2501.6999511719,
+      "ret_1d": -0.0003596845,
+      "ret_5d": -0.0131361139,
+      "ret_21d": 0.2120477293,
+      "realised_vol_30d": 0.305900208,
+      "high_52w": 3187.3376464844,
+      "pct_from_52w_high": -0.2151129787,
+      "market_cap_bn": 9041.9625162338,
+      "pe": 17.517876,
+      "ev_ebitda": 11.889
+    }
+  ],
+  "headlines": [
+    {
+      "url_hash": "829d80073b776e54",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Taco Bell sales fall more than expected on cyclosporiasis outbreak hit",
+      "published_at": "2026-11-03T19:02:54.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/taco-bell-sales-fall-more-than-expected-on-cyclosporiasis-outbreak-hit/articleshow/135510804.cms",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "dc7ede70bb053b9e",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Polymarket unit gets US industry organization's approval to be futures broker",
+      "published_at": "2026-11-03T18:35:03.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/polymarket-unit-gets-us-industry-organizations-approval-to-be-futures-broker/articleshow/135510648.cms",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "7e6184aababc7b78",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US midterms put Trump-era crypto boom and prediction markets at risk",
+      "published_at": "2026-11-03T18:09:41.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-midterms-put-trump-era-crypto-boom-and-prediction-markets-at-risk/articleshow/135509801.cms",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "c9bca1f251356f05",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Markets extend gains for fourth day; FPI buying highest in a year",
+      "published_at": "2026-11-03T17:20:16.000",
+      "url": "https://www.business-standard.com/markets/news/markets-extend-gains-for-fourth-day-fpi-buying-highest-in-a-year-126110301699_1.html",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "6de9ae303d3fc66b",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "CleanMax beats Q2 EBITDA estimates, reports strong H1 growth",
+      "published_at": "2026-11-03T16:59:11.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/cleanmax-beats-q2-ebitda-estimates-reports-strong-h1-growth/articleshow/135507102.cms",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "c712df832a1ffc7f",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Bagmane REIT declares Rs 527cr distribution to unitholders for September quarter",
+      "published_at": "2026-11-03T16:58:43.000",
+      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/bagmane-reit-declares-rs-527cr-distribution-to-unitholders-for-september-quarter/articleshow/135506225.cms",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "f9caa5c84dd37871",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Binance says North Korean hackers stole $6.34 billion funds in a technical breach",
+      "published_at": "2026-11-03T16:46:58.000",
+      "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/binance-says-north-korean-hackers-stole-6-34-billion-funds-in-a-technical-breach/articleshow/135506955.cms",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "61447bacd471fec0",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sebi levies Rs 40 lakh penalty on four entities in Axis MF front-running case",
+      "published_at": "2026-11-03T16:35:56.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-levies-rs-40-lakh-penalty-on-four-entities-in-axis-mf-front-running-case/articleshow/135506148.cms",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "4185f8c0add817ed",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Utkarsh Small Finance Bank reports sixth consecutive quarterly loss",
+      "published_at": "2026-11-03T16:24:16.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/utkarsh-small-finance-bank-reports-sixth-consecutive-quarterly-loss/articleshow/135506409.cms",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "d485810f9297cc79",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Nexus Select Trust\u2019s Q2 NOI rises 8% to Rs 504 cr, consumption up 13%",
+      "published_at": "2026-11-03T16:06:11.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/nexus-select-trusts-q2-noi-rises-8-to-rs-504-cr-consumption-up-13/articleshow/135505912.cms",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "b5d8493185862312",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Loan growth, fall in provisions help SBI profits in Q2",
+      "published_at": "2026-11-03T16:03:26.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/loan-growth-fall-in-provisions-help-sbi-profits-in-q2/articleshow/135505841.cms",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "35a5e239ec445c35",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Ahead of Market: 10 things that will decide stock market action on Wednesday",
+      "published_at": "2026-11-03T15:51:49.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-wednesday/articleshow/135505565.cms",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "a018baca0b2ba796",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "MCX Q2 Results: Profit rockets 130% YoY to Rs 455 crore, revenue jumps 114%",
+      "published_at": "2026-11-03T15:14:21.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/mcx-q2-results-profit-rockets-130-yoy-to-rs-455-crore-revenue-jumps-114/articleshow/135504568.cms",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "ccc8425cb7cc49e8",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Motilal Oswal Financial Services announces leadership rejig; appoints new heads across businesses",
+      "published_at": "2026-11-03T15:12:23.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/motilal-oswal-financial-services-announces-leadership-rejig-appoints-new-heads-across-businesses/articleshow/135504517.cms",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "453eaeddc0c4c441",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US stocks today: Technology stocks lift S&P 500 as US midterm vote keeps investors on edge",
+      "published_at": "2026-11-03T14:38:54.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-sp-500-nasdaq-open-higher-as-oil-prices-extend-declines-midterms-on-tap/articleshow/135503356.cms",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "795b22a08edc1885",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "What will new Samvat bring for investors? Experts to discuss at BS webinar",
+      "published_at": "2026-11-03T14:16:36.000",
+      "url": "https://www.business-standard.com/markets/news/what-will-new-samvat-bring-for-investors-experts-to-discuss-at-bs-webinar-126110301735_1.html",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "32cbc461d87aceb5",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "DuPont raises annual profit forecasts on strong healthcare, aerospace demand",
+      "published_at": "2026-11-03T14:14:08.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/dupont-raises-annual-profit-forecasts-on-strong-healthcare-aerospace-demand/articleshow/135502681.cms",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "971dc8919e69f856",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Ferrari nudges up full-year forecasts after beating consensus in Q3",
+      "published_at": "2026-11-03T14:08:36.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/ferrari-nudges-up-full-year-forecasts-after-beating-consensus-in-q3/articleshow/135502546.cms",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "fb00a632a4ce652d",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Prediction markets face US midterms test as election bets soar",
+      "published_at": "2026-11-03T14:03:21.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/prediction-markets-face-us-midterms-test-as-election-bets-soar/articleshow/135502488.cms",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "e2b9c6574a8d77e0",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Rupee extends gains for third day, settles at 94.75 against the dollar",
+      "published_at": "2026-11-03T13:56:55.000",
+      "url": "https://www.business-standard.com/markets/news/rupee-extends-gains-for-third-day-settles-at-94-75-against-the-dollar-126110301693_1.html",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "ff35b18df1729e4d",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "NSE Q2FY27 results: Consolidated net profit rises 23% YoY to \u20b92,578 crore",
+      "published_at": "2026-11-03T13:53:16.000",
+      "url": "https://www.business-standard.com/markets/news/nse-q2fy27-net-profit-rises-23-to-2-578-crore-revenue-grows-10-6-126110301688_1.html",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "55f579c74e6b8b4e",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Bata India Q2 Results: Profit rises 30% at Rs 18 crore, revenue rises to Rs 862 crore",
+      "published_at": "2026-11-03T13:51:08.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/bata-india-q2-results-profit-rises-30-at-rs-18-crore-revenue-rises-to-rs-862-crore/articleshow/135502156.cms",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "47e9ff5102d2f949",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "NSEIX extends trading to 23.5 hours, offers near round-the-clock access",
+      "published_at": "2026-11-03T13:43:20.000",
+      "url": "https://www.business-standard.com/markets/news/nseix-extends-trading-to-23-5-hours-offers-near-round-the-clock-access-126110301668_1.html",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "5f63b2a977a103eb",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Gold ETF inflows slow to \u20b93,300 crore in October as AMCs suspend FoFs",
+      "published_at": "2026-11-03T13:37:55.000",
+      "url": "https://www.business-standard.com/markets/news/gold-etf-inflows-slow-to-3-300-crore-in-october-as-amcs-suspend-fofs-126110301655_1.html",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    },
+    {
+      "url_hash": "f77d779f1ee7a312",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "India bonds end tad higher on softer oil",
+      "published_at": "2026-11-03T13:19:51.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-end-tad-higher-on-softer-oil/articleshow/135501245.cms",
+      "fetched_at": "2026-11-03T19:41:23.576"
+    }
+  ]
+}
