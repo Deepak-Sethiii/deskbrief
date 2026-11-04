@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-04T19:56:44.277015+00:00",
+  "commentary_source": "fallback",
+  "commentary": {
+    "market_tone": "Breadth was risk-on: 7 of 8 names advanced on the day.",
+    "bullets": [
+      "Best performer on the day: BHARTIARTL.NS at +3.77%.",
+      "Weakest on the day: TCS.NS at -0.10%.",
+      "Median one-day move across the watchlist: +1.91%.",
+      "ITC.NS sits furthest below its 52-week high, at -30.6%.",
+      "2 name(s) within 5% of the 52-week high: BHARTIARTL.NS, ICICIBANK.NS."
+    ],
+    "watch_items": [
+      "Highest 30-day realised volatility: RELIANCE.NS at 40.0% annualised.",
+      "60 headlines collected, 1 tagged to a watchlist name by substring match (unverified).",
+      "Commentary model was unavailable, so no qualitative read is included."
+    ],
+    "source": "deterministic-fallback (model returned unusable output twice)",
+    "source_kind": "fallback"
+  },
+  "comps": [
+    {
+      "ticker": "BHARTIARTL.NS",
+      "sector": "Communication Services",
+      "currency": "INR",
+      "last_close": 2065.0,
+      "ret_1d": 0.0377405772,
+      "ret_5d": 0.0435617288,
+      "ret_21d": 0.1860318356,
+      "realised_vol_30d": 0.2491190434,
+      "high_52w": 2135.8200683594,
+      "pct_from_52w_high": -0.0331582559,
+      "market_cap_bn": 12899.0494751544,
+      "pe": 43.219067,
+      "ev_ebitda": 12.824
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 725.5,
+      "ret_1d": 0.0364285714,
+      "ret_5d": 0.0665980403,
+      "ret_21d": 0.0059622681,
+      "realised_vol_30d": 0.2351541219,
+      "high_52w": 993.0750732422,
+      "pct_from_52w_high": -0.269440932,
+      "market_cap_bn": 11368.970614083,
+      "pe": 16.102732,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 1424.5,
+      "ret_1d": 0.0267406479,
+      "ret_5d": 0.0271108046,
+      "ret_21d": 0.0869067805,
+      "realised_vol_30d": 0.2043030813,
+      "high_52w": 1460.0,
+      "pct_from_52w_high": -0.0243150685,
+      "market_cap_bn": 10226.1090912438,
+      "pe": 17.48864,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "INFY.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 1148.0999755859,
+      "ret_1d": 0.0115418287,
+      "ret_5d": 0.0098022995,
+      "ret_21d": 0.1092753387,
+      "realised_vol_30d": 0.3632580864,
+      "high_52w": 1616.9676513672,
+      "pct_from_52w_high": -0.2899672578,
+      "market_cap_bn": 4569.6348361202,
+      "pe": 15.022636,
+      "ev_ebitda": 932.337
+    },
+    {
+      "ticker": "ITC.NS",
+      "sector": "Consumer Defensive",
+      "currency": "INR",
+      "last_close": 273.8999938965,
+      "ret_1d": 0.0281531538,
+      "ret_5d": 0.053461515,
+      "ret_21d": 0.0703399782,
+      "realised_vol_30d": 0.2967646663,
+      "high_52w": 394.6997680664,
+      "pct_from_52w_high": -0.3060548395,
+      "market_cap_bn": 3508.93552268,
+      "pe": 18.57996,
+      "ev_ebitda": 13.515
+    },
+    {
+      "ticker": "LT.NS",
+      "sector": "Industrials",
+      "currency": "INR",
+      "last_close": 3948.1999511719,
+      "ret_1d": 0.0021066649,
+      "ret_5d": 0.0772420523,
+      "ret_21d": 0.0689879395,
+      "realised_vol_30d": 0.2306173367,
+      "high_52w": 4375.3642578125,
+      "pct_from_52w_high": -0.0976294273,
+      "market_cap_bn": 5427.0494085696,
+      "pe": 30.383606,
+      "ev_ebitda": 16.971
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "sector": "Energy",
+      "currency": "INR",
+      "last_close": 1307.9000244141,
+      "ret_1d": 0.0060769419,
+      "ret_5d": 0.0933790986,
+      "ret_21d": 0.120065153,
+      "realised_vol_30d": 0.4003872533,
+      "high_52w": 1584.9718017578,
+      "pct_from_52w_high": -0.1748118024,
+      "market_cap_bn": 17741.071624485,
+      "pe": 21.60514,
+      "ev_ebitda": 11.793
+    },
+    {
+      "ticker": "TCS.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 2499.1000976562,
+      "ret_1d": -0.0010392347,
+      "ret_5d": 0.0008811708,
+      "ret_21d": 0.2043855892,
+      "realised_vol_30d": 0.3061259998,
+      "high_52w": 3187.337890625,
+      "pct_from_52w_high": -0.2159287206,
+      "market_cap_bn": 8813.661193848,
+      "pe": 17.075563,
+      "ev_ebitda": 11.575
+    }
+  ],
+  "headlines": [
+    {
+      "url_hash": "5a432f11e4393ca7",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Bitcoin rebounds with stocks despite threat to crypto agenda",
+      "published_at": "2026-11-04T19:32:16.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/bitcoin-rebounds-with-stocks-despite-threat-to-crypto-agenda/articleshow/135550638.cms",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "4e51847e848258dd",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Markets extend gains on US midterm results as Democrats sweep elections",
+      "published_at": "2026-11-04T17:31:48.000",
+      "url": "https://www.business-standard.com/markets/news/markets-extend-gains-on-us-midterm-results-as-democrats-sweep-elections-126110401953_1.html",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "712ba6936eb11742",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Gold up 3%; experts split on whether rally can sustain in coming months",
+      "published_at": "2026-11-04T17:25:29.000",
+      "url": "https://www.business-standard.com/markets/news/gold-up-3-experts-split-on-whether-rally-can-sustain-in-coming-months-126110402099_1.html",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "2f734b7f3e85349b",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Borderless investors report unauthorised trades in their accounts",
+      "published_at": "2026-11-04T16:59:26.000",
+      "url": "https://www.business-standard.com/markets/news/dozens-of-investors-report-unauthorised-trades-in-borderless-accounts-126110401989_1.html",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "e487dce560be10c5",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "AI data center stocks dip, renewables surge after Democrat sweep in US midterm elections",
+      "published_at": "2026-11-04T16:31:06.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/ai-data-center-stocks-dip-renewables-surge-after-democrat-sweep-in-us-midterm-elections/articleshow/135545518.cms",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "dfafb40279cd1d89",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US Treasury shifts language, opening door to auction size changes",
+      "published_at": "2026-11-04T15:21:43.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-treasury-shifts-language-opening-door-to-auction-size-changes/articleshow/135543878.cms",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "2acb8878aa093417",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Meta draws record orders for debut euro bond sale, Bloomberg News reports",
+      "published_at": "2026-11-04T15:20:06.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/meta-draws-record-orders-for-debut-euro-bond-sale-bloomberg-news-reports/articleshow/135543860.cms",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "9a723df5ee910812",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Gold gains 3% as dollar slides after Democratic midterm gains",
+      "published_at": "2026-11-04T15:18:47.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/gold-gains-3-as-dollar-slides-after-democratic-midterm-gains/articleshow/135543824.cms",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "8348783465adb4a8",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Prediction markets get Democratic win right, with a few surprises",
+      "published_at": "2026-11-04T15:17:04.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/prediction-markets-get-democratic-win-right-with-a-few-surprises/articleshow/135543698.cms",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "814bc084c05b10c7",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Suppliers charging vendors extra for UPI payments before MDR: ISB survey",
+      "published_at": "2026-11-04T15:16:31.000",
+      "url": "https://www.business-standard.com/markets/news/suppliers-charging-vendors-extra-for-upi-payments-before-mdr-isb-survey-126110401916_1.html",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "d3eec1a5beab8359",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Indian bonds rally most since April as oil slides after US midterm verdict",
+      "published_at": "2026-11-04T15:15:23.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-rally-most-since-april-as-oil-slides-after-us-midterm-verdict/articleshow/135543664.cms",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "2f938a6076db65b8",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Aptus Value Housing Finance Q2 profit rises 18% to Rs 267 cr",
+      "published_at": "2026-11-04T15:13:37.000",
+      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/aptus-value-housing-finance-q2-profit-rises-18-to-rs-267-cr/articleshow/135543628.cms",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "ee52baebcaf62b68",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Keystone Realtors Q2 profit jumps 10-fold to Rs 101 cr",
+      "published_at": "2026-11-04T15:12:09.000",
+      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/keystone-realtors-q2-profit-jumps-10-fold-to-rs-101-cr/articleshow/135543604.cms",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "d6acc2748125b976",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Property giant Vonovia 'concerned' over Berlin left's housing plans",
+      "published_at": "2026-11-04T15:10:31.000",
+      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/property-giant-vonovia-concerned-over-berlin-lefts-housing-plans/articleshow/135543553.cms",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "92104718f2eacaf1",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sunday PropTech acquires 89-room hotel in Kolkata, marks entry into city",
+      "published_at": "2026-11-04T15:03:46.000",
+      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/sunday-proptech-acquires-89-room-hotel-in-kolkata-marks-entry-into-city/articleshow/135543130.cms",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "d99b38babb239479",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US stocks today: US stocks rally after Democrats' midterm sweep as AI infrastructure stocks slide",
+      "published_at": "2026-11-04T14:41:36.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-dow-jones-soars-1000-points-at-open-as-democrats-win-congress-data-center-stocks-slide/articleshow/135542698.cms",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "641c2f24328ae7e2",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "New Samvat brings opportunities in mutual funds, equities and gold: Experts",
+      "published_at": "2026-11-04T14:31:29.000",
+      "url": "https://www.business-standard.com/markets/news/new-samvat-brings-opportunities-in-mutual-funds-equities-and-gold-experts-126110401842_1.html",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "3576462b0d187ea3",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Bond yields fall 11 bps, rupee gains as oil prices slide after US midterms",
+      "published_at": "2026-11-04T14:14:05.000",
+      "url": "https://www.business-standard.com/markets/news/bond-yields-fall-11-bps-rupee-gains-as-oil-prices-slide-after-us-midterms-126110401818_1.html",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "99abe69d53888381",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Ather Energy among 15 stocks that hit 52-week highs and rallied up to 30% in a month",
+      "published_at": "2026-11-04T13:37:19.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ather-energy-among-15-stocks-that-hit-52-week-highs-and-rallied-up-to-30-in-a-month/slideshow/135541189.cms",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "c58ade409710658a",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sebi cancels registrations of 8 investment advisers for non-payment of renewal fees",
+      "published_at": "2026-11-04T13:36:09.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-cancels-registrations-of-8-investment-advisers-for-non-payment-of-renewal-fees/articleshow/135540926.cms",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "dd3d91a94ebed005",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Sebi forms working group to review Innovators Growth Platform framework",
+      "published_at": "2026-11-04T13:33:34.000",
+      "url": "https://www.business-standard.com/markets/news/sebi-forms-working-group-to-review-innovators-growth-platform-framework-126110401649_1.html",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "504124ef5b527db4",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US Stock Market Live Updates: Dow soars 1,500 points as Brent oil's price drops below $95 per barrel on Democrat win, Iran peace deal hopes",
+      "published_at": "2026-11-04T13:12:18.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-amd-nvidia-tesla-amazon-meta-ai-stocks-us-midterm-election-results-democrat-win-treasury-yield-news-4th-november-2026/liveblog/135540466.cms",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "64602f7d77ac8dca",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "BSE Q2 net profit jumps 45% to \u20b9809 crore, board clears BKC plot proposal",
+      "published_at": "2026-11-04T12:59:55.000",
+      "url": "https://www.business-standard.com/companies/news/bse-q2-net-profit-jumps-45-to-809-crore-board-clears-bkc-plot-proposal-126110401578_1.html",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "59e1633d2e926174",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Democratic victory in midterm elections adds a new twist to stock markets' Iran war, AI, and debt worries",
+      "published_at": "2026-11-04T12:29:31.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/democratic-sweep-adds-new-twist-to-markets-iran-ai-and-debt-worries/articleshow/135539439.cms",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    },
+    {
+      "url_hash": "e06bb546a4d6ff54",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Beyond Equity: Jiraaf\u2019s Saurav Ghosh on how to customise your portfolio, and the importance of bonds",
+      "published_at": "2026-11-04T12:18:00.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/beyond-equity-jiraafs-saurav-ghosh-on-how-to-customise-your-portfolio-and-the-importance-of-bonds/articleshow/135538953.cms",
+      "fetched_at": "2026-11-04T19:56:36.604"
+    }
+  ]
+}
