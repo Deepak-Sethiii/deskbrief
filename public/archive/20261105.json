@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-05T20:10:09.923804+00:00",
+  "commentary_source": "fallback",
+  "commentary": {
+    "market_tone": "Breadth was mixed: 4 of 8 names advanced on the day.",
+    "bullets": [
+      "Best performer on the day: ITC.NS at +2.23%.",
+      "Weakest on the day: TCS.NS at -2.52%.",
+      "Median one-day move across the watchlist: +0.05%.",
+      "INFY.NS sits furthest below its 52-week high, at -30.2%.",
+      "2 name(s) within 5% of the 52-week high: BHARTIARTL.NS, ICICIBANK.NS."
+    ],
+    "watch_items": [
+      "Highest 30-day realised volatility: RELIANCE.NS at 40.0% annualised.",
+      "60 headlines collected, 3 tagged to a watchlist name by substring match (unverified).",
+      "Commentary model was unavailable, so no qualitative read is included."
+    ],
+    "source": "deterministic-fallback (model returned unusable output twice)",
+    "source_kind": "fallback"
+  },
+  "comps": [
+    {
+      "ticker": "BHARTIARTL.NS",
+      "sector": "Communication Services",
+      "currency": "INR",
+      "last_close": 2067.6000976562,
+      "ret_1d": 0.0012591272,
+      "ret_5d": 0.0613418837,
+      "ret_21d": 0.1616383332,
+      "realised_vol_30d": 0.2470337618,
+      "high_52w": 2135.8200683594,
+      "pct_from_52w_high": -0.0319408792,
+      "market_cap_bn": 12832.2958335486,
+      "pe": 42.9954,
+      "ev_ebitda": 12.766
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 736.700012207,
+      "ret_1d": 0.015437646,
+      "ret_5d": 0.075003685,
+      "ret_21d": 0.0452611024,
+      "realised_vol_30d": 0.2396411273,
+      "high_52w": 993.0750732422,
+      "pct_from_52w_high": -0.2581628197,
+      "market_cap_bn": 11728.5430524,
+      "pe": 16.612022,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 1424.0999755859,
+      "ret_1d": -0.0002808174,
+      "ret_5d": 0.033754356,
+      "ret_21d": 0.0691441258,
+      "realised_vol_30d": 0.2036449115,
+      "high_52w": 1460.0,
+      "pct_from_52w_high": -0.0245890578,
+      "market_cap_bn": 10771.2224955,
+      "pe": 18.420729,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "INFY.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 1128.1999511719,
+      "ret_1d": -0.0173330066,
+      "ret_5d": 0.0275066797,
+      "ret_21d": 0.1308615205,
+      "realised_vol_30d": 0.366792563,
+      "high_52w": 1616.9676513672,
+      "pct_from_52w_high": -0.30227426,
+      "market_cap_bn": 4728.4095973114,
+      "pe": 15.544608,
+      "ev_ebitda": 964.753
+    },
+    {
+      "ticker": "ITC.NS",
+      "sector": "Consumer Defensive",
+      "currency": "INR",
+      "last_close": 280.0,
+      "ret_1d": 0.0222709246,
+      "ret_5d": 0.0789980732,
+      "ret_21d": 0.0412793096,
+      "realised_vol_30d": 0.3025109208,
+      "high_52w": 389.8845825195,
+      "pct_from_52w_high": -0.2818387478,
+      "market_cap_bn": 3494.5238232118,
+      "pe": 18.50365,
+      "ev_ebitda": 13.457
+    },
+    {
+      "ticker": "LT.NS",
+      "sector": "Industrials",
+      "currency": "INR",
+      "last_close": 3944.3999023438,
+      "ret_1d": -0.0009624763,
+      "ret_5d": 0.0376449772,
+      "ret_21d": 0.051839974,
+      "realised_vol_30d": 0.2286122092,
+      "high_52w": 4375.3642578125,
+      "pct_from_52w_high": -0.0984979376,
+      "market_cap_bn": 5572.3430952,
+      "pe": 31.19704,
+      "ev_ebitda": 17.378
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "sector": "Energy",
+      "currency": "INR",
+      "last_close": 1311.0,
+      "ret_1d": 0.0023701931,
+      "ret_5d": 0.1321243523,
+      "ret_21d": 0.1050235781,
+      "realised_vol_30d": 0.3998069495,
+      "high_52w": 1584.9718017578,
+      "pct_from_52w_high": -0.172855947,
+      "market_cap_bn": 17773.549558809,
+      "pe": 21.644693,
+      "ev_ebitda": 11.81
+    },
+    {
+      "ticker": "TCS.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 2436.0,
+      "ret_1d": -0.0252491278,
+      "ret_5d": -0.0097560976,
+      "ret_21d": 0.1582246104,
+      "realised_vol_30d": 0.3156379041,
+      "high_52w": 3187.337890625,
+      "pct_from_52w_high": -0.2357258365,
+      "market_cap_bn": 9029.6610186726,
+      "pe": 17.494041,
+      "ev_ebitda": 11.872
+    }
+  ],
+  "headlines": [
+    {
+      "url_hash": "25049a29432f3a17",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "JP Morgan to add Philippines and Saudi Arabia to key EM bond index over 10 months",
+      "published_at": "2026-11-05T19:26:01.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/jp-morgan-to-add-philippines-and-saudi-arabia-to-key-em-bond-index-over-10-months/articleshow/135585489.cms",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "1551c9dad6df095f",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "The average US 30-year mortgage rate falls to 7.18% this week, its third straight decline",
+      "published_at": "2026-11-05T19:24:21.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/the-average-us-30-year-mortgage-rate-falls-to-7-18-this-week-its-third-straight-decline-/articleshow/135585420.cms",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "afc31ac49919df8d",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US yields fall in choppy session as oil rises and equities sink",
+      "published_at": "2026-11-05T19:19:17.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-yields-fall-in-choppy-session-as-oil-rises-and-equities-sink/articleshow/135585328.cms",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "c04bb37c3dc092b4",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Early Diwali cheer: Markets see fireworks; rupee rises, bond yields ease",
+      "published_at": "2026-11-05T18:25:18.000",
+      "url": "https://www.business-standard.com/markets/news/early-diwali-cheer-markets-see-fireworks-rupee-rises-bond-yields-ease-126110502021_1.html",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "7d10f6f2b7118ab2",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Reserve Bank of India may hike rates by up to 75 bps more: Uday Kotak",
+      "published_at": "2026-11-05T18:17:04.000",
+      "url": "https://www.business-standard.com/markets/news/reserve-bank-of-india-may-hike-rates-by-up-to-75-bps-more-uday-kotak-126110501915_1.html",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "dc8f2d06cb7d31a4",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Paras Healthcare posts Rs 40 crore Q2 net profit in first results after listing",
+      "published_at": "2026-11-05T16:32:07.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/paras-healthcare-posts-rs-40-crore-q2-net-profit-in-first-results-after-listing/articleshow/135580435.cms",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "7d3ece73188500de",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Godfrey Phillips Q2 profit down 37% to Rs 190 cr; revenue up twofold at Rs 4,198 cr",
+      "published_at": "2026-11-05T15:39:02.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/godfrey-phillips-q2-profit-down-37-to-rs-190-cr-revenue-up-twofold-at-rs-4198-cr/articleshow/135578939.cms",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "4b657edcbd33a729",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Apple seeks about $7 billion from bond sale, Bloomberg News reports",
+      "published_at": "2026-11-05T15:37:12.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/apple-seeks-about-7-billion-from-bond-sale-bloomberg-news-reports/articleshow/135578897.cms",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "c23d936fcdd7cac8",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "FPIs turn net buyers in the second half of October, shows data",
+      "published_at": "2026-11-05T15:34:33.000",
+      "url": "https://www.business-standard.com/markets/news/fpis-were-net-buyers-in-2nd-half-of-oct-pumped-13k-cr-into-equities-126110501860_1.html",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "fe136e32d0119d2e",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Qualcomm shares slump 9% as weak smartphone chip sales overshadow data-center momentum",
+      "published_at": "2026-11-05T15:29:36.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/qualcomm-shares-9-slump-as-weak-smartphone-chip-sales-overshadow-data-center-momentum/articleshow/135578695.cms",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "4102981b6303705d",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Elon Musk gambled $445 million to boost Republicans in midterms and came up short",
+      "published_at": "2026-11-05T15:27:55.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/elon-musk-gambled-445-million-to-boost-republicans-in-midterms-and-came-up-short/articleshow/135578644.cms",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "c5f7ca0882a59a3b",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Emerging markets lose $33.8 billion in October as investors flee Asian stocks",
+      "published_at": "2026-11-05T15:09:12.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/emerging-market-outflows-hit-33-8-billion-us-midterms-offer-some-relief/articleshow/135578199.cms",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "d5018040c54266e3",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Nasdaq tumbles over 3% as tech stocks extend selloff after Democrats sweep midterms; Tesla plunges 9%, chipmakers slide",
+      "published_at": "2026-11-05T14:40:26.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-nasdaq-falls-at-open-after-midterms-fueled-surge-as-chip-data-center-stocks-fall/articleshow/135577537.cms",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "3070428564bfd0e4",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Signature Global clocks Rs 67 cr profit in Q2 vs loss yr ago, revenue rises over 2-fold",
+      "published_at": "2026-11-05T14:40:22.000",
+      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/signature-global-clocks-rs-67-cr-profit-in-q2-vs-loss-yr-ago-revenue-rises-over-2-fold/articleshow/135577590.cms",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "8da22aa9a96abd2f",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Glenmark Pharma Q2 Results: Net profit plunges 56% to Rs 264 crore, revenue down at Rs 4,247 cr",
+      "published_at": "2026-11-05T14:38:54.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/glenmark-pharma-q2-results-net-profit-plunges-56-to-rs-264-crore-revenue-down-at-rs-4247-cr/articleshow/135577516.cms",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "44ad828652a25f7b",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Gold, Silver, Stocks: Why Bonds Deserve a Place on Your Dhanteras Shopping List",
+      "published_at": "2026-11-05T14:16:16.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/gold-silver-stocks-why-bonds-deserve-a-place-on-your-dhanteras-shopping-list/articleshow/135576862.cms",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "a5faf2e1434354b7",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Rupee hits over one-month high, 10-year bond yield falls to 7.17%",
+      "published_at": "2026-11-05T14:15:54.000",
+      "url": "https://www.business-standard.com/markets/news/rupee-hits-over-one-month-high-10-year-bond-yield-falls-to-7-17-126110501865_1.html",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "324d44192567490e",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sebi revises currency derivative norms for domestic investors, FPIs; allows to trade up to USD 5 mn",
+      "published_at": "2026-11-05T14:03:58.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-revises-currency-derivative-norms-for-domestic-investors-fpis-allows-to-trade-up-to-usd-5-mn/articleshow/135576552.cms",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "6097f8415fa6fe62",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Fed's Beth Hammack favors gradual rate-hike path to lower inflation",
+      "published_at": "2026-11-05T14:02:00.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/feds-beth-hammack-favors-gradual-rate-hike-path-to-lower-inflation/articleshow/135576467.cms",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "e5cc791812ad8c13",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Trump's Loss, Wall Street's Gain? What Could Change for AI, Defence, Crypto and Elon Musk",
+      "published_at": "2026-11-05T13:40:36.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/trumps-loss-wall-streets-gain-what-could-change-for-ai-defence-crypto-and-elon-musk/videoshow/135575972.cms",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "c9f27be9caa96edd",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "AMC stocks rebound as equity market recovery lifts earnings expectations",
+      "published_at": "2026-11-05T13:38:02.000",
+      "url": "https://www.business-standard.com/markets/stock-market-news/amc-stocks-rebound-as-equity-market-recovery-lifts-earnings-expectations-126110501795_1.html",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "84f8260dfdbea5e2",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Sebi allows mutual funds to net cash market obligations from April",
+      "published_at": "2026-11-05T13:26:35.000",
+      "url": "https://www.business-standard.com/markets/news/sebi-allows-mutual-funds-to-net-cash-market-obligations-from-april-126110501727_1.html",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "ae755692c4ffa455",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Stock Market Live Updates: Nasdaq drops 5%, Dow Jones 1,600 pts as AI selloff intensifies",
+      "published_at": "2026-11-05T13:10:30.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-qualcomm-nvidia-coreweave-tesla-amazon-meta-ai-stocks-data-center-stocks-semiconductor-stocks-brent-crude-us-jobs-report-federal-reserve-treasury-yield-news-5th-november-2026/liveblog/135575228.cms",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "872d3dc84530a4e4",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Bank of England hikes rates to 4%, first raise since 2023, says more may come amid high UK inflation",
+      "published_at": "2026-11-05T13:06:47.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/bank-of-england-hikes-rates-to-4-first-raise-since-2023-says-more-may-come-amid-high-uk-inflation/articleshow/135574865.cms",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    },
+    {
+      "url_hash": "7cc803b3a8183865",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Planning to buy gold this Dhanteras? Experts advise caution amid volatility",
+      "published_at": "2026-11-05T12:50:41.000",
+      "url": "https://www.business-standard.com/markets/news/planning-to-buy-gold-this-dhanteras-experts-advise-caution-amid-volatility-126110501704_1.html",
+      "fetched_at": "2026-11-05T20:10:02.620"
+    }
+  ]
+}
