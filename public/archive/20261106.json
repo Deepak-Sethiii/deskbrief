@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-06T19:36:59.485483+00:00",
+  "commentary_source": "fallback",
+  "commentary": {
+    "market_tone": "Breadth was risk-on: 6 of 8 names advanced on the day.",
+    "bullets": [
+      "Best performer on the day: ICICIBANK.NS at +5.33%.",
+      "Weakest on the day: BHARTIARTL.NS at -0.52%.",
+      "Median one-day move across the watchlist: +2.56%.",
+      "ITC.NS sits furthest below its 52-week high, at -28.3%.",
+      "2 name(s) within 5% of the 52-week high: BHARTIARTL.NS, ICICIBANK.NS."
+    ],
+    "watch_items": [
+      "Highest 30-day realised volatility: RELIANCE.NS at 40.0% annualised.",
+      "60 headlines collected, 2 tagged to a watchlist name by substring match (unverified).",
+      "Commentary model was unavailable, so no qualitative read is included."
+    ],
+    "source": "deterministic-fallback (model returned unusable output twice)",
+    "source_kind": "fallback"
+  },
+  "comps": [
+    {
+      "ticker": "BHARTIARTL.NS",
+      "sector": "Communication Services",
+      "currency": "INR",
+      "last_close": 2056.8999023438,
+      "ret_1d": -0.0051751764,
+      "ret_5d": 0.0429998113,
+      "ret_21d": 0.1360949474,
+      "realised_vol_30d": 0.2481512512,
+      "high_52w": 2135.8200683594,
+      "pct_from_52w_high": -0.0369507559,
+      "market_cap_bn": 13153.7069462736,
+      "pe": 41.48848,
+      "ev_ebitda": 12.489
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 760.0,
+      "ret_1d": 0.0316275111,
+      "ret_5d": 0.1122493979,
+      "ret_21d": 0.0682408981,
+      "realised_vol_30d": 0.2560434798,
+      "high_52w": 993.0750732422,
+      "pct_from_52w_high": -0.234700356,
+      "market_cap_bn": 12164.5053434925,
+      "pe": 17.229507,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 1500.0,
+      "ret_1d": 0.0532968371,
+      "ret_5d": 0.0817827971,
+      "ret_21d": 0.1170687708,
+      "realised_vol_30d": 0.2495960907,
+      "high_52w": 1500.0,
+      "pct_from_52w_high": 0.0,
+      "market_cap_bn": 11282.5545587008,
+      "pe": 19.2951,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "INFY.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 1167.4000244141,
+      "ret_1d": 0.0347456789,
+      "ret_5d": 0.0415545063,
+      "ret_21d": 0.1778293206,
+      "realised_vol_30d": 0.3750345604,
+      "high_52w": 1616.9676513672,
+      "pct_from_52w_high": -0.2780313054,
+      "market_cap_bn": 4785.1148691654,
+      "pe": 15.731026,
+      "ev_ebitda": 976.33
+    },
+    {
+      "ticker": "ITC.NS",
+      "sector": "Consumer Defensive",
+      "currency": "INR",
+      "last_close": 278.8500061035,
+      "ret_1d": -0.0041071211,
+      "ret_5d": 0.052264174,
+      "ret_21d": 0.0455567804,
+      "realised_vol_30d": 0.2997728309,
+      "high_52w": 389.1694641113,
+      "pct_from_52w_high": -0.2834740857,
+      "market_cap_bn": 3548.4110473102,
+      "pe": 18.788984,
+      "ev_ebitda": 13.677
+    },
+    {
+      "ticker": "LT.NS",
+      "sector": "Industrials",
+      "currency": "INR",
+      "last_close": 4050.0,
+      "ret_1d": 0.0267721581,
+      "ret_5d": 0.0554845839,
+      "ret_21d": 0.074270557,
+      "realised_vol_30d": 0.2363814611,
+      "high_52w": 4375.3642578125,
+      "pct_from_52w_high": -0.0743627818,
+      "market_cap_bn": 5665.4906575568,
+      "pe": 31.718533,
+      "ev_ebitda": 17.639
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "sector": "Energy",
+      "currency": "INR",
+      "last_close": 1313.4000244141,
+      "ret_1d": 0.0018306822,
+      "ret_5d": 0.1250642427,
+      "ret_21d": 0.0783251432,
+      "realised_vol_30d": 0.3996027607,
+      "high_52w": 1584.9718017578,
+      "pct_from_52w_high": -0.1713417091,
+      "market_cap_bn": 17862.8638782,
+      "pe": 21.75346,
+      "ev_ebitda": 11.858
+    },
+    {
+      "ticker": "TCS.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 2495.6999511719,
+      "ret_1d": 0.0245073691,
+      "ret_5d": 0.0071428374,
+      "ret_21d": 0.1947463305,
+      "realised_vol_30d": 0.318116022,
+      "high_52w": 3187.337890625,
+      "pct_from_52w_high": -0.2169954875,
+      "market_cap_bn": 9039.791663723,
+      "pe": 17.513668,
+      "ev_ebitda": 11.886
+    }
+  ],
+  "headlines": [
+    {
+      "url_hash": "f67cf0e6974ae389",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Samvat 2082: Commodities witness sharp volatility as crude surges",
+      "published_at": "2026-11-06T18:04:28.000",
+      "url": "https://www.business-standard.com/markets/news/samvat-2082-commodities-witness-sharp-volatility-as-crude-surges-126110601860_1.html",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "82bfe9cc0812c3bc",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Best-ever Samvat for IPOs: Record \u20b92.23 trillion raised, up 19.6%",
+      "published_at": "2026-11-06T18:02:09.000",
+      "url": "https://www.business-standard.com/markets/ipo/best-ever-samvat-for-ipos-record-2-23-trillion-raised-up-19-6-126110601904_1.html",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "b3ee780dcc0d636b",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Weakest Samvat in 15 years ends on a high for mkts as Sensex, Nifty rally",
+      "published_at": "2026-11-06T17:52:49.000",
+      "url": "https://www.business-standard.com/markets/news/weakest-samvat-in-15-years-ends-on-a-high-for-mkts-as-sensex-nifty-rally-126110601769_1.html",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "595aae0f06461198",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Street basks in Diwali glow: Benchmark indices post best week in 6 years",
+      "published_at": "2026-11-06T17:51:19.000",
+      "url": "https://www.business-standard.com/markets/news/street-basks-in-diwali-glow-benchmark-indices-post-best-week-in-6-years-126110602064_1.html",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "ce1fe3b4a5bdf612",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "This Samvat, can large companies learn to think like entrepreneurs?",
+      "published_at": "2026-11-06T15:52:24.000",
+      "url": "https://www.business-standard.com/companies/news/this-samvat-can-large-companies-learn-to-think-like-entrepreneurs-126110601936_1.html",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "a5a7e42b45b53416",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Sebi warns Dabur India over delay in disclosing USFDA warning letter",
+      "published_at": "2026-11-06T15:23:58.000",
+      "url": "https://www.business-standard.com/markets/news/sebi-warns-dabur-india-over-delay-in-disclosing-usfda-warning-letter-126110601897_1.html",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "520dfbc73746b68b",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US stocks today: Nasdaq rebounds as chip stocks recover from steep losses, rate fears persist",
+      "published_at": "2026-11-06T14:40:26.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-nasdaq-opens-higher-as-chips-pare-losses-rate-hike-fears-linger/articleshow/135611515.cms",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "79993c1c8ac20bd4",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Samvat 2082: Record DII buying more than makes up for record FPI outflow",
+      "published_at": "2026-11-06T14:38:20.000",
+      "url": "https://www.business-standard.com/markets/news/record-fii-selling-of-4-55-trillion-meets-record-dii-buying-in-samvat-2082-126110601834_1.html",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "6a70735c9a6cd3b8",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Pressure on rupee continues in Samvat 2082; 10-year bond yields harden",
+      "published_at": "2026-11-06T14:10:01.000",
+      "url": "https://www.business-standard.com/markets/news/pressure-on-rupee-continues-in-samvat-2082-10-year-bond-yields-harden-126110601774_1.html",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "2e7d3264245995af",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Angel One overtakes Zerodha to become 2nd-largest broker by active clients",
+      "published_at": "2026-11-06T13:59:01.000",
+      "url": "https://www.business-standard.com/companies/news/angel-one-overtakes-zerodha-to-become-2nd-largest-broker-by-active-clients-126110601754_1.html",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "0a418c3cf41d15df",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Bombay HC plea seeks RBI direction for Tata Sons' stock market listing",
+      "published_at": "2026-11-06T13:45:56.000",
+      "url": "https://www.business-standard.com/companies/news/bombay-hc-plea-seeks-rbi-direction-for-tata-sons-stock-market-listing-126110601724_1.html",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "86c704ead399142f",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Sagar Defence, Encube Ethicals among 4 firms to secure Sebi's nod for IPOs",
+      "published_at": "2026-11-06T13:26:15.000",
+      "url": "https://www.business-standard.com/markets/ipo/sagar-defence-encube-ethicals-among-4-firms-to-secure-sebi-s-nod-for-ipos-126110601677_1.html",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "280046764345a7ae",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Stock Market Live Updates: US stocks rebound as chip stocks recover, Nasdaq gains over 1%",
+      "published_at": "2026-11-06T13:09:13.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-amd-intel-broadcom-micron-tesla-airbnb-ai-chip-stocks-jobs-report-treasury-yields-iran-war-democrat-midterm-inflation-oil-prices-6th-november-2026/liveblog/135609029.cms",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "7e60667b513c5b07",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Ecom, qcom companies see consumer spending surge ahead of Diwali",
+      "published_at": "2026-11-06T13:05:14.000",
+      "url": "https://www.business-standard.com/markets/news/ecom-qcom-companies-gear-up-for-diwali-rush-with-expanded-offerings-126110601644_1.html",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "483c7a8a3e6f633e",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Rupee hits six-month high of 93.91 against dollar on oil price decline",
+      "published_at": "2026-11-06T12:37:53.000",
+      "url": "https://www.business-standard.com/economy/news/rupee-hits-six-month-high-of-93-91-against-dollar-on-oil-price-decline-126110601558_1.html",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "ba8c041ce658cf1f",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Investing in US stocks from India: Check how these 5 platforms stack up",
+      "published_at": "2026-11-06T12:13:49.000",
+      "url": "https://www.business-standard.com/markets/news/investing-in-us-stocks-from-india-check-how-these-5-platforms-stack-up-126110601421_1.html",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "c59a364713b489d7",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "India's 10-year bond posts best week in 7 years, leads emerging Asia as oil slides",
+      "published_at": "2026-11-06T12:02:52.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/indias-10-year-bond-posts-best-week-in-7-years-leads-emerging-asia-as-oil-slides/articleshow/135606792.cms",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "54a5e7aeef41f248",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "British Airways parent profit drops on higher fuel costs",
+      "published_at": "2026-11-06T11:30:13.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/british-airways-parent-profit-drops-on-higher-fuel-costs/articleshow/135605804.cms",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "bfa9dcc2c0f5023c",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Trump Media's investors lost $2.2 billion while Trump holds $460 million stake",
+      "published_at": "2026-11-06T11:28:37.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/trump-medias-investors-lost-2-2-billion-while-trump-holds-460-million-stake/articleshow/135605723.cms",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "1dbe2ca9958d8cd0",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Copper price falls for 4th day, heads for worst week since March on AI rout",
+      "published_at": "2026-11-06T11:24:17.000",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/news/copper-falls-for-4th-day-heads-for-worst-week-since-march-on-ai-rout/articleshow/135605625.cms",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "bfe0bf8d80cd60e0",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Siemens Q2 Results: Profit grows 5% to Rs 504 crore",
+      "published_at": "2026-11-06T11:22:53.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/siemens-q2-results-profit-grows-5-to-rs-504-crore/articleshow/135605589.cms",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "2aff9b732b388275",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Indian rupee strengthens past 94/$ as oil slides, foreign inflows return",
+      "published_at": "2026-11-06T10:35:18.000",
+      "url": "https://economictimes.indiatimes.com/markets/forex/indian-rupee-strengthens-past-94/-as-oil-slides-foreign-inflows-return/articleshow/135604040.cms",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "28f724c15514e783",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Diwali 2026: Is Samvat 2083 the start of Dalal Street\u2019s next big rally?",
+      "published_at": "2026-11-06T10:15:01.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/diwali-2026-is-samvat-2083-the-start-of-dalal-streets-next-big-rally/videoshow/135603351.cms",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "4e3baa6dafc7fc2e",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "12 midcap stocks deliver returns of up to 136% in FY27 so far",
+      "published_at": "2026-11-06T10:03:29.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/12-midcap-stocks-deliver-returns-of-up-to-136-in-fy27-so-far/slideshow/135603584.cms",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    },
+    {
+      "url_hash": "983dc49ddd1f211e",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Pharma stocks rally: Aurobindo, Divi's, Glenmark, Symbiotec hit new highs",
+      "published_at": "2026-11-06T09:45:15.000",
+      "url": "https://www.business-standard.com/markets/news/pharma-stocks-rally-aurobindo-divi-s-glenmark-symbiotec-sai-life-hit-new-highs-126110601011_1.html",
+      "fetched_at": "2026-11-06T19:36:51.595"
+    }
+  ]
+}
