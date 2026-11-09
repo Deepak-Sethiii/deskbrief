@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-09T22:35:29.653316+00:00",
+  "commentary_source": "fallback",
+  "commentary": {
+    "market_tone": "Breadth was mixed: 4 of 8 names advanced on the day.",
+    "bullets": [
+      "Best performer on the day: LT.NS at +1.63%.",
+      "Weakest on the day: INFY.NS at -2.31%.",
+      "Median one-day move across the watchlist: -0.30%.",
+      "INFY.NS sits furthest below its 52-week high, at -28.6%.",
+      "3 name(s) within 5% of the 52-week high: BHARTIARTL.NS, ICICIBANK.NS, LT.NS."
+    ],
+    "watch_items": [
+      "Highest 30-day realised volatility: RELIANCE.NS at 39.2% annualised.",
+      "60 headlines collected, 3 tagged to a watchlist name by substring match (unverified).",
+      "Commentary model was unavailable, so no qualitative read is included."
+    ],
+    "source": "deterministic-fallback (model returned unusable output twice)",
+    "source_kind": "fallback"
+  },
+  "comps": [
+    {
+      "ticker": "BHARTIARTL.NS",
+      "sector": "Communication Services",
+      "currency": "INR",
+      "last_close": 2072.1000976562,
+      "ret_1d": -0.0166571063,
+      "ret_5d": 0.0413086448,
+      "ret_21d": 0.1482323649,
+      "realised_vol_30d": 0.2500680498,
+      "high_52w": 2135.8200683594,
+      "pct_from_52w_high": -0.0298339601,
+      "market_cap_bn": 12934.6039521238,
+      "pe": 40.7974,
+      "ev_ebitda": 12.849
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 798.1500244141,
+      "ret_1d": 0.0125594981,
+      "ret_5d": 0.1402143206,
+      "ret_21d": 0.1529794502,
+      "realised_vol_30d": 0.2738068938,
+      "high_52w": 993.0750732422,
+      "pct_from_52w_high": -0.1962843033,
+      "market_cap_bn": 12317.2854258085,
+      "pe": 17.445902,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 1589.0,
+      "ret_1d": 0.011328952,
+      "ret_5d": 0.1453077498,
+      "ret_21d": 0.1779095626,
+      "realised_vol_30d": 0.2755293188,
+      "high_52w": 1589.0,
+      "pct_from_52w_high": 0.0,
+      "market_cap_bn": 11410.373723126,
+      "pe": 19.513693,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "INFY.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 1154.0999755859,
+      "ret_1d": -0.0231082176,
+      "ret_5d": 0.0168281723,
+      "ret_21d": 0.1840897367,
+      "realised_vol_30d": 0.3791762653,
+      "high_52w": 1616.9676513672,
+      "pct_from_52w_high": -0.2862566084,
+      "market_cap_bn": 4674.539490164,
+      "pe": 15.239666,
+      "ev_ebitda": 953.755
+    },
+    {
+      "ticker": "ITC.NS",
+      "sector": "Consumer Defensive",
+      "currency": "INR",
+      "last_close": 278.799987793,
+      "ret_1d": -0.0153629038,
+      "ret_5d": 0.0465465247,
+      "ret_21d": 0.0933332855,
+      "realised_vol_30d": 0.3053298426,
+      "high_52w": 389.1694641113,
+      "pct_from_52w_high": -0.2836026114,
+      "market_cap_bn": 3493.8970746054,
+      "pe": 18.500332,
+      "ev_ebitda": 13.454
+    },
+    {
+      "ticker": "LT.NS",
+      "sector": "Industrials",
+      "currency": "INR",
+      "last_close": 4185.0,
+      "ret_1d": 0.0163440274,
+      "ret_5d": 0.0622097271,
+      "ret_21d": 0.1544508806,
+      "realised_vol_30d": 0.2366328791,
+      "high_52w": 4375.3642578125,
+      "pct_from_52w_high": -0.0435082079,
+      "market_cap_bn": 5758.08786504,
+      "pe": 32.236942,
+      "ev_ebitda": 17.898
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "sector": "Energy",
+      "currency": "INR",
+      "last_close": 1324.4000244141,
+      "ret_1d": 0.0033333518,
+      "ret_5d": 0.0187692495,
+      "ret_21d": 0.1242784588,
+      "realised_vol_30d": 0.3924546045,
+      "high_52w": 1584.9718017578,
+      "pct_from_52w_high": -0.1644015225,
+      "market_cap_bn": 17922.4070881766,
+      "pe": 21.89091,
+      "ev_ebitda": 11.89
+    },
+    {
+      "ticker": "TCS.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 2475.3999023438,
+      "ret_1d": -0.0092455864,
+      "ret_5d": -0.010512871,
+      "ret_21d": 0.198727976,
+      "realised_vol_30d": 0.3199505539,
+      "high_52w": 3187.3376464844,
+      "pct_from_52w_high": -0.2233643947,
+      "market_cap_bn": 8956.2134887283,
+      "pe": 17.351744,
+      "ev_ebitda": 11.771
+    }
+  ],
+  "headlines": [
+    {
+      "url_hash": "a5f9e3d9e88de9c7",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Trump administration's embrace of \"perp\" futures sets off risk alarms for Wall Street stalwarts",
+      "published_at": "2026-11-09T16:58:59.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/trump-administrations-embrace-of-perp-futures-sets-off-risk-alarms-for-wall-street-stalwarts/articleshow/135688561.cms",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "7af76a3b82001c28",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US dollar dips as easing AI and Mideast worries limit its appeal",
+      "published_at": "2026-11-09T16:16:36.000",
+      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/us-dollar-dips-as-easing-ai-and-mideast-worries-limit-its-appeal/articleshow/135687593.cms",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "243fe2a3edbcda67",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "HSBC upgrades Indian equities to 'overweight', cuts China to 'neutral'",
+      "published_at": "2026-11-09T15:07:33.000",
+      "url": "https://www.business-standard.com/markets/news/hsbc-upgrades-indian-equities-to-overweight-cuts-china-to-neutral-126110901244_1.html",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "415afbd80abec03a",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US stocks: Dow Jones rallies 500 points, Nasdaq over 2% as chip stocks rebound; Nvidia probe weighs",
+      "published_at": "2026-11-09T15:05:56.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-opens-higher-after-last-weeks-ai-rout/articleshow/135685663.cms",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "b3f5f37622c86e90",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Nvidia sell-off continues: Chipmaker stock plunges 9% as Jensen Huang faces espionage controversy",
+      "published_at": "2026-11-09T14:44:09.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/nvidia-stock-crashes-8-after-a-foreign-intelligence-probe-initiated-by-ai-company-into-ceo-jensen-huang/articleshow/135685302.cms",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "9f43b49bad760e8b",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "How to choose a foreign broker? Check the plumbing, not just the app",
+      "published_at": "2026-11-09T14:24:39.000",
+      "url": "https://www.business-standard.com/markets/news/how-to-choose-a-foreign-broker-check-the-plumbing-not-just-the-app-126110901189_1.html",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "e3781e128d2a7d0b",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Dow Jones| Nasdaq | US Stock Market Today | Highlights: Dow rockets 1,200 pts after last week's tech-led rout; oil prices swing",
+      "published_at": "2026-11-09T13:11:00.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/dow-jones-us-stock-market-live-updates-nasdaq-sp-500-iran-war-hormuz-deal-brent-crude-oil-inflation-fed-rate-nvidia-jensen-huang-marvell-tech-qualcomm-meta-micrsoft-ai-chip-stock-price-news-9th-november-2026/liveblog/135683531.cms",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "42763e188de43054",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "India bonds continue rally ahead of inflation data",
+      "published_at": "2026-11-09T12:11:27.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-continue-rally-ahead-of-inflation-data/articleshow/135681750.cms",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "258d0590690fa9ca",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Uno Minda among 7 stocks hitting 52-week highs; rally up to 26% in a month",
+      "published_at": "2026-11-09T11:49:40.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/uno-minda-among-7-stocks-hitting-52-week-highs-rally-up-to-26-in-a-month/slideshow/135681703.cms",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "42bd60e3d5eaea59",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "NSE deploys liquid cooling for AI infra, plans over 80 GPUs this quarter",
+      "published_at": "2026-11-09T11:39:26.000",
+      "url": "https://www.business-standard.com/technology/artificial-intelligence/nse-deploys-liquid-cooling-for-ai-infra-plans-over-80-gpus-this-quarter-126110900780_1.html",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "1ad6b96a0721eac3",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "IFSCA may let researchers in GIFT City to launch model portfolios",
+      "published_at": "2026-11-09T11:30:22.000",
+      "url": "https://www.business-standard.com/markets/news/ifsca-proposes-model-portfolios-in-gift-city-by-research-entities-126110900766_1.html",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "e5c8e3bc42e8a186",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US market remains tied to tech stocks despite sharp AI sell-off",
+      "published_at": "2026-11-09T11:16:25.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-markets-still-reliant-on-tech-stocks-despite-ai-selloff-and-democrat-win-triggered-political-risks/articleshow/135679992.cms",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "73dd872bdbef1d79",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "FIIs cut stake in 10 smallcap stocks for 3 consecutive quarters; shares fall up to 70% in CY26",
+      "published_at": "2026-11-09T11:10:47.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/fiis-cut-stake-in-10-smallcap-stocks-for-3-consecutive-quarters-shares-fall-up-to-70-in-cy26/slideshow/135680171.cms",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "776f7630a46830e3",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Indian rupee breaks six-day winning streak on state banks' dollar bids",
+      "published_at": "2026-11-09T10:24:26.000",
+      "url": "https://economictimes.indiatimes.com/markets/forex/indian-rupee-breaks-six-day-winning-streak-on-state-banks-dollar-bids/articleshow/135678769.cms",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "e7de63c2761b8be7",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "RBI's $239 bn forward dollar position to limit rupee gains despite FPI inflows: Report",
+      "published_at": "2026-11-09T10:04:34.000",
+      "url": "https://economictimes.indiatimes.com/markets/forex/rbis-usd-239-bn-forward-dollar-position-to-limit-rupee-gains-despite-fpi-inflows-report/articleshow/135678171.cms",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "810fe608e618e3f0",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Pharmacy retail stock Entero Healthcare zooms 33% in 1 week; hits new high",
+      "published_at": "2026-11-09T09:41:41.000",
+      "url": "https://www.business-standard.com/markets/news/pharmacy-retail-stock-entero-healthcare-zooms-33-in-1-week-hits-new-high-126110900567_1.html",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "821a8c5694f37e7a",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Data Patterns shares zoom 9% post Q2 show, nearly double from Jan lows",
+      "published_at": "2026-11-09T09:39:55.000",
+      "url": "https://www.business-standard.com/markets/news/data-patterns-shares-zoom-9-post-q2-show-nearly-double-from-jan-lows-126110900563_1.html",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "9e3922b127950acd",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Nvidia's shares slide as chip giant probes CEO Huang over spy claims",
+      "published_at": "2026-11-09T09:12:40.000",
+      "url": "https://www.business-standard.com/markets/news/nvidia-s-shares-slide-as-chip-giant-probes-ceo-huang-over-spy-claims-126110900547_1.html",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "af78d7df90fca4fe",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "IRB Infra share price climbs 7% as toll collections boost Q2 earnings",
+      "published_at": "2026-11-09T09:06:57.000",
+      "url": "https://www.business-standard.com/markets/news/irb-infra-share-price-climbs-7-as-toll-collections-boost-q2-earnings-126110900539_1.html",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "e5de7f98a4a0238f",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Ashok Leyland, Paytm down after 6-day rally; analyst flags positive charts",
+      "published_at": "2026-11-09T08:47:44.000",
+      "url": "https://www.business-standard.com/markets/news/ashok-leyland-paytm-down-after-6-day-rally-analyst-flags-positive-charts-126110900526_1.html",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "a2c466c1fb68c266",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "MakeMyTrip's India arm gets Sebi nod to float IPO",
+      "published_at": "2026-11-09T08:12:31.000",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/makemytrips-india-arm-gets-sebi-nod-to-float-ipo/articleshow/135675673.cms",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "ff8048dc486fe149",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Uno Minda zooms 26% in November, stock nears record high; here's why",
+      "published_at": "2026-11-09T08:07:32.000",
+      "url": "https://www.business-standard.com/markets/news/uno-minda-zooms-26-in-november-stock-nears-record-high-here-s-why-126110900464_1.html",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "673efa085dce9f57",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "ZEEL extends gains, rises 11% in 2 days as board to mull buyback, dividend",
+      "published_at": "2026-11-09T07:51:54.000",
+      "url": "https://www.business-standard.com/markets/news/zee-entertainment-share-price-extends-gains-rises-11-in-2-days-as-board-to-mull-buyback-dividend-126110900445_1.html",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "1bbc7117a07676a1",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "PVR Inox rises 3% to 52-wk high as Ramayana's box-office biz tops \u20b9500 cr",
+      "published_at": "2026-11-09T07:49:35.000",
+      "url": "https://www.business-standard.com/markets/news/pvr-inox-rises-3-to-52-wk-high-as-ramayana-s-box-office-biz-tops-500-cr-126110900453_1.html",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    },
+    {
+      "url_hash": "cea722180fbf7aa3",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Indian bonds drift with oil; inflation data in focus",
+      "published_at": "2026-11-09T07:33:21.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-drift-with-oil-inflation-data-in-focus/articleshow/135674915.cms",
+      "fetched_at": "2026-11-09T22:35:22.858"
+    }
+  ]
+}
