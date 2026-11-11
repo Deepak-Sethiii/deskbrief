@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-11T19:45:57.765999+00:00",
+  "commentary_source": "fallback",
+  "commentary": {
+    "market_tone": "Breadth was mixed: 4 of 8 names advanced on the day.",
+    "bullets": [
+      "Best performer on the day: LT.NS at +1.63%.",
+      "Weakest on the day: INFY.NS at -2.31%.",
+      "Median one-day move across the watchlist: -0.30%.",
+      "INFY.NS sits furthest below its 52-week high, at -28.6%.",
+      "3 name(s) within 5% of the 52-week high: BHARTIARTL.NS, ICICIBANK.NS, LT.NS."
+    ],
+    "watch_items": [
+      "Highest 30-day realised volatility: RELIANCE.NS at 39.2% annualised.",
+      "60 headlines collected, 3 tagged to a watchlist name by substring match (unverified).",
+      "Commentary model was unavailable, so no qualitative read is included."
+    ],
+    "source": "deterministic-fallback (model returned unusable output twice)",
+    "source_kind": "fallback"
+  },
+  "comps": [
+    {
+      "ticker": "BHARTIARTL.NS",
+      "sector": "Communication Services",
+      "currency": "INR",
+      "last_close": 2072.1000976562,
+      "ret_1d": -0.0166571063,
+      "ret_5d": 0.0413086448,
+      "ret_21d": 0.1482323649,
+      "realised_vol_30d": 0.2500680498,
+      "high_52w": 2135.8200683594,
+      "pct_from_52w_high": -0.0298339601,
+      "market_cap_bn": 13164.943028517,
+      "pe": 41.523922,
+      "ev_ebitda": 12.554
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 798.1500244141,
+      "ret_1d": 0.0125594981,
+      "ret_5d": 0.1402143206,
+      "ret_21d": 0.1529794502,
+      "realised_vol_30d": 0.2738068938,
+      "high_52w": 993.0750732422,
+      "pct_from_52w_high": -0.1962843033,
+      "market_cap_bn": 12447.687929034,
+      "pe": 17.6306,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 1589.0,
+      "ret_1d": 0.011328952,
+      "ret_5d": 0.1453077498,
+      "ret_21d": 0.1779095626,
+      "realised_vol_30d": 0.2755293188,
+      "high_52w": 1589.0,
+      "pct_from_52w_high": 0.0,
+      "market_cap_bn": 11285.4268994744,
+      "pe": 19.300013,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "INFY.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 1154.0999755859,
+      "ret_1d": -0.0231082176,
+      "ret_5d": 0.0168281723,
+      "ret_21d": 0.1840897367,
+      "realised_vol_30d": 0.3791762653,
+      "high_52w": 1616.9676513672,
+      "pct_from_52w_high": -0.2862566084,
+      "market_cap_bn": 4678.184927955,
+      "pe": 15.379495,
+      "ev_ebitda": 954.499
+    },
+    {
+      "ticker": "ITC.NS",
+      "sector": "Consumer Defensive",
+      "currency": "INR",
+      "last_close": 278.799987793,
+      "ret_1d": -0.0153629038,
+      "ret_5d": 0.0465465247,
+      "ret_21d": 0.0933332855,
+      "realised_vol_30d": 0.3053298426,
+      "high_52w": 389.1694641113,
+      "pct_from_52w_high": -0.2836026114,
+      "market_cap_bn": 3571.595085585,
+      "pe": 18.911745,
+      "ev_ebitda": 13.772
+    },
+    {
+      "ticker": "LT.NS",
+      "sector": "Industrials",
+      "currency": "INR",
+      "last_close": 4185.0,
+      "ret_1d": 0.0163440274,
+      "ret_5d": 0.0622097271,
+      "ret_21d": 0.1544508806,
+      "realised_vol_30d": 0.2366328791,
+      "high_52w": 4375.3642578125,
+      "pct_from_52w_high": -0.0435082079,
+      "market_cap_bn": 5795.236819008,
+      "pe": 32.444923,
+      "ev_ebitda": 18.002
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "sector": "Energy",
+      "currency": "INR",
+      "last_close": 1324.4000244141,
+      "ret_1d": 0.0033333518,
+      "ret_5d": 0.0187692495,
+      "ret_21d": 0.1242784588,
+      "realised_vol_30d": 0.3924546045,
+      "high_52w": 1584.9718017578,
+      "pct_from_52w_high": -0.1644015225,
+      "market_cap_bn": 18071.263956779,
+      "pe": 22.007252,
+      "ev_ebitda": 11.97
+    },
+    {
+      "ticker": "TCS.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 2475.3999023438,
+      "ret_1d": -0.0092455864,
+      "ret_5d": -0.010512871,
+      "ret_21d": 0.198727976,
+      "realised_vol_30d": 0.3199505539,
+      "high_52w": 3187.3376464844,
+      "pct_from_52w_high": -0.2233643947,
+      "market_cap_bn": 8944.2741532478,
+      "pe": 17.328613,
+      "ev_ebitda": 11.755
+    }
+  ],
+  "headlines": [
+    {
+      "url_hash": "e2842eb51f858e0c",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "BSE traders face technical glitch; NCDEX launches steel scrap futures",
+      "published_at": "2026-11-11T18:25:13.000",
+      "url": "https://www.business-standard.com/markets/news/bse-traders-face-technical-glitch-ncdex-launches-steel-scrap-futures-126111101646_1.html",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "25a0ad6aad928d44",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Nifty eyes record as largecaps lead charge on strong corporate earnings",
+      "published_at": "2026-11-11T17:22:03.000",
+      "url": "https://www.business-standard.com/markets/news/nifty-eyes-record-as-largecaps-lead-charge-on-strong-corporate-earnings-126111101368_1.html",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "953a9e060321b7b6",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Benchmarks rise nearly 1%; auto, bank stocks lead gains amid FPI inflows",
+      "published_at": "2026-11-11T16:56:51.000",
+      "url": "https://www.business-standard.com/markets/news/benchmarks-rise-nearly-1-auto-bank-stocks-lead-gains-amid-fpi-inflows-126111101384_1.html",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "05d6fd9328bd4952",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Yes Bank bondholders press for compliance with Supreme Court's AT-1 order",
+      "published_at": "2026-11-11T16:55:06.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/yes-bank-bondholders-press-for-compliance-with-supreme-courts-at-1-order/articleshow/135744450.cms",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "6c179657785619d2",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Anthropic\u2019s IPO is said to be multiple times oversubscribed",
+      "published_at": "2026-11-11T16:25:21.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropics-ipo-is-said-to-be-multiple-times-oversubscribed/articleshow/135743507.cms",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "4285de3ab7d10be6",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Bajaj Finance launches \u20b911,700 crore QIP at 5% discount to closing price",
+      "published_at": "2026-11-11T15:52:48.000",
+      "url": "https://www.business-standard.com/markets/news/bajaj-finance-launches-11-700-crore-qip-at-5-discount-to-closing-price-126111101488_1.html",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "a66a5aa5bb2287e3",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Market Trading Guide: Astra Microwave among 3 stock recommendations for Thursday",
+      "published_at": "2026-11-11T15:14:07.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-trading-guide-astra-microwave-among-3-stock-recommendations-for-thursday/slideshow/135742034.cms",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "a86e6c23589418c9",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US stocks: S&P 500, Nasdaq rise as CoreWeave results ease AI spending concerns",
+      "published_at": "2026-11-11T14:56:26.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-opens-higher-as-coreweave-lifts-ai-trade/articleshow/135741336.cms",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "574394ca31aff34a",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Baird downgrades Nvidia on China curbs, AI demand worries",
+      "published_at": "2026-11-11T14:34:53.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/baird-downgrades-nvidia-on-china-curbs-ai-demand-worries/articleshow/135740853.cms",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "43e7e516b8797581",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "EasyJet shareholders approve \u00a35.7 billion Apollo takeover",
+      "published_at": "2026-11-11T14:16:04.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/easyjet-shareholders-approve-5-7-billion-apollo-takeover/articleshow/135740460.cms",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "000f3a1c1e6a8277",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "India to switch bonds worth 250 billion rupees next week",
+      "published_at": "2026-11-11T14:13:38.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/india-to-switch-bonds-worth-250-billion-rupees-next-week/articleshow/135740426.cms",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "989de26832521910",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Equity MF inflows fall 14% in October as mid-, smallcap investments cool",
+      "published_at": "2026-11-11T13:58:51.000",
+      "url": "https://www.business-standard.com/markets/news/equity-mf-inflows-fall-14-in-october-as-mid-smallcap-investments-cool-126111101371_1.html",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "bafbe56a05ad03d3",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Dollar firms as hot inflation, hawkish Fed talk lift rate-hike bets",
+      "published_at": "2026-11-11T13:17:36.000",
+      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-firms-as-hot-inflation-hawkish-fed-talk-lift-rate-hike-bets/articleshow/135739033.cms",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "5d6dcea1282fd5f8",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Nasdaq futures rise nearly 2% as CoreWeave earnings calm AI spending fears",
+      "published_at": "2026-11-11T13:13:58.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-futures-rise-nearly-2-as-coreweave-earnings-calm-ai-spending-fears/articleshow/135738901.cms",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "2ea061d501fd3d08",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Nasdaq surges 2% as rebounding AI stocks lift Wall Street: Stock Market Live Updates",
+      "published_at": "2026-11-11T13:12:11.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-fed-anthropic-ipo-coreweave-nvidia-marvell-ai-chip-fed-rate-inflation-treasury-yield-news-11th-november-2026/liveblog/135739245.cms",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "8d78239f21e2bfc2",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Fairfax Financial likely to exit IIFL Finance, sources say",
+      "published_at": "2026-11-11T13:09:37.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/fairfax-financial-likely-to-exit-iifl-finance-sources-say/articleshow/135738516.cms",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "0a4e2d36ca8da2b7",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sterling drops against firmer dollar as markets price in a hawkish Fed",
+      "published_at": "2026-11-11T13:08:01.000",
+      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/sterling-drops-against-firmer-dollar-as-markets-price-in-a-hawkish-fed/articleshow/135738659.cms",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "9ffcd9a93379bf7b",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Anthropic IPO: A $1.4 trillion bet on the future of AI",
+      "published_at": "2026-11-11T12:51:21.000",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/anthropic-ipo-a-1-4-trillion-bet-on-the-future-of-ai/videoshow/135738282.cms",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "c596b802a6a505e7",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Realty firms' land acquisition falls 56% to 1,445 acres in Jan-Sep: Anarock",
+      "published_at": "2026-11-11T12:10:24.000",
+      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/realty-firms-land-acquisition-falls-56-to-1445-acres-in-jan-sep-anarock/articleshow/135736891.cms",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "b05bbcff4404c56c",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "NRIs can complete investment KYC from abroad starting Dec 3: What changes?",
+      "published_at": "2026-11-11T12:08:09.000",
+      "url": "https://www.business-standard.com/markets/news/nris-can-complete-investment-kyc-from-abroad-starting-dec-3-what-changes-126111101128_1.html",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "3491c01e1678aaa1",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US Treasury rout hands India's 10-year bond its worst day in a month",
+      "published_at": "2026-11-11T12:06:33.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/us-treasury-rout-hands-indias-10-year-bond-its-worst-day-in-a-month/articleshow/135736836.cms",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "2d7d071d5212d63e",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "These 12 midcap stocks rally up to 30% in just one month",
+      "published_at": "2026-11-11T10:40:03.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/these-12-midcap-stocks-rally-up-to-30-in-just-one-month/slideshow/135734690.cms",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "6ab700f5b0515a7c",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Rupee touches strongest since April as foreign inflows offset firm dollar",
+      "published_at": "2026-11-11T10:37:51.000",
+      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-touches-strongest-since-april-as-foreign-inflows-offset-firm-dollar/articleshow/135734005.cms",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "3869bc0b111cfc65",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Rentomojo climbs 10% to 52-wk high; what's behind gains as Q2 PAT dips 63%?",
+      "published_at": "2026-11-11T09:22:26.000",
+      "url": "https://www.business-standard.com/markets/news/rentomojo-climbs-10-to-52-wk-high-what-s-behind-gains-as-q2-pat-dips-63-126111100703_1.html",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    },
+    {
+      "url_hash": "38b3e91d23220bf7",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Equity MF investments drop 14% to \u20b933,000 crore on market volatility",
+      "published_at": "2026-11-11T08:56:59.000",
+      "url": "https://www.business-standard.com/markets/mutual-fund/equity-mf-investments-drop-14-to-33-000-crore-on-market-volatility-126111100637_1.html",
+      "fetched_at": "2026-11-11T19:45:50.987"
+    }
+  ]
+}
