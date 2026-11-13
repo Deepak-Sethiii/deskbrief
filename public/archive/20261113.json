@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-13T19:55:20.288526+00:00",
+  "commentary_source": "fallback",
+  "commentary": {
+    "market_tone": "Breadth was risk-off: 3 of 8 names advanced on the day.",
+    "bullets": [
+      "Best performer on the day: ICICIBANK.NS at +1.17%.",
+      "Weakest on the day: LT.NS at -1.25%.",
+      "Median one-day move across the watchlist: -0.33%.",
+      "INFY.NS sits furthest below its 52-week high, at -28.8%.",
+      "3 name(s) within 5% of the 52-week high: BHARTIARTL.NS, ICICIBANK.NS, LT.NS."
+    ],
+    "watch_items": [
+      "Highest 30-day realised volatility: RELIANCE.NS at 38.2% annualised.",
+      "60 headlines collected, 2 tagged to a watchlist name by substring match (unverified).",
+      "Commentary model was unavailable, so no qualitative read is included."
+    ],
+    "source": "deterministic-fallback (model returned unusable output twice)",
+    "source_kind": "fallback"
+  },
+  "comps": [
+    {
+      "ticker": "BHARTIARTL.NS",
+      "sector": "Communication Services",
+      "currency": "INR",
+      "last_close": 2096.0,
+      "ret_1d": -0.0061640588,
+      "ret_5d": 0.0137356844,
+      "ret_21d": 0.1783887432,
+      "realised_vol_30d": 0.2514898545,
+      "high_52w": 2135.8200683594,
+      "pct_from_52w_high": -0.0186439246,
+      "market_cap_bn": 13140.278081892,
+      "pe": 41.464855,
+      "ev_ebitda": 12.539
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 812.299987793,
+      "ret_1d": 0.0070667151,
+      "ret_5d": 0.1026197561,
+      "ret_21d": 0.1523619799,
+      "realised_vol_30d": 0.2638464494,
+      "high_52w": 993.0750732422,
+      "pct_from_52w_high": -0.1820356691,
+      "market_cap_bn": 12407.56396596,
+      "pe": 17.57377,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 1590.0,
+      "ret_1d": 0.0117078294,
+      "ret_5d": 0.1164946473,
+      "ret_21d": 0.1865671642,
+      "realised_vol_30d": 0.2674308621,
+      "high_52w": 1590.0,
+      "pct_from_52w_high": 0.0,
+      "market_cap_bn": 11371.5971226824,
+      "pe": 19.447378,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "INFY.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 1151.1999511719,
+      "ret_1d": -0.0032900856,
+      "ret_5d": 0.0203864572,
+      "ret_21d": 0.1544813869,
+      "realised_vol_30d": 0.3796406287,
+      "high_52w": 1616.9676513672,
+      "pct_from_52w_high": -0.288050104,
+      "market_cap_bn": 4623.5048443815,
+      "pe": 15.199734,
+      "ev_ebitda": 943.335
+    },
+    {
+      "ticker": "ITC.NS",
+      "sector": "Consumer Defensive",
+      "currency": "INR",
+      "last_close": 284.049987793,
+      "ret_1d": -0.0033333762,
+      "ret_5d": 0.0144642421,
+      "ret_21d": 0.1013958686,
+      "realised_vol_30d": 0.307826097,
+      "high_52w": 389.1694641113,
+      "pct_from_52w_high": -0.2701123444,
+      "market_cap_bn": 3571.595085585,
+      "pe": 18.911745,
+      "ev_ebitda": 13.772
+    },
+    {
+      "ticker": "LT.NS",
+      "sector": "Industrials",
+      "currency": "INR",
+      "last_close": 4159.2001953125,
+      "ret_1d": -0.0125355662,
+      "ret_5d": 0.0544570273,
+      "ret_21d": 0.1465748299,
+      "realised_vol_30d": 0.2212652407,
+      "high_52w": 4375.3642578125,
+      "pct_from_52w_high": -0.0494048152,
+      "market_cap_bn": 5701.4013130592,
+      "pe": 31.919579,
+      "ev_ebitda": 17.739
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "sector": "Energy",
+      "currency": "INR",
+      "last_close": 1339.6999511719,
+      "ret_1d": 0.0032199541,
+      "ret_5d": 0.0218916485,
+      "ret_21d": 0.156009943,
+      "realised_vol_30d": 0.3816033069,
+      "high_52w": 1584.9718017578,
+      "pct_from_52w_high": -0.1547484001,
+      "market_cap_bn": 18129.4535891095,
+      "pe": 22.078114,
+      "ev_ebitda": 12.001
+    },
+    {
+      "ticker": "TCS.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 2442.3999023438,
+      "ret_1d": -0.0120141556,
+      "ret_5d": 0.0026272177,
+      "ret_21d": 0.1554747104,
+      "realised_vol_30d": 0.3150069807,
+      "high_52w": 3187.337890625,
+      "pct_from_52w_high": -0.2337179219,
+      "market_cap_bn": 8710.545699585,
+      "pe": 16.875788,
+      "ev_ebitda": 11.434
+    }
+  ],
+  "headlines": [
+    {
+      "url_hash": "16835ce6e5521ba9",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "NSE IX Global Access expands investment offerings into 7 European markets",
+      "published_at": "2026-11-13T18:03:06.000",
+      "url": "https://www.business-standard.com/markets/news/nse-ix-global-access-expands-investment-offerings-into-7-european-markets-126111301892_1.html",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "d49bd34a5f251fb3",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "GIFT City funds compared: What they cost and how they have performed",
+      "published_at": "2026-11-13T16:59:42.000",
+      "url": "https://www.business-standard.com/markets/news/gift-city-funds-compared-what-they-cost-and-how-they-have-performed-126111301835_1.html",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "7b7cba732182e631",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Anthropic IPO share orders from China are said to be rebuffed",
+      "published_at": "2026-11-13T16:28:14.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ipo-share-orders-from-china-are-said-to-be-rebuffed/articleshow/135809948.cms",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "b6826dde5266a3e2",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "BofA adds January Fed hike to forecast, says quarterly pace no longer enough",
+      "published_at": "2026-11-13T15:45:53.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/bofa-adds-january-fed-hike-to-forecast-says-quarterly-pace-no-longer-enough/articleshow/135808910.cms",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "6a95f0bda7b49cc3",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Indian markets extend gains for 3rd straight week despite Nvidia crisis",
+      "published_at": "2026-11-13T15:28:20.000",
+      "url": "https://www.business-standard.com/markets/news/indian-markets-extend-gains-for-3rd-straight-week-despite-nvidia-crisis-126111301616_1.html",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "99885f578686280f",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US stocks: US stocks reverse early gains as Nvidia turmoil hits tech sector",
+      "published_at": "2026-11-13T14:45:46.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-opens-higher-after-soft-producer-prices-data/articleshow/135807296.cms",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "5913886de6ddcfc6",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Chicago Fed's Goolsbee says on CNBC the Fed needs to guard against demand overheating",
+      "published_at": "2026-11-13T14:44:42.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/chicago-feds-goolsbee-says-on-cnbc-the-fed-needs-to-guard-against-demand-overheating/articleshow/135807011.cms",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "63a231aeb6ff9d6e",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Govt notifies commodity contracts as financial products at GIFT IFSC",
+      "published_at": "2026-11-13T14:44:03.000",
+      "url": "https://www.business-standard.com/markets/news/govt-notifies-commodity-contracts-as-financial-products-at-gift-ifsc-126111301641_1.html",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "3aa63f370d3bc998",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US Treasury chief says Fed should not hike rates over energy shock tied to Iran war",
+      "published_at": "2026-11-13T14:31:51.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-treasury-chief-says-fed-should-not-hike-rates-over-energy-shock-tied-to-iran-war/articleshow/135806960.cms",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "55624ef5bbccd571",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "MAN Industries PAT rises to Rs 82 cr in Q2",
+      "published_at": "2026-11-13T14:00:47.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/man-industries-pat-rises-to-rs-82-cr-in-q2/articleshow/135806024.cms",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "27823c491b48a3b5",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Nasdaq, S&P 500 dip as Nvidia overhang weighs on tech stocks: Stock Market Live Updates",
+      "published_at": "2026-11-13T13:11:45.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-microsoft-cerebras-amd-micron-treasury-yield-news-13th-november-2026/liveblog/135804970.cms",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "bc01b51071676348",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Godrej Properties buys 31-acre land in Indore for Rs 130 cr to build housing project",
+      "published_at": "2026-11-13T12:54:17.000",
+      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/godrej-properties-buys-31-acre-land-in-indore-for-rs-130-cr-to-build-housing-project/articleshow/135804198.cms",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "be81013961bbb14b",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "German yields set for biggest weekly rise in two months",
+      "published_at": "2026-11-13T12:52:46.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/german-yields-set-for-biggest-weekly-rise-in-two-months/articleshow/135804160.cms",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "04cb9b82dece9752",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "India 10-year bond yield reverses half of last week's drop on elevated inflation",
+      "published_at": "2026-11-13T12:51:07.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/india-10-year-bond-yield-reverses-half-of-last-weeks-drop-on-elevated-inflation/articleshow/135804127.cms",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "b63ae8438d61a43c",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "How US tech pain is European stock markets' gain",
+      "published_at": "2026-11-13T12:49:44.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/how-us-tech-pain-is-european-stock-markets-gain/articleshow/135804056.cms",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "562a830a0cde8575",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Razorpay, Sembcorp Green Infra get Sebi nod to float IPOs",
+      "published_at": "2026-11-13T12:24:01.000",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/razorpay-sembcorp-green-infra-get-sebi-nod-to-float-ipos/articleshow/135803228.cms",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "acc1bf98eb3f29d9",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Mutlibaggers: 7 stocks held by 100+ MF schemes in October rally up to 300% in FY27",
+      "published_at": "2026-11-13T11:35:39.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/mutlibaggers-7-stocks-held-by-100-mf-schemes-in-october-rally-up-to-300-in-fy27/slideshow/135802136.cms",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "77db6681896b9dca",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Jagatjit Industries Q2 net loss narrows to Rs 4 cr, revenue rises 90%",
+      "published_at": "2026-11-13T11:31:30.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/jagatjit-industries-q2-net-loss-narrows-to-rs-4-cr-revenue-rises-90/articleshow/135801327.cms",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "ab0429c9ae0e46db",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Indian rupee snaps rising streak on hawkish Fed, oil rise",
+      "published_at": "2026-11-13T10:11:52.000",
+      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/indian-rupee-snaps-rising-streak-on-hawkish-fed-oil-rise/articleshow/135798564.cms",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "f745dbeabc829445",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Auto ancillary shares: Sharda Motor, Fiem, Automotive Axles zoom up to 17%",
+      "published_at": "2026-11-13T09:44:44.000",
+      "url": "https://www.business-standard.com/markets/news/auto-ancillary-shares-sharda-motor-fiem-automotive-axles-zoom-up-to-17-126111300879_1.html",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "1454f689d7eb197c",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Mukul Agrawal portfolio stock J Kumar defies selloff, jumps 5% post Q2",
+      "published_at": "2026-11-13T09:21:16.000",
+      "url": "https://www.business-standard.com/markets/news/mukul-agrawal-portfolio-stock-j-kumar-defies-selloff-jumps-5-post-q2-126111300838_1.html",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "7cb9c41473134bae",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Stock under \u20b9100: Turtlemint hits 5% upper circuit as Q2 loss narrows 67%",
+      "published_at": "2026-11-13T08:10:38.000",
+      "url": "https://www.business-standard.com/markets/news/stock-under-100-turtlemint-hits-5-upper-circuit-as-q2-loss-narrows-67-126111300718_1.html",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "e31fd8bddf7f9592",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "MCX share price hits new high, up 100% in one year; market cap nears \u20b91 trn",
+      "published_at": "2026-11-13T08:03:12.000",
+      "url": "https://www.business-standard.com/markets/news/mcx-share-price-hits-new-high-up-100-in-one-year-market-cap-nears-1-trn-126111300716_1.html",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "cd193d47667866ba",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Cisco shares rally after earnings beat: 6 key things investors need to know",
+      "published_at": "2026-11-13T07:40:19.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/cisco-shares-rally-after-earnings-beat-6-key-things-investors-need-to-know/slideshow/135794957.cms",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    },
+    {
+      "url_hash": "cb49d8cf370b47fd",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Gold oversold, but further fall to $3,750 likely: Mirae Asset Sharekhan",
+      "published_at": "2026-11-13T07:22:53.000",
+      "url": "https://www.business-standard.com/markets/news/gold-oversold-but-further-fall-to-3-750-likely-mirae-asset-sharekhan-126111300668_1.html",
+      "fetched_at": "2026-11-13T19:55:12.522"
+    }
+  ]
+}
