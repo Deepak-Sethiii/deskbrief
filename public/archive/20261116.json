@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-16T22:24:33.270411+00:00",
+  "commentary_source": "fallback",
+  "commentary": {
+    "market_tone": "Breadth was risk-off: 2 of 8 names advanced on the day.",
+    "bullets": [
+      "Best performer on the day: BHARTIARTL.NS at +0.48%.",
+      "Weakest on the day: TCS.NS at -1.43%.",
+      "Median one-day move across the watchlist: -0.39%.",
+      "INFY.NS sits furthest below its 52-week high, at -29.4%.",
+      "2 name(s) within 5% of the 52-week high: BHARTIARTL.NS, ICICIBANK.NS."
+    ],
+    "watch_items": [
+      "Highest 30-day realised volatility: RELIANCE.NS at 38.2% annualised.",
+      "60 headlines collected, 1 tagged to a watchlist name by substring match (unverified).",
+      "Commentary model was unavailable, so no qualitative read is included."
+    ],
+    "source": "deterministic-fallback (model returned unusable output twice)",
+    "source_kind": "fallback"
+  },
+  "comps": [
+    {
+      "ticker": "BHARTIARTL.NS",
+      "sector": "Communication Services",
+      "currency": "INR",
+      "last_close": 2106.0,
+      "ret_1d": 0.0047709924,
+      "ret_5d": 0.0238709223,
+      "ret_21d": 0.165790202,
+      "realised_vol_30d": 0.2481613193,
+      "high_52w": 2135.8200683594,
+      "pct_from_52w_high": -0.0139618823,
+      "market_cap_bn": 13436.651875287,
+      "pe": 42.400078,
+      "ev_ebitda": 12.785
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 804.0,
+      "ret_1d": -0.0102178849,
+      "ret_5d": 0.0578947368,
+      "ret_21d": 0.1260504202,
+      "realised_vol_30d": 0.2579771269,
+      "high_52w": 993.0750732422,
+      "pct_from_52w_high": -0.1903935345,
+      "market_cap_bn": 12600.467634585,
+      "pe": 17.846994,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 1583.5999755859,
+      "ret_1d": -0.0040251726,
+      "ret_5d": 0.0557333171,
+      "ret_21d": 0.1642405767,
+      "realised_vol_30d": 0.2649990521,
+      "high_52w": 1590.0,
+      "pct_from_52w_high": -0.0040251726,
+      "market_cap_bn": 11381.65031539,
+      "pe": 19.464571,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "INFY.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 1141.5,
+      "ret_1d": -0.0084259482,
+      "ret_5d": -0.0221860749,
+      "ret_21d": 0.0993775479,
+      "realised_vol_30d": 0.3737689568,
+      "high_52w": 1616.9676513672,
+      "pct_from_52w_high": -0.294048957,
+      "market_cap_bn": 4638.0862000011,
+      "pe": 15.24767,
+      "ev_ebitda": 946.312
+    },
+    {
+      "ticker": "ITC.NS",
+      "sector": "Consumer Defensive",
+      "currency": "INR",
+      "last_close": 285.0,
+      "ret_1d": 0.0033445247,
+      "ret_5d": 0.0220548458,
+      "ret_21d": 0.091954023,
+      "realised_vol_30d": 0.3059930212,
+      "high_52w": 389.1694641113,
+      "pct_from_52w_high": -0.2676712171,
+      "market_cap_bn": 3698.3991446831,
+      "pe": 19.581951,
+      "ev_ebitda": 14.289
+    },
+    {
+      "ticker": "LT.NS",
+      "sector": "Industrials",
+      "currency": "INR",
+      "last_close": 4143.7998046875,
+      "ret_1d": -0.0037027289,
+      "ret_5d": 0.0231604456,
+      "ret_21d": 0.1275645727,
+      "realised_vol_30d": 0.2222378195,
+      "high_52w": 4375.3642578125,
+      "pct_from_52w_high": -0.0529246114,
+      "market_cap_bn": 5696.17294176,
+      "pe": 31.890308,
+      "ev_ebitda": 17.725
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "sector": "Energy",
+      "currency": "INR",
+      "last_close": 1339.6999511719,
+      "ret_1d": 0.0,
+      "ret_5d": 0.0200243081,
+      "ret_21d": 0.1482814839,
+      "realised_vol_30d": 0.3817948929,
+      "high_52w": 1584.9718017578,
+      "pct_from_52w_high": -0.1547484001,
+      "market_cap_bn": 18198.469199548,
+      "pe": 22.162163,
+      "ev_ebitda": 12.038
+    },
+    {
+      "ticker": "TCS.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 2407.5,
+      "ret_1d": -0.0142891843,
+      "ret_5d": -0.0353407673,
+      "ret_21d": 0.0665396482,
+      "realised_vol_30d": 0.3205216931,
+      "high_52w": 3187.3376464844,
+      "pct_from_52w_high": -0.2446674099,
+      "market_cap_bn": 8701.50048079,
+      "pe": 16.858265,
+      "ev_ebitda": 11.422
+    }
+  ],
+  "headlines": [
+    {
+      "url_hash": "ea726a5c8b035b1f",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Interest in Trump's meme coin dinner fades as $TRUMP sinks to record lows",
+      "published_at": "2026-11-16T18:27:28.000",
+      "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/interest-in-trumps-meme-coin-dinner-fades-as-trump-sinks-to-record-lows/articleshow/135899741.cms",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "cfe485fbf3fcd83e",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Trump Media faces possible $1 billion debt repayment as stock nears record lows",
+      "published_at": "2026-11-16T17:44:02.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/trump-media-faces-possible-1-billion-debt-repayment-as-stock-nears-record-lows/articleshow/135898089.cms",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "249eb29683365d38",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Shares of NSE surge to all-time high, market capitalisation crosses \u20b95 trn",
+      "published_at": "2026-11-16T17:41:32.000",
+      "url": "https://www.business-standard.com/markets/news/shares-of-nse-surge-to-all-time-high-market-capitalisation-crosses-5-trn-126111601966_1.html",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "fb1cf7a1d6f85ecc",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Nvidia earnings spotlight shifts to leadership, AI financing after Huang exit",
+      "published_at": "2026-11-16T16:43:54.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-nvidia-set-to-deliver-first-life-after-huang-briefing/articleshow/135896160.cms",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "9b5d854380f46f93",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Barclays lowers 2027 year-end target for S&P 500 index to 8,700",
+      "published_at": "2026-11-16T15:50:17.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/barclays-lowers-2027-year-end-target-for-sp-500-index-to-8700/articleshow/135894874.cms",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "ab2cf6caa150c23e",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US stocks: Summit shares drop after US FDA declines to approve lung cancer drug",
+      "published_at": "2026-11-16T15:48:04.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-summit-shares-drop-after-us-fda-declines-to-approve-lung-cancer-drug/articleshow/135894815.cms",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "357bd638b0b10e2e",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US stocks: Nasdaq slides over 1% as AI selloff deepens ahead of Nvidia earnings",
+      "published_at": "2026-11-16T15:34:11.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-nasdaq-falls-1-at-open-as-nvidia-woes-weigh-on-sentiment-ahead-of-earnings/articleshow/135894333.cms",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "3ca336af12e9d6e4",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Sensex, Nifty gain over 0.5% as banks, FMCG shine; broader market slips",
+      "published_at": "2026-11-16T15:14:21.000",
+      "url": "https://www.business-standard.com/markets/news/sensex-nifty-gain-over-0-5-as-banks-fmcg-shine-broader-market-slips-126111601579_1.html",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "c2e65d36de2a1aed",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Dalal Street becomes best-performing stock market in a month. Can it rally more?",
+      "published_at": "2026-11-16T13:48:06.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/dalal-street-becomes-best-performing-stock-market-in-a-month-can-it-rally-more/videoshow/135891640.cms",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "6ff906f1a7fbadb6",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "India's dollar EPS growth key to reviving foreign investor interest: CLSA",
+      "published_at": "2026-11-16T13:35:23.000",
+      "url": "https://www.business-standard.com/markets/news/india-s-dollar-eps-growth-key-to-reviving-foreign-investor-interest-clsa-126111601640_1.html",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "5e84664f662aa5e9",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Nasdaq tumbles over 2%, Dow drops 700 pts as AI selloff deepens: Stock Market Highlights",
+      "published_at": "2026-11-16T13:14:29.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-meta-tesla-coreweave-nebius-nvidia-earnings-anthropic-ipo-treasury-yield-news-16th-november-2026/liveblog/135890877.cms",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "37f01b3296d1374a",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sebi sets up sub-group under PMAC to review key IPO norms; NSE's Chauhan to head panel",
+      "published_at": "2026-11-16T13:07:52.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-sets-up-sub-group-under-pmac-to-review-key-ipo-norms-nses-chauhan-to-head-panel/articleshow/135890467.cms",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "c3377d09b3cdddff",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Retain capital gains tax on equities, economists tell FM Sitharaman ahead of Budget 2027-28",
+      "published_at": "2026-11-16T13:05:46.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/retain-capital-gains-tax-on-equities-economists-tell-fm-sitharaman-ahead-of-budget-2027-28/articleshow/135890410.cms",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "aec63043aa6b3f2e",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Blackstone REIT to buy majority stake in $5 billion Amazon data center portfolio",
+      "published_at": "2026-11-16T13:04:02.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/blackstone-reit-to-buy-majority-stake-in-5-billion-amazon-data-center-portfolio/articleshow/135890381.cms",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "9a61c3fd98077606",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Warren Buffett donates $5.47 billion in Berkshire Hathaway shares to charities, confidence in successors remains 'strong as ever'",
+      "published_at": "2026-11-16T12:55:53.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/warren-buffett-donates-more-berkshire-shares-confidence-in-successors-as-strong-as-ever/articleshow/135890059.cms",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "8a84832155934fee",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sebi forms panel to simplify capital-raising rules",
+      "published_at": "2026-11-16T12:44:54.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-forms-panel-to-simplify-capital-raising-rules/articleshow/135889803.cms",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "2db31ef1488d6927",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Sebi sets up expert panel to review IPO, FPO and capital-raising norms",
+      "published_at": "2026-11-16T12:23:42.000",
+      "url": "https://www.business-standard.com/markets/news/sebi-sets-up-expert-panel-to-review-ipo-fpo-and-capital-raising-norms-126111601512_1.html",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "a58279d31f9788ae",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "S&P 500, Nasdaq futures slide as Nvidia earnings, Anthropic debut loom",
+      "published_at": "2026-11-16T12:19:06.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/sp-500-nasdaq-futures-slide-as-nvidia-earnings-anthropic-debut-loom/articleshow/135888956.cms",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "71c7c5f9e56caa18",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "AIF commitments hit a high of \u20b918.68 trillion as of September: Sebi data",
+      "published_at": "2026-11-16T12:18:40.000",
+      "url": "https://www.business-standard.com/markets/news/aif-commitments-hit-a-high-of-18-68-trillion-as-of-september-sebi-data-126111601365_1.html",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "182cfb896da13d62",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "India's investments in US Treasuries jump USD 38.4 bn in Jun-Aug amid FCNR flows",
+      "published_at": "2026-11-16T12:17:29.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/indias-investments-in-us-treasuries-jump-usd-38-4-bn-in-jun-aug-amid-fcnr-flows/articleshow/135888824.cms",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "be8488190d122f88",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "PNB among 4 stocks hitting 52-week highs; stock rallies up to 24% in a month",
+      "published_at": "2026-11-16T12:03:47.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/pnb-among-4-stocks-hitting-52-week-highs-stock-rallies-up-to-24-in-a-month/slideshow/135888569.cms",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "29cca3953aaf4d27",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Hong Kong debuts offshore yuan bond index to promote RMB assets",
+      "published_at": "2026-11-16T12:02:10.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/hong-kong-debuts-offshore-yuan-bond-index-to-promote-rmb-assets/articleshow/135888402.cms",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "937ebb0fe6ad500a",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "India bonds dip as elevated inflation fuels rate hike expectations",
+      "published_at": "2026-11-16T12:00:15.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-dip-as-elevated-inflation-fuels-rate-hike-expectations/articleshow/135888382.cms",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "015df28708bf8469",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Nvidia's AI financing machine may survive Huang, but with less risk appetite",
+      "published_at": "2026-11-16T11:59:00.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidias-ai-financing-machine-may-survive-huang-but-with-less-risk-appetite/articleshow/135888314.cms",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    },
+    {
+      "url_hash": "f95e92fd88d23f36",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Morgan Stanley turns bullish on global stocks, targets S&P 500 at 8,700",
+      "published_at": "2026-11-16T11:57:08.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/morgan-stanley-raises-global-equities-to-maximum-overweight-on-cheap-valuations-earnings-strength/articleshow/135888237.cms",
+      "fetched_at": "2026-11-16T22:24:25.770"
+    }
+  ]
+}
