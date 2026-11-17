@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-17T21:10:03.958013+00:00",
+  "commentary_source": "fallback",
+  "commentary": {
+    "market_tone": "Breadth was risk-on: 6 of 8 names advanced on the day.",
+    "bullets": [
+      "Best performer on the day: ITC.NS at +3.54%.",
+      "Weakest on the day: TCS.NS at -0.10%.",
+      "Median one-day move across the watchlist: +0.35%.",
+      "INFY.NS sits furthest below its 52-week high, at -29.2%.",
+      "2 name(s) within 5% of the 52-week high: BHARTIARTL.NS, ICICIBANK.NS."
+    ],
+    "watch_items": [
+      "Highest 30-day realised volatility: RELIANCE.NS at 37.7% annualised.",
+      "60 headlines collected, 4 tagged to a watchlist name by substring match (unverified).",
+      "Commentary model was unavailable, so no qualitative read is included."
+    ],
+    "source": "deterministic-fallback (model returned unusable output twice)",
+    "source_kind": "fallback"
+  },
+  "comps": [
+    {
+      "ticker": "BHARTIARTL.NS",
+      "sector": "Communication Services",
+      "currency": "INR",
+      "last_close": 2153.5,
+      "ret_1d": 0.0225546059,
+      "ret_5d": 0.0219723092,
+      "ret_21d": 0.1999888718,
+      "realised_vol_30d": 0.2482096598,
+      "high_52w": 2153.5,
+      "pct_from_52w_high": 0.0,
+      "market_cap_bn": 13341.8122614006,
+      "pe": 42.100807,
+      "ev_ebitda": 12.706
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 816.5,
+      "ret_1d": 0.0155472637,
+      "ret_5d": 0.0358388836,
+      "ret_21d": 0.1488672942,
+      "realised_vol_30d": 0.2571247358,
+      "high_52w": 993.0750732422,
+      "pct_from_52w_high": -0.1778063693,
+      "market_cap_bn": 12576.5475796755,
+      "pe": 17.813114,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 1585.0,
+      "ret_1d": 0.0008840771,
+      "ret_5d": 0.0087831271,
+      "ret_21d": 0.1840729336,
+      "realised_vol_30d": 0.2619394224,
+      "high_52w": 1590.0,
+      "pct_from_52w_high": -0.0031446541,
+      "market_cap_bn": 11480.0279868858,
+      "pe": 19.632812,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "INFY.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 1145.0999755859,
+      "ret_1d": 0.0031537237,
+      "ret_5d": -0.0307262977,
+      "ret_21d": 0.0765913381,
+      "realised_vol_30d": 0.3587869089,
+      "high_52w": 1616.9676513672,
+      "pct_from_52w_high": -0.2918225825,
+      "market_cap_bn": 4576.92551393,
+      "pe": 15.046605,
+      "ev_ebitda": 933.825
+    },
+    {
+      "ticker": "ITC.NS",
+      "sector": "Consumer Defensive",
+      "currency": "INR",
+      "last_close": 295.1000061035,
+      "ret_1d": 0.0354386179,
+      "ret_5d": 0.0422038229,
+      "ret_21d": 0.1284895071,
+      "realised_vol_30d": 0.3068165932,
+      "high_52w": 388.8834228516,
+      "pct_from_52w_high": -0.241160747,
+      "market_cap_bn": 3675.8402884973,
+      "pe": 19.462507,
+      "ev_ebitda": 14.197
+    },
+    {
+      "ticker": "LT.NS",
+      "sector": "Industrials",
+      "currency": "INR",
+      "last_close": 4140.0,
+      "ret_1d": -0.0009169856,
+      "ret_5d": 0.005415597,
+      "ret_21d": 0.136738056,
+      "realised_vol_30d": 0.2135033569,
+      "high_52w": 4375.3642578125,
+      "pct_from_52w_high": -0.0537930659,
+      "market_cap_bn": 5717.499193112,
+      "pe": 32.009705,
+      "ev_ebitda": 17.785
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "sector": "Energy",
+      "currency": "INR",
+      "last_close": 1344.8000488281,
+      "ret_1d": 0.0038068955,
+      "ret_5d": 0.0187879158,
+      "ret_21d": 0.144900457,
+      "realised_vol_30d": 0.3768604912,
+      "high_52w": 1584.9718017578,
+      "pct_from_52w_high": -0.1515306157,
+      "market_cap_bn": 18498.890092045,
+      "pe": 22.528015,
+      "ev_ebitda": 12.199
+    },
+    {
+      "ticker": "TCS.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 2405.0,
+      "ret_1d": -0.0010384216,
+      "ret_5d": -0.0374224535,
+      "ret_21d": 0.0434292602,
+      "realised_vol_30d": 0.3204923645,
+      "high_52w": 3187.337890625,
+      "pct_from_52w_high": -0.2454518214,
+      "market_cap_bn": 8707.2894208188,
+      "pe": 16.86948,
+      "ev_ebitda": 11.429
+    }
+  ],
+  "headlines": [
+    {
+      "url_hash": "1a1bb4a4dd069788",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Budget, personalisation shape Indian travellers' choices: Booking.com",
+      "published_at": "2026-11-17T19:23:32.000",
+      "url": "https://www.business-standard.com/markets/news/budget-personalisation-shape-indian-travellers-choices-booking-com-126111800039_1.html",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "399e37578ad05f13",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Meganet, Rediff.com file IPO papers; Advanced Sys-Tek gets Sebi nod",
+      "published_at": "2026-11-17T17:15:08.000",
+      "url": "https://www.business-standard.com/markets/ipo/meganet-rediff-com-file-ipo-papers-advanced-sys-tek-gets-sebi-nod-126111701516_1.html",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "39f9771917539bd4",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Nifty Bank extends gains to 11.5% in a month, hits fresh record high",
+      "published_at": "2026-11-17T16:57:25.000",
+      "url": "https://www.business-standard.com/markets/news/nifty-bank-extends-gains-to-11-5-in-a-month-hits-fresh-record-high-126111701213_1.html",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "dcdf47d02c9adb15",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Nike targets $5 billion more in revenue growth by 2031 in latest turnaround push",
+      "published_at": "2026-11-17T14:57:08.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nike-targets-5-billion-more-in-revenue-growth-by-2031-in-latest-turnaround-push/articleshow/135930431.cms",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "18a3b721c3627118",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Signature Global-led consortium buys 194 acre land via auction for Rs 194 cr",
+      "published_at": "2026-11-17T14:38:12.000",
+      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/signature-global-led-consortium-buys-194-acre-land-via-auction-for-rs-194-cr/articleshow/135929748.cms",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "e63a04ffd6668d24",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sebi lowers margin requirements for agri-derivatives contracts",
+      "published_at": "2026-11-17T14:36:13.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-lowers-margin-requirements-for-agri-derivatives-contracts/articleshow/135929718.cms",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "3da3050264c815fd",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "BP launches offer to buy back up to $6 billion of bonds",
+      "published_at": "2026-11-17T14:34:57.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/bp-launches-offer-to-buy-back-up-to-6-billion-of-bonds/articleshow/135929675.cms",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "d2768694889def0b",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "K Raheja Corp inks joint development agreement for 165-acre township in Mumbai region",
+      "published_at": "2026-11-17T14:33:25.000",
+      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/k-raheja-corp-inks-joint-development-agreement-for-165-acre-township-in-mumbai-region/articleshow/135929507.cms",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "31a632c4b512d85c",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "BlackRock raises its stake in Axis Bank to 5%",
+      "published_at": "2026-11-17T14:28:06.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/blackrock-raises-its-stake-in-axis-bank-to-5/articleshow/135929469.cms",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "f5dfece43ef05a10",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Who pays if your flat catches fire? A guide to home insurance",
+      "published_at": "2026-11-17T13:11:44.000",
+      "url": "https://www.business-standard.com/markets/news/who-pays-if-your-flat-catches-fire-a-guide-to-home-insurance-126111701090_1.html",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "6bb75c13cffb83f3",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Dow crashes over 1,000 pts as jittery AI stocks drag US market lower: Stock Market Live Updates",
+      "published_at": "2026-11-17T13:07:43.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-ai-stocks-intel-coreweave-meta-tesla-nvidia-earnings-anthropic-ipo-treasury-fed-rate-treasury-bond-yield-brent-oil-news-17th-november-2026/liveblog/135927419.cms",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "2357609ff548d2c3",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Centricity WealthTech launches private clients business for NRIs",
+      "published_at": "2026-11-17T12:57:57.000",
+      "url": "https://economictimes.indiatimes.com/markets/companies/centricity-wealthtech-launches-private-clients-business-for-nris/articleshow/135926555.cms",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "d587d56b2dca29e8",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "M3M India to invest Rs 1,650 cr to build luxury homes under Jacob & Co brand in Gurugram",
+      "published_at": "2026-11-17T12:50:25.000",
+      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/m3m-india-to-invest-rs-1650-cr-to-build-luxury-homes-under-jacob-co-brand-in-gurugram/articleshow/135926381.cms",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "659670c7fa4b7b77",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Indian bonds surge after oil slide eases aggressive rate hike concerns",
+      "published_at": "2026-11-17T12:02:23.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-surge-after-oil-slide-eases-aggressive-rate-hike-concerns/articleshow/135924727.cms",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "ea3de0edbb165c17",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Eternal among 5 stocks hitting 52-week highs; stock rallies up to 15% in a month",
+      "published_at": "2026-11-17T11:57:16.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/eternal-among-5-stocks-hitting-52-week-highs-stock-rallies-up-to-15-in-a-month/slideshow/135924700.cms",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "8ddb858a4ae00545",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Disney beats earnings forecasts, plans to increase content spending",
+      "published_at": "2026-11-17T11:35:48.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/disney-beats-earnings-forecasts-plans-to-increase-content-spending/articleshow/135923706.cms",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "26ef345883ab058e",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Robust inflows, pullback in shorts lift rupee to seven-month peak",
+      "published_at": "2026-11-17T10:43:17.000",
+      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/robust-inflows-pullback-in-shorts-lift-rupee-to-seven-month-peak/articleshow/135921416.cms",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "5d003b04a6b9086b",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Millions launches US stocks, ETFs investment facility for Indian investors",
+      "published_at": "2026-11-17T10:14:05.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/millions-launches-us-stocks-etfs-investment-facility-for-indian-investors/articleshow/135920698.cms",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "99bdabe8943aabed",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sebi may limit leveraged stock bets to curb volatility: Report",
+      "published_at": "2026-11-17T10:07:02.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-may-limit-leveraged-stock-bets-to-curb-volatility-report/articleshow/135920460.cms",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "f61914406fb2f57a",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Tata Chemicals shares rally 11% in 3 days; why is Tata Group stock rising?",
+      "published_at": "2026-11-17T09:53:31.000",
+      "url": "https://www.business-standard.com/markets/news/tata-chemicals-shares-rally-11-in-3-days-why-is-tata-group-stock-rising-126111700701_1.html",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "b01892402f149f5a",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Eicher Motors jumps 3%, stock top gainer in Nifty Auto; brokerages upbeat",
+      "published_at": "2026-11-17T09:33:54.000",
+      "url": "https://www.business-standard.com/markets/news/eicher-motors-jumps-3-stock-top-gainer-in-nifty-auto-brokerages-upbeat-126111700622_1.html",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "7828592bdce83ebe",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "India Inc logs best quarterly profit growth in 4 years, lifts market hopes",
+      "published_at": "2026-11-17T08:44:49.000",
+      "url": "https://www.business-standard.com/markets/news/india-inc-logs-best-quarterly-profit-growth-in-4-years-lifts-market-hopes-126111700526_1.html",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "a2aaa24d5c6b0dab",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "TTK Healthcare zooms 20% as board mulls issuing preference shares via bonus",
+      "published_at": "2026-11-17T08:10:06.000",
+      "url": "https://www.business-standard.com/markets/news/ttk-healthcare-zooms-20-as-board-mulls-issuing-preference-shares-via-bonus-126111700516_1.html",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "275fc66e08983cb0",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Punjab National Bank share price zooms 31% in 1 month; hits 8-year high",
+      "published_at": "2026-11-17T08:09:41.000",
+      "url": "https://www.business-standard.com/markets/news/punjab-national-bank-share-price-zooms-31-in-1-month-hits-8-year-high-126111700500_1.html",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    },
+    {
+      "url_hash": "46abf1fc76c5ba94",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Sebi may limit margin-funded stock purchases as retail leverage hits record",
+      "published_at": "2026-11-17T08:07:32.000",
+      "url": "https://www.business-standard.com/markets/news/sebi-may-limit-margin-funded-stock-purchases-as-retail-leverage-hits-record-126111700421_1.html",
+      "fetched_at": "2026-11-17T21:09:57.027"
+    }
+  ]
+}
