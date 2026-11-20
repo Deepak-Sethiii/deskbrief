@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-20T20:36:45.995135+00:00",
+  "commentary_source": "fallback",
+  "commentary": {
+    "market_tone": "Breadth was risk-on: 6 of 8 names advanced on the day.",
+    "bullets": [
+      "Best performer on the day: HDFCBANK.NS at +1.69%.",
+      "Weakest on the day: TCS.NS at -1.55%.",
+      "Median one-day move across the watchlist: +0.74%.",
+      "INFY.NS sits furthest below its 52-week high, at -32.5%.",
+      "3 name(s) within 5% of the 52-week high: BHARTIARTL.NS, ICICIBANK.NS, LT.NS."
+    ],
+    "watch_items": [
+      "Highest 30-day realised volatility: RELIANCE.NS at 37.2% annualised.",
+      "60 headlines collected, 6 tagged to a watchlist name by substring match (unverified).",
+      "Commentary model was unavailable, so no qualitative read is included."
+    ],
+    "source": "deterministic-fallback (model returned unusable output twice)",
+    "source_kind": "fallback"
+  },
+  "comps": [
+    {
+      "ticker": "BHARTIARTL.NS",
+      "sector": "Communication Services",
+      "currency": "INR",
+      "last_close": 2144.0,
+      "ret_1d": 0.0056285178,
+      "ret_5d": 0.0229007634,
+      "ret_21d": 0.1433447397,
+      "realised_vol_30d": 0.2458799552,
+      "high_52w": 2153.5,
+      "pct_from_52w_high": -0.0044114233,
+      "market_cap_bn": 13487.8153511994,
+      "pe": 42.561527,
+      "ev_ebitda": 12.828
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 821.799987793,
+      "ret_1d": 0.0168903829,
+      "ret_5d": 0.0116951867,
+      "ret_21d": 0.154213466,
+      "realised_vol_30d": 0.2495347293,
+      "high_52w": 993.0750732422,
+      "pct_from_52w_high": -0.1724694236,
+      "market_cap_bn": 13056.915079728,
+      "pe": 18.491804,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 1608.9000244141,
+      "ret_1d": 0.0047461284,
+      "ret_5d": 0.0118868078,
+      "ret_21d": 0.1650253616,
+      "realised_vol_30d": 0.2600522324,
+      "high_52w": 1608.9000244141,
+      "pct_from_52w_high": 0.0,
+      "market_cap_bn": 11782.72030692,
+      "pe": 20.139997,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "INFY.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 1091.9000244141,
+      "ret_1d": -0.0152417241,
+      "ret_5d": -0.0515114049,
+      "ret_21d": -0.0121935745,
+      "realised_vol_30d": 0.3472409848,
+      "high_52w": 1616.9676513672,
+      "pct_from_52w_high": -0.3247236434,
+      "market_cap_bn": 4447.313463978,
+      "pe": 14.620506,
+      "ev_ebitda": 907.363
+    },
+    {
+      "ticker": "ITC.NS",
+      "sector": "Consumer Defensive",
+      "currency": "INR",
+      "last_close": 301.0,
+      "ret_1d": 0.0148347735,
+      "ret_5d": 0.0596726384,
+      "ret_21d": 0.1541411583,
+      "realised_vol_30d": 0.2777667497,
+      "high_52w": 388.8834228516,
+      "pct_from_52w_high": -0.2259891209,
+      "market_cap_bn": 3748.5299362071,
+      "pe": 19.84738,
+      "ev_ebitda": 14.495
+    },
+    {
+      "ticker": "LT.NS",
+      "sector": "Industrials",
+      "currency": "INR",
+      "last_close": 4211.0,
+      "ret_1d": 0.0125030055,
+      "ret_5d": 0.0124542706,
+      "ret_21d": 0.1499495104,
+      "realised_vol_30d": 0.2121943794,
+      "high_52w": 4375.3642578125,
+      "pct_from_52w_high": -0.0375658455,
+      "market_cap_bn": 5791.2467461744,
+      "pe": 32.422585,
+      "ev_ebitda": 17.991
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "sector": "Energy",
+      "currency": "INR",
+      "last_close": 1375.5999755859,
+      "ret_1d": 0.0092442961,
+      "ret_5d": 0.0267970633,
+      "ret_21d": 0.1444259364,
+      "realised_vol_30d": 0.3720928108,
+      "high_52w": 1584.9718017578,
+      "pct_from_52w_high": -0.1320981395,
+      "market_cap_bn": 18640.9810547125,
+      "pe": 22.701056,
+      "ev_ebitda": 12.275
+    },
+    {
+      "ticker": "TCS.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 2342.6999511719,
+      "ret_1d": -0.0154654544,
+      "ret_5d": -0.0408204861,
+      "ret_21d": -0.0480311902,
+      "realised_vol_30d": 0.3266055934,
+      "high_52w": 3187.337890625,
+      "pct_from_52w_high": -0.2649979288,
+      "market_cap_bn": 8597.2995602716,
+      "pe": 16.656385,
+      "ev_ebitda": 11.278
+    }
+  ],
+  "headlines": [
+    {
+      "url_hash": "22f0d59103cf2b81",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Oil prices set for 3rd straight week of decline on West Asia export flows",
+      "published_at": "2026-11-20T17:28:17.000",
+      "url": "https://www.business-standard.com/markets/news/oil-prices-set-for-3rd-straight-week-of-decline-on-west-asia-export-flows-126112001415_1.html",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "7bf01e61f4970692",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Indian investors show strong appetite for Anthropic's blockbuster IPO",
+      "published_at": "2026-11-20T15:54:13.000",
+      "url": "https://www.business-standard.com/markets/news/indian-investors-show-strong-appetite-for-anthropic-s-blockbuster-ipo-126112001087_1.html",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "56c9a05927aa362d",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Anthropic shares tumble after record IPO as AI trade faces reality check",
+      "published_at": "2026-11-20T15:36:41.000",
+      "url": "https://www.business-standard.com/markets/news/anthropic-shares-tumble-after-record-ipo-as-ai-trade-faces-reality-check-126112001268_1.html",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "e9e744453b797716",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Sebi plans tighter tenure caps for exchange MDs, public interest directors",
+      "published_at": "2026-11-20T15:15:33.000",
+      "url": "https://www.business-standard.com/markets/news/sebi-plans-tighter-tenure-caps-for-exchange-mds-public-interest-directors-126112001247_1.html",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "5ba9f2f81031b326",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sebi proposes limiting tenure of chief executives, independent directors at exchanges",
+      "published_at": "2026-11-20T15:09:36.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-proposes-limiting-tenure-of-chief-executives-independent-directors-at-exchanges/articleshow/136031465.cms",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "1254e9f1c6278a81",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Nasdaq tumbles 2% as Anthropic retreat deepens AI trade concerns",
+      "published_at": "2026-11-20T14:59:06.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-nasdaq-falls-1-at-open-as-anthropic-fails-to-steady-ai-trade/articleshow/136030779.cms",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "78edf50de1264b22",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Markets gain 2.6% on FPI inflows, rupee rally and cooling crude oil prices",
+      "published_at": "2026-11-20T13:54:39.000",
+      "url": "https://www.business-standard.com/markets/news/markets-gain-2-6-on-fpi-inflows-rupee-rally-and-cooling-crude-oil-prices-126112000973_1.html",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "5890da3e9ca6a1cf",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Rupee looks set for best monthly gains in 8 years; bond yields soften",
+      "published_at": "2026-11-20T13:36:46.000",
+      "url": "https://www.business-standard.com/markets/news/rupee-set-for-best-monthly-gain-in-8-years-on-strong-foreign-fund-inflows-126112001061_1.html",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "ac750999cea782b9",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Industry body GJC alerts BIS over gold adulteration using Rhenium, Iridium",
+      "published_at": "2026-11-20T13:14:29.000",
+      "url": "https://www.business-standard.com/markets/commodities/industry-body-gjc-alerts-bis-over-gold-adulteration-using-rhenium-iridium-126112000985_1.html",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "172019e45744e0fe",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Nasdaq plunges 1,100 pts as AI bubble fears batter tech stocks: Stock Market Live Updates",
+      "published_at": "2026-11-20T13:09:00.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-meta-tesla-anthropic-claude-nvidia-micron-meta-ai-stocks-fed-rate-hike-inflation-treasury-yield-news-20th-november-2026/liveblog/136028991.cms",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "d61d7afacc91f453",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Rupee climbs past 93/USD as investors seek shelter in Indian stocks, shorts unwind",
+      "published_at": "2026-11-20T10:45:31.000",
+      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-climbs-past-93/usd-as-investors-seek-shelter-in-indian-stocks-shorts-unwind/articleshow/136023536.cms",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "cebb09ab11fe8046",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "IndusInd Bank shares jump 8% on volume surge, near 52-week high",
+      "published_at": "2026-11-20T09:52:40.000",
+      "url": "https://www.business-standard.com/markets/news/indusind-bank-shares-jump-8-on-volume-surge-near-52-week-high-126112000682_1.html",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "0a23382627bb8dcb",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Textiles shares hit new high; Indo Count, Welspun Living rally up to 8%",
+      "published_at": "2026-11-20T09:40:19.000",
+      "url": "https://www.business-standard.com/markets/news/textiles-shares-hit-new-high-indo-count-welspun-living-rally-up-to-8-126112000642_1.html",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "e2ea32f072712f64",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Anthropic's debut rally fades as shares crack 7% in US pre-market trade",
+      "published_at": "2026-11-20T09:36:25.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/anthropics-debut-rally-fades-as-shares-crack-7-in-pre-market-trade-on-day-2/articleshow/136021174.cms",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "2eb5d62f848d0ed1",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sharp rupee appreciation may cut IT firms' FY27 earnings by up to 13%: Report",
+      "published_at": "2026-11-20T09:36:14.000",
+      "url": "https://economictimes.indiatimes.com/markets/forex/sharp-rupee-appreciation-may-cut-it-firms-fy27-earnings-by-up-to-13-report/articleshow/136021296.cms",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "b41f99b93f58553d",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sebi plans consultation paper to remove FPI constraints absent in other markets",
+      "published_at": "2026-11-20T09:19:53.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-plans-consultation-paper-to-remove-fpi-constraints-absent-in-other-markets/articleshow/136020808.cms",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "abf696d171b750b7",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "SAHI launches free charting platform with AI-based market analysis tools",
+      "published_at": "2026-11-20T09:07:04.000",
+      "url": "https://www.business-standard.com/markets/news/sahi-launches-free-charting-platform-sahicharts-indian-traders-126112000598_1.html",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "39575309136aaff4",
+      "ticker": "ICICIBANK.NS",
+      "source": "Business Standard Markets",
+      "title": "Contra funds get NFO boost: Is it time to bet against the market consensus?",
+      "published_at": "2026-11-20T08:56:10.000",
+      "url": "https://www.business-standard.com/markets/mutual-fund/contra-funds-get-nfo-boost-is-it-time-to-bet-against-the-market-consensus-126112000570_1.html",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "0013c75d83348a93",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "India VIX up 9%, tops 17-mark; analysts say FII flows keep bulls in control",
+      "published_at": "2026-11-20T08:41:38.000",
+      "url": "https://www.business-standard.com/markets/news/india-vix-up-9-tops-17-mark-analysts-say-fii-flows-keep-bulls-in-control-126112000547_1.html",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "fcf8b58633b8f03c",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Sensex zooms 1890 pts in 2 days; \u20b97.7 trn added to m-cap: 5 key reasons",
+      "published_at": "2026-11-20T08:25:00.000",
+      "url": "https://www.business-standard.com/markets/news/sensex-zooms-1790-pts-in-2-days-nifty-above-25-700-investors-wealth-grows-6-9-trn-5-factors-126112000541_1.html",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "32bc9ce177878cc4",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Sebi studies domestic AI model to make regulatory tools cheaper, safer",
+      "published_at": "2026-11-20T08:14:34.000",
+      "url": "https://www.business-standard.com/markets/news/sebi-domestically-governed-ai-model-securities-market-tuhin-kanta-pandey-126112000530_1.html",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "c92054c9111e1db9",
+      "ticker": "HDFCBANK.NS",
+      "source": "Business Standard Markets",
+      "title": "HDFC Bank regains \u20b913 trillion market-cap; stock hits 8-month high",
+      "published_at": "2026-11-20T08:11:27.000",
+      "url": "https://www.business-standard.com/markets/news/hdfc-bank-regains-13-trillion-market-cap-stock-hits-8-month-high-126112000503_1.html",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "9799af65318293c4",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Brent seen at $75-85 in 2027 as oil surplus builds: Mirae Asset Sharekhan",
+      "published_at": "2026-11-20T08:08:29.000",
+      "url": "https://www.business-standard.com/markets/news/brent-seen-at-75-85-in-2027-as-oil-surplus-builds-mirae-asset-sharekhan-126112000518_1.html",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "1884cd84a405008d",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Gold, silver prices fall amid stronger dollar, hawkish Fed signals",
+      "published_at": "2026-11-20T07:57:46.000",
+      "url": "https://www.business-standard.com/markets/commodities/gold-silver-prices-fall-amid-stronger-dollar-hawkish-fed-signals-126112000502_1.html",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    },
+    {
+      "url_hash": "dfe779caff43b46b",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Indian finance hub eyes dual share model to kickstart public offers: Report",
+      "published_at": "2026-11-20T07:32:59.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-finance-hub-eyes-dual-share-model-to-kickstart-public-offers-report/articleshow/136017941.cms",
+      "fetched_at": "2026-11-20T20:36:38.908"
+    }
+  ]
+}
