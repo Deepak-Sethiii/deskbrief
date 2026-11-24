@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-24T00:09:13.915157+00:00",
+  "commentary_source": "fallback",
+  "commentary": {
+    "market_tone": "Breadth was risk-on: 6 of 8 names advanced on the day.",
+    "bullets": [
+      "Best performer on the day: HDFCBANK.NS at +2.94%.",
+      "Weakest on the day: ITC.NS at -0.63%.",
+      "Median one-day move across the watchlist: +0.69%.",
+      "INFY.NS sits furthest below its 52-week high, at -32.1%.",
+      "3 name(s) within 5% of the 52-week high: BHARTIARTL.NS, ICICIBANK.NS, LT.NS."
+    ],
+    "watch_items": [
+      "Highest 30-day realised volatility: RELIANCE.NS at 37.0% annualised.",
+      "60 headlines collected, 4 tagged to a watchlist name by substring match (unverified).",
+      "Commentary model was unavailable, so no qualitative read is included."
+    ],
+    "source": "deterministic-fallback (model returned unusable output twice)",
+    "source_kind": "fallback"
+  },
+  "comps": [
+    {
+      "ticker": "BHARTIARTL.NS",
+      "sector": "Communication Services",
+      "currency": "INR",
+      "last_close": 2161.6999511719,
+      "ret_1d": 0.0082555742,
+      "ret_5d": 0.0264482199,
+      "ret_21d": 0.1427287662,
+      "realised_vol_30d": 0.2450666056,
+      "high_52w": 2161.6999511719,
+      "pct_from_52w_high": 0.0,
+      "market_cap_bn": 13280.665668237,
+      "pe": 41.907856,
+      "ev_ebitda": 12.655
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 846.0,
+      "ret_1d": 0.0294475694,
+      "ret_5d": 0.052238806,
+      "ret_21d": 0.1966899857,
+      "realised_vol_30d": 0.2536229122,
+      "high_52w": 993.0750732422,
+      "pct_from_52w_high": -0.1481006595,
+      "market_cap_bn": 12621.6845770704,
+      "pe": 17.87541,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 1640.0,
+      "ret_1d": 0.0193299615,
+      "ret_5d": 0.0356150703,
+      "ret_21d": 0.1841155235,
+      "realised_vol_30d": 0.262483579,
+      "high_52w": 1640.0,
+      "pct_from_52w_high": 0.0,
+      "market_cap_bn": 11391.1603942815,
+      "pe": 19.47071,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "INFY.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 1098.0,
+      "ret_1d": 0.0055865697,
+      "ret_5d": -0.038107753,
+      "ret_21d": -0.0383969177,
+      "realised_vol_30d": 0.3390723025,
+      "high_52w": 1616.9676513672,
+      "pct_from_52w_high": -0.3209511649,
+      "market_cap_bn": 4469.1854974074,
+      "pe": 14.69241,
+      "ev_ebitda": 911.829
+    },
+    {
+      "ticker": "ITC.NS",
+      "sector": "Consumer Defensive",
+      "currency": "INR",
+      "last_close": 299.1000061035,
+      "ret_1d": -0.0063122721,
+      "ret_5d": 0.0494737056,
+      "ret_21d": 0.1416030767,
+      "realised_vol_30d": 0.2784937709,
+      "high_52w": 388.8834228516,
+      "pct_from_52w_high": -0.2308748881,
+      "market_cap_bn": 3772.342062181,
+      "pe": 19.973457,
+      "ev_ebitda": 14.592
+    },
+    {
+      "ticker": "LT.NS",
+      "sector": "Industrials",
+      "currency": "INR",
+      "last_close": 4209.1000976562,
+      "ret_1d": -0.000451176,
+      "ret_5d": 0.015758554,
+      "ret_21d": 0.1576182887,
+      "realised_vol_30d": 0.2021571958,
+      "high_52w": 4375.3642578125,
+      "pct_from_52w_high": -0.0380000728,
+      "market_cap_bn": 5640.9998656816,
+      "pe": 31.581417,
+      "ev_ebitda": 17.57
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "sector": "Energy",
+      "currency": "INR",
+      "last_close": 1377.5,
+      "ret_1d": 0.0013812332,
+      "ret_5d": 0.0282153096,
+      "ret_21d": 0.1393713813,
+      "realised_vol_30d": 0.3702954618,
+      "high_52w": 1584.9718017578,
+      "pct_from_52w_high": -0.1308993646,
+      "market_cap_bn": 18282.370529885,
+      "pe": 22.264338,
+      "ev_ebitda": 12.083
+    },
+    {
+      "ticker": "TCS.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 2376.1999511719,
+      "ret_1d": 0.0142997399,
+      "ret_5d": -0.0130010587,
+      "ret_21d": -0.0604191573,
+      "realised_vol_30d": 0.3254537477,
+      "high_52w": 3187.337890625,
+      "pct_from_52w_high": -0.2544875904,
+      "market_cap_bn": 8900.49529428,
+      "pe": 17.243795,
+      "ev_ebitda": 11.695
+    }
+  ],
+  "headlines": [
+    {
+      "url_hash": "521e73ad0ce110c4",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Bank-based brokers lead India's margin trading facility market, shows data",
+      "published_at": "2026-11-23T17:23:54.000",
+      "url": "https://www.business-standard.com/markets/news/for-tariff-classification-section-and-chapter-titles-have-no-legal-force-126112301426_1.html",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "e570a9fcc14df84a",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Bernstein upgrades Nvidia stock to outperform as Jensen Huang returns",
+      "published_at": "2026-11-23T17:03:35.000",
+      "url": "https://www.business-standard.com/markets/news/bernstein-upgrades-nvidia-stock-to-outperform-as-jensen-huang-returns-126112301402_1.html",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "ea083006d97d230d",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "\u20b95.6 trn wiped off investor wealth as Sensex, Nifty slump over 1.7%",
+      "published_at": "2026-11-23T15:46:05.000",
+      "url": "https://www.business-standard.com/markets/news/5-2-trillion-wiped-off-market-value-as-sensex-nifty-slump-over-1-7-126112301135_1.html",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "308d5b5a5e98f59b",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Foodlink F&B Holdings' \u20b9361 crore IPO to open for subscription on Nov 26",
+      "published_at": "2026-11-23T15:07:35.000",
+      "url": "https://www.business-standard.com/markets/ipo/foodlink-f-b-holdings-rs-361-cr-ipo-to-open-on-nov-26-price-band-set-at-rs-181-191-126112300171_1.html",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "16cae08d0fdc4cea",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "NSEL releases \u20b91,950 cr in one-time settlement, ends 14-yr payment default",
+      "published_at": "2026-11-23T15:03:08.000",
+      "url": "https://www.business-standard.com/markets/news/nsel-releases-1-950-cr-in-one-time-settlement-ends-14-yr-payment-default-126112300903_1.html",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "bb8c2883ecffa14b",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Nvidia stock skyrockets 29% as board reinstates Jensen Huang as CEO",
+      "published_at": "2026-11-23T14:49:23.000",
+      "url": "https://www.business-standard.com/world-news/nvidia-stock-skyrockets-31-as-board-reinstates-jensen-huang-as-ceo-126112301215_1.html",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "043c833c8d9f2eb6",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Stop publishing grey mkt premiums for IPOs: Sebi to market players",
+      "published_at": "2026-11-23T14:11:11.000",
+      "url": "https://www.business-standard.com/markets/news/sebi-asks-market-players-to-stop-publishing-grey-market-premiums-for-ipos-126112301145_1.html",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "a7675d0dd9004946",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "NSEL releases Rs 1,950 crore in one-time settlement, ends 14-year payment default",
+      "published_at": "2026-11-23T13:13:56.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/nsel-releases-rs-1950-crore-in-one-time-settlement-ends-14-year-payment-default/articleshow/136104164.cms",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "7a56c5d22291fd5e",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Nasdaq surges 6%, Dow soars 1,400 pts as markets rebound on Huang\u2019s return: Stock Market Live Updates",
+      "published_at": "2026-11-23T13:12:48.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-meta-anthropic-amd-micron-tesla-ai-chip-earnings-fed-rate-treasury-yield-news-23rd-november-2026/liveblog/136104474.cms",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "d990d0e3e2ad7865",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Adani Airport raises $300 mn from 360 ONE Asset, taking total equity infusion to $1.35 bn",
+      "published_at": "2026-11-23T13:11:12.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/adani-airport-raises-300-mn-from-360-one-asset-taking-total-equity-infusion-to-1-35-bn/articleshow/136104118.cms",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "81b290560935abc3",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Nasdaq futures surge 3% as battered AI stocks gain ground",
+      "published_at": "2026-11-23T13:09:42.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-futures-surge-3-as-battered-ai-stocks-gain-ground/articleshow/136104059.cms",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "79b340e721a480f8",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Rupee reversal, debt supply drag India bonds in holiday-shortened week",
+      "published_at": "2026-11-23T13:07:06.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/rupee-reversal-debt-supply-drag-india-bonds-in-holiday-shortened-week/articleshow/136103987.cms",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "3b485e3ebf8e47a7",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Rupee retreats with stocks as rally takes a breather, positive bias lingers",
+      "published_at": "2026-11-23T10:28:38.000",
+      "url": "https://economictimes.indiatimes.com/markets/forex/rupee-retreats-with-stocks-as-rally-takes-a-breather-positive-bias-lingers/articleshow/136098391.cms",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "77e24e12373e7441",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "India's gold imports fall 40% to $24.7 billion in April-October 2026: CTI",
+      "published_at": "2026-11-23T10:24:31.000",
+      "url": "https://www.business-standard.com/markets/commodities/india-s-gold-imports-fall-40-to-24-7-billion-in-april-october-2026-cti-126112300624_1.html",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "b137033c9ebc29e8",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "German bond yields edge higher as equity rebound eases safe-haven demand",
+      "published_at": "2026-11-23T09:55:49.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/german-bond-yields-edge-higher-as-equity-rebound-eases-safe-haven-demand/articleshow/136097404.cms",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "a7fab8935a28622a",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Ratnaveer Precision surges 10% on huge volume; zooms 215% thus far in FY27",
+      "published_at": "2026-11-23T09:51:57.000",
+      "url": "https://www.business-standard.com/markets/news/ratnaveer-precision-surges-10-on-huge-volume-zooms-215-thus-far-in-fy27-126112300644_1.html",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "e35935ebd6a277c8",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Milky Mist gains 5% on JM Financial's bullish call, up 140% from IPO price",
+      "published_at": "2026-11-23T09:36:05.000",
+      "url": "https://www.business-standard.com/markets/news/milky-mist-gains-5-on-jm-financial-s-bullish-call-up-140-from-ipo-price-126112300622_1.html",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "509dda5f1de70dbe",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Stocks at 52-week low: Tata Power, Cochin Shipyard, APL Apollo, Aadhar Hsg",
+      "published_at": "2026-11-23T09:07:54.000",
+      "url": "https://www.business-standard.com/markets/news/stocks-at-52-week-low-tata-power-cochin-shipyard-apl-apollo-aadhar-housing-126112300552_1.html",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "b8dcc4ef6204f422",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Dalmia Bharat pares losses to trade flat after \u20b9700-cr buyback announcement",
+      "published_at": "2026-11-23T09:01:19.000",
+      "url": "https://www.business-standard.com/markets/news/dalmia-bharat-pares-losses-to-trade-flat-after-700-cr-buyback-announcement-126112300559_1.html",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "ea2451bfcb104903",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "PTC Industries rebounds, up 3% from day's low on major defence order win",
+      "published_at": "2026-11-23T08:38:41.000",
+      "url": "https://www.business-standard.com/markets/news/ptc-industries-rebounds-up-3-from-day-s-low-on-major-defence-order-win-126112300539_1.html",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "56dd71fafc78e780",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Premium demand, solid pipeline to spur residential realty growth: Brokerage",
+      "published_at": "2026-11-23T08:28:06.000",
+      "url": "https://www.business-standard.com/markets/news/premium-demand-solid-pipeline-to-spur-residential-realty-growth-brokerage-126112300521_1.html",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "0e317b3001a5d0a6",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Sterling and Wilson shares gain 7% on winning orders worth \u20b92,050 crore",
+      "published_at": "2026-11-23T08:11:59.000",
+      "url": "https://www.business-standard.com/markets/news/sterling-and-wilson-shares-gain-7-on-winning-orders-worth-2-050-crore-126112300509_1.html",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "4c497f293daf4dff",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Sterlite Tech, HFCL extend fall; slip up to 41% from October highs",
+      "published_at": "2026-11-23T07:47:08.000",
+      "url": "https://www.business-standard.com/markets/news/sterlite-tech-hfcl-extend-fall-slip-up-to-41-from-october-highs-126112300446_1.html",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "f5ccf6f3a54f40ee",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Bulls take a breather! Sensex dives 1,500 pts intraday; a short-term blip?",
+      "published_at": "2026-11-23T07:26:42.000",
+      "url": "https://www.business-standard.com/markets/news/bulls-take-a-breather-sensex-dives-1-000-pts-intraday-a-short-term-blip-126112300436_1.html",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    },
+    {
+      "url_hash": "fc5202260fe0faa6",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "India bonds give up marginal opening gains as profit booking takes over",
+      "published_at": "2026-11-23T07:16:54.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-give-up-marginal-opening-gains-as-profit-booking-takes-over/articleshow/136093136.cms",
+      "fetched_at": "2026-11-24T00:09:07.528"
+    }
+  ]
+}
