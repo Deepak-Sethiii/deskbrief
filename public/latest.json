@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T22:39:31.973903+00:00",
+  "generated_at": "2026-11-25T21:52:56.617690+00:00",
   "commentary_source": "fallback",
   "commentary": {
     "market_tone": "Breadth was risk-off: 3 of 8 names advanced on the day.",
@@ -13,7 +13,7 @@
     ],
     "watch_items": [
       "Highest 30-day realised volatility: RELIANCE.NS at 36.7% annualised.",
-      "60 headlines collected, 1 tagged to a watchlist name by substring match (unverified).",
+      "60 headlines collected, 7 tagged to a watchlist name by substring match (unverified).",
       "Commentary model was unavailable, so no qualitative read is included."
     ],
     "source": "deterministic-fallback (model returned unusable output twice)",
@@ -31,9 +31,9 @@
       "realised_vol_30d": 0.2445918294,
       "high_52w": 2161.6999511719,
       "pct_from_52w_high": -0.0153582606,
-      "market_cap_bn": 13280.665668237,
-      "pe": 41.907856,
-      "ev_ebitda": 12.655
+      "market_cap_bn": 13212.031737135,
+      "pe": 41.691277,
+      "ev_ebitda": 12.598
     },
     {
       "ticker": "HDFCBANK.NS",
@@ -46,8 +46,8 @@
       "realised_vol_30d": 0.272516336,
       "high_52w": 993.0750732422,
       "pct_from_52w_high": -0.1764973164,
-      "market_cap_bn": 12621.6843886707,
-      "pe": 17.87541,
+      "market_cap_bn": 13060.0018208816,
+      "pe": 18.496176,
       "ev_ebitda": null
     },
     {
@@ -61,8 +61,8 @@
       "realised_vol_30d": 0.2850864126,
       "high_52w": 1640.0,
       "pct_from_52w_high": -0.0332317073,
-      "market_cap_bn": 11391.2203705755,
-      "pe": 19.47071,
+      "market_cap_bn": 11782.78234484,
+      "pe": 20.139997,
       "ev_ebitda": null
     },
     {
@@ -76,9 +76,9 @@
       "realised_vol_30d": 0.3390697144,
       "high_52w": 1616.9676513672,
       "pct_from_52w_high": -0.3176115654,
-      "market_cap_bn": 4469.1855962935,
-      "pe": 14.69241,
-      "ev_ebitda": 911.829
+      "market_cap_bn": 4576.92551393,
+      "pe": 15.046605,
+      "ev_ebitda": 933.825
     },
     {
       "ticker": "ITC.NS",
@@ -91,9 +91,9 @@
       "realised_vol_30d": 0.2435563378,
       "high_52w": 388.4066772461,
       "pct_from_52w_high": -0.2250390695,
-      "market_cap_bn": 3772.342062181,
-      "pe": 19.973457,
-      "ev_ebitda": 14.592
+      "market_cap_bn": 3875.7368196993,
+      "pe": 20.520903,
+      "ev_ebitda": 15.015
     },
     {
       "ticker": "LT.NS",
@@ -106,9 +106,9 @@
       "realised_vol_30d": 0.2085370202,
       "high_52w": 4375.3642578125,
       "pct_from_52w_high": -0.0629580394,
-      "market_cap_bn": 5640.9997313176,
-      "pe": 31.581417,
-      "ev_ebitda": 17.57
+      "market_cap_bn": 5718.187136704,
+      "pe": 32.013554,
+      "ev_ebitda": 17.786
     },
     {
       "ticker": "RELIANCE.NS",
@@ -121,9 +121,9 @@
       "realised_vol_30d": 0.366857313,
       "high_52w": 1584.9718017578,
       "pct_from_52w_high": -0.147618905,
-      "market_cap_bn": 18282.370529885,
-      "pe": 22.264338,
-      "ev_ebitda": 12.083
+      "market_cap_bn": 18592.2641532265,
+      "pe": 22.641727,
+      "ev_ebitda": 12.249
     },
     {
       "ticker": "TCS.NS",
@@ -134,238 +134,238 @@
       "ret_5d": 0.0228690229,
       "ret_21d": -0.0187083267,
       "realised_vol_30d": 0.3361369787,
-      "high_52w": 3187.3376464844,
-      "pct_from_52w_high": -0.2281959827,
-      "market_cap_bn": 8900.49529428,
-      "pe": 17.243795,
-      "ev_ebitda": 11.695
+      "high_52w": 3187.337890625,
+      "pct_from_52w_high": -0.2281960418,
+      "market_cap_bn": 9107.8117090614,
+      "pe": 17.64545,
+      "ev_ebitda": 11.979
     }
   ],
   "headlines": [
     {
-      "url_hash": "6c64a0d54403c3eb",
+      "url_hash": "e25f503fd14e855f",
       "ticker": null,
       "source": "Economic Times Markets",
-      "title": "Nasdaq, S&P 500 end lower as investors assess Jensen Huang's return to Nvidia",
-      "published_at": "2026-11-24T21:09:28.000",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-sp-500-end-lower-as-investors-assess-jensen-huangs-return-to-nvidia/articleshow/136141893.cms",
-      "fetched_at": "2026-11-24T22:39:25.226"
+      "title": "Fed survey shows continued growth and sticky inflation in recent weeks",
+      "published_at": "2026-11-25T20:07:37.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/fed-survey-shows-continued-growth-and-sticky-inflation-in-recent-weeks/articleshow/136172166.cms",
+      "fetched_at": "2026-11-25T21:52:49.703"
     },
     {
-      "url_hash": "def04f541483004a",
+      "url_hash": "d86e5b136eb96cea",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Copper slumps to lowest in 11 months as investors flee",
+      "published_at": "2026-11-25T19:53:49.000",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/copper-slumps-to-lowest-in-11-months-as-investors-flee/articleshow/136172100.cms",
+      "fetched_at": "2026-11-25T21:52:49.703"
+    },
+    {
+      "url_hash": "ad0bd0ab8c551694",
       "ticker": null,
       "source": "Business Standard Markets",
-      "title": "IIFCL IPO: Govt to part sale stake, company to issue fresh shares",
-      "published_at": "2026-11-24T17:18:39.000",
-      "url": "https://www.business-standard.com/markets/ipo/iifcl-ipo-govt-to-part-sale-stake-company-to-issue-fresh-shares-126112400446_1.html",
-      "fetched_at": "2026-11-24T22:39:25.226"
+      "title": "Look past grey market hype, focus on fundamentals when applying for IPOs",
+      "published_at": "2026-11-25T18:06:38.000",
+      "url": "https://www.business-standard.com/finance/personal-finance/look-past-grey-market-hype-focus-on-fundamentals-when-applying-for-ipos-126112501292_1.html",
+      "fetched_at": "2026-11-25T21:52:49.703"
     },
     {
-      "url_hash": "276bbaeea92de7b1",
+      "url_hash": "bfc463f269fec0e8",
       "ticker": null,
       "source": "Business Standard Markets",
-      "title": "US markets slide, Asian markets rebound as Nvidia rally fizzles out",
-      "published_at": "2026-11-24T16:58:55.000",
-      "url": "https://www.business-standard.com/markets/news/us-markets-slide-asian-markets-rebound-as-nvidia-rally-fizzles-out-126112401181_1.html",
-      "fetched_at": "2026-11-24T22:39:25.226"
+      "title": "Sensex, Nifty surge nearly 2% to post their best session since November 6",
+      "published_at": "2026-11-25T15:22:29.000",
+      "url": "https://www.business-standard.com/markets/news/sensex-nifty-surge-nearly-2-to-post-their-best-session-since-november-6-126112501149_1.html",
+      "fetched_at": "2026-11-25T21:52:49.703"
     },
     {
-      "url_hash": "1e205f7beb88d77c",
+      "url_hash": "d5ebcd6759898f5b",
       "ticker": null,
       "source": "Economic Times Markets",
-      "title": "PE/VC investments in India surge to USD 8.7 billion in October, highest monthly level in five years: EY-IVCA report",
-      "published_at": "2026-11-24T13:47:50.000",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/pe/vc-investments-in-india-surge-to-usd-8-7-billion-in-october-highest-monthly-level-in-five-years-ey-ivca-report/articleshow/136132831.cms",
-      "fetched_at": "2026-11-24T22:39:25.226"
+      "title": "Carlyle pares 7.4% stake in Piramal Pharma for over Rs 2,211 crore",
+      "published_at": "2026-11-25T15:02:44.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/carlyle-pares-7-4-stake-in-piramal-pharma-for-over-rs-2211-crore/articleshow/136165837.cms",
+      "fetched_at": "2026-11-25T21:52:49.703"
     },
     {
-      "url_hash": "85dbb8ee19be5fe6",
+      "url_hash": "8ce9114f30a3bf52",
       "ticker": null,
       "source": "Economic Times Markets",
-      "title": "Nasdaq, S&P 500 end lower as investors assess Jensen Huang's return to Nvidia: US Stock Market Highlights",
-      "published_at": "2026-11-24T13:00:48.000",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-anthropic-iphone-google-meta-tesla-earnings-treasury-yield-news-24-nov-2026/liveblog/136131363.cms",
-      "fetched_at": "2026-11-24T22:39:25.226"
+      "title": "RBI raises share of domestically held gold reserves, data shows",
+      "published_at": "2026-11-25T15:00:14.000",
+      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rbi-raises-share-of-domestically-held-gold-reserves-data-shows/articleshow/136165807.cms",
+      "fetched_at": "2026-11-25T21:52:49.703"
     },
     {
-      "url_hash": "018914e141e6c6be",
+      "url_hash": "1303299a41c9a1c2",
       "ticker": null,
       "source": "Economic Times Markets",
-      "title": "Shift in pension and insurance money to equities dampens long-term G-sec demand: RBI DG",
-      "published_at": "2026-11-24T12:39:55.000",
-      "url": "https://economictimes.indiatimes.com/markets/bonds/shift-in-pension-and-insurance-money-to-equities-dampens-long-term-g-sec-demand-rbi-dg/articleshow/136130860.cms",
-      "fetched_at": "2026-11-24T22:39:25.226"
+      "title": "Two in five Indian family offices, UHNIs have engaged with crypto amid regulatory caution",
+      "published_at": "2026-11-25T13:49:47.000",
+      "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/two-in-five-indian-family-offices-uhnis-have-engaged-with-crypto-amid-regulatory-caution/articleshow/136163899.cms",
+      "fetched_at": "2026-11-25T21:52:49.703"
     },
     {
-      "url_hash": "1e7f9fa46572455e",
-      "ticker": null,
-      "source": "Economic Times Markets",
-      "title": "A 50 bps jumbo rate hike can lead to financial stability concerns, hurt growth: Report",
-      "published_at": "2026-11-24T12:38:23.000",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/a-50-bps-jumbo-rate-hike-can-lead-to-financial-stability-concerns-hurt-growth-report/articleshow/136130764.cms",
-      "fetched_at": "2026-11-24T22:39:25.226"
-    },
-    {
-      "url_hash": "3cba6b888a41c132",
-      "ticker": null,
-      "source": "Economic Times Markets",
-      "title": "AI boom looms over Warsh's Fed as inflation worries grow",
-      "published_at": "2026-11-24T11:39:37.000",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/ai-boom-looms-over-warshs-fed-as-inflation-worries-grow/articleshow/136129160.cms",
-      "fetched_at": "2026-11-24T22:39:25.226"
-    },
-    {
-      "url_hash": "e55b9ee21c8fdb8f",
-      "ticker": null,
-      "source": "Economic Times Markets",
-      "title": "Anthropic CEO Dario Amodei sells shares worth USD 280.41 million following IPO",
-      "published_at": "2026-11-24T11:37:14.000",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ceo-dario-amodei-sells-shares-worth-usd-280-41-million-following-ipo/articleshow/136129119.cms",
-      "fetched_at": "2026-11-24T22:39:25.226"
-    },
-    {
-      "url_hash": "dd84bdac4e2fdad9",
-      "ticker": null,
-      "source": "Economic Times Markets",
-      "title": "RBI DG asks primary dealers to bid responsibly in G-Sec underwriting auctions",
-      "published_at": "2026-11-24T09:26:23.000",
-      "url": "https://economictimes.indiatimes.com/markets/bonds/rbi-dg-asks-primary-dealers-to-bid-responsibly-in-g-sec-underwriting-auctions/articleshow/136125661.cms",
-      "fetched_at": "2026-11-24T22:39:25.226"
-    },
-    {
-      "url_hash": "44189a8b759e198e",
-      "ticker": null,
-      "source": "Economic Times Markets",
-      "title": "IIFCL IPO: Govt plans to sell part of its stake, company to issue fresh shares",
-      "published_at": "2026-11-24T08:32:38.000",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/iifcl-ipo-govt-plans-to-sell-part-of-its-stake-company-to-issue-fresh-shares/articleshow/136124476.cms",
-      "fetched_at": "2026-11-24T22:39:25.226"
-    },
-    {
-      "url_hash": "dcdaacc61d89c6f4",
+      "url_hash": "f9177c7632edc2bf",
       "ticker": null,
       "source": "Business Standard Markets",
-      "title": "Investors become richer by \u20b934.61 trillion as Sensex surges in November",
-      "published_at": "2026-11-24T08:10:51.000",
-      "url": "https://www.business-standard.com/markets/news/investors-become-richer-by-34-61-trillion-as-sensex-surges-in-november-126112400402_1.html",
-      "fetched_at": "2026-11-24T22:39:25.226"
+      "title": "LG Electronics India promoter may offload 2% stake for \u20b92,320.5 crore",
+      "published_at": "2026-11-25T13:45:21.000",
+      "url": "https://www.business-standard.com/companies/news/lg-electronics-india-promoter-may-offload-2-stake-for-2-320-5-crore-126112501137_1.html",
+      "fetched_at": "2026-11-25T21:52:49.703"
     },
     {
-      "url_hash": "b261740089450b32",
+      "url_hash": "8db1199e65766c63",
       "ticker": null,
       "source": "Economic Times Markets",
-      "title": "Investors mint Rs 34.61 lakh cr in November as markets rally nearly 11%",
-      "published_at": "2026-11-24T07:58:46.000",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/investors-mint-rs-34-61-lakh-cr-in-november-as-markets-rally-nearly-11/articleshow/136123662.cms",
-      "fetched_at": "2026-11-24T22:39:25.226"
+      "title": "RBI net buyer of dollars for fourth straight month in September, data shows",
+      "published_at": "2026-11-25T13:19:28.000",
+      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rbi-net-buyer-of-dollars-for-fourth-straight-month-in-september-data-shows/articleshow/136163192.cms",
+      "fetched_at": "2026-11-25T21:52:49.703"
     },
     {
-      "url_hash": "857c962e6486e46c",
-      "ticker": "RELIANCE.NS",
-      "source": "Economic Times Markets",
-      "title": "HDFC Bank, Reliance Industries among 10 stocks with highest DII holding in Q2. See full list",
-      "published_at": "2026-11-24T06:15:03.000",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/hdfc-bank-reliance-industries-among-10-stocks-with-highest-dii-holding-in-q2-see-full-list/slideshow/136126992.cms",
-      "fetched_at": "2026-11-24T22:39:25.226"
-    },
-    {
-      "url_hash": "b77f01cb0397dc08",
+      "url_hash": "0984c2b32d915342",
       "ticker": null,
       "source": "Economic Times Markets",
-      "title": "The LTCG debate: Why markets need tax stability and not ad-hoc fixes",
-      "published_at": "2026-11-24T06:08:55.000",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/the-ltcg-debate-why-markets-need-tax-stability-and-not-ad-hoc-fixes/articleshow/136121257.cms",
-      "fetched_at": "2026-11-24T22:39:25.226"
+      "title": "Nasdaq, S&P 500 end lower but rebound sharply from session lows: Stock Market Highlights",
+      "published_at": "2026-11-25T13:12:55.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-alphabet-amazon-anthropic-dell-inflation-fed-rate-hike-gold-treasury-yield-news-25th-november-2026/liveblog/136163404.cms",
+      "fetched_at": "2026-11-25T21:52:49.703"
     },
     {
-      "url_hash": "3b65a28153316b9f",
+      "url_hash": "58b2e3699fc2ee78",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "SEBI eases KYC norms, centralises supplementary client data to simplify onboarding",
+      "published_at": "2026-11-25T13:11:00.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-eases-kyc-norms-centralises-supplementary-client-data-to-simplify-onboarding/articleshow/136162936.cms",
+      "fetched_at": "2026-11-25T21:52:49.703"
+    },
+    {
+      "url_hash": "f7d7575dd39baecd",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Sebi mulls early payout of up to 80% of sale proceeds to FPOs in commodity derivatives market",
+      "published_at": "2026-11-25T13:09:04.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-mulls-early-payout-of-up-to-80-of-sale-proceeds-to-fpos-in-commodity-derivatives-market/articleshow/136162861.cms",
+      "fetched_at": "2026-11-25T21:52:49.703"
+    },
+    {
+      "url_hash": "4be9e7f6ed8cfb88",
       "ticker": null,
       "source": "Business Standard Markets",
-      "title": "Oil prices extend losses, hover near three-month lows on supply concerns",
-      "published_at": "2026-11-24T05:30:54.000",
-      "url": "https://www.business-standard.com/markets/commodities/oil-prices-extend-losses-hover-near-three-month-lows-on-supply-concerns-126112400254_1.html",
-      "fetched_at": "2026-11-24T22:39:25.226"
+      "title": "AI stocks slide as investors weigh rising costs of infrastructure buildout",
+      "published_at": "2026-11-25T13:07:05.000",
+      "url": "https://www.business-standard.com/markets/news/ai-stocks-slide-as-investors-weigh-rising-costs-of-infrastructure-buildout-126112501061_1.html",
+      "fetched_at": "2026-11-25T21:52:49.703"
     },
     {
-      "url_hash": "b7bb07e90e06e0c6",
+      "url_hash": "399e7eae86a9c89b",
       "ticker": null,
       "source": "Economic Times Markets",
-      "title": "Bitcoin fails to hold Nvidia bump with crypto headwinds in focus",
-      "published_at": "2026-11-24T04:40:09.000",
-      "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/bitcoin-fails-to-hold-nvidia-bump-with-crypto-headwinds-in-focus/articleshow/136119619.cms",
-      "fetched_at": "2026-11-24T22:39:25.226"
+      "title": "RBI may opt for 25 bps rate hike as oil eases, inflation risks persist: Baroda BNP Paribas MF CIO",
+      "published_at": "2026-11-25T13:06:00.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/rbi-may-opt-for-25-bps-rate-hike-as-oil-eases-inflation-risks-persist-baroda-bnp-paribas-mf-cio/articleshow/136162711.cms",
+      "fetched_at": "2026-11-25T21:52:49.703"
     },
     {
-      "url_hash": "1a9cc660a092b158",
+      "url_hash": "c3dbe1324c3f5ce5",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "US Treasury gains lift India bonds ahead of RBI meet",
+      "published_at": "2026-11-25T12:25:47.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/us-treasury-gains-lift-india-bonds-ahead-of-rbi-meet/articleshow/136161527.cms",
+      "fetched_at": "2026-11-25T21:52:49.703"
+    },
+    {
+      "url_hash": "dee112994e730c0c",
       "ticker": null,
       "source": "Business Standard Markets",
-      "title": "TAKE shares rally 24% in three weeks as company returns to profitability",
-      "published_at": "2026-11-24T03:44:18.000",
-      "url": "https://www.business-standard.com/markets/news/take-shares-rally-24-in-three-weeks-as-company-returns-to-profitability-126112300872_1.html",
-      "fetched_at": "2026-11-24T22:39:25.226"
+      "title": "Sebi to ease KYC norms, centralise client details at registration agencies",
+      "published_at": "2026-11-25T12:19:24.000",
+      "url": "https://www.business-standard.com/markets/news/sebi-to-ease-kyc-norms-centralise-client-details-at-registration-agencies-126112500950_1.html",
+      "fetched_at": "2026-11-25T21:52:49.703"
     },
     {
-      "url_hash": "9d542a0bcb5550c5",
+      "url_hash": "368be2c39ee6b000",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Fed policymakers at odds over causes of high inflation",
+      "published_at": "2026-11-25T11:51:51.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/fed-policymakers-at-odds-over-causes-of-high-inflation/articleshow/136160394.cms",
+      "fetched_at": "2026-11-25T21:52:49.703"
+    },
+    {
+      "url_hash": "5d304dfe0b5dea8b",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Shapoor Mistry lobbied Modi twice for Tata Sons IPO as battle over listing intensifies",
+      "published_at": "2026-11-25T11:49:18.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/shapoor-mistry-lobbied-modi-twice-for-tata-sons-ipo-as-battle-over-listing-intensifies/articleshow/136160206.cms",
+      "fetched_at": "2026-11-25T21:52:49.703"
+    },
+    {
+      "url_hash": "75cb7f1e676b3223",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "PhonePe resumes IPO process; targets February-March listing at $12-15 billion valuation",
+      "published_at": "2026-11-25T11:45:14.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/phonepe-resumes-ipo-process-targets-listing-in-feb-mar-at-usd-12-15-bn-valuation/articleshow/136160163.cms",
+      "fetched_at": "2026-11-25T21:52:49.703"
+    },
+    {
+      "url_hash": "8c1397634bf5d901",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Rupee scales 8-month high after holiday as foreign flows to Indian equities persist",
+      "published_at": "2026-11-25T10:53:26.000",
+      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-scales-8-month-high-after-holiday-as-foreign-flows-to-indian-equities-persist/articleshow/136158513.cms",
+      "fetched_at": "2026-11-25T21:52:49.703"
+    },
+    {
+      "url_hash": "c7bbb37afe774d99",
       "ticker": null,
       "source": "Business Standard Markets",
-      "title": "Nvidia shares soar 31% as Jensen Huang's return sparks Wall Street rally",
-      "published_at": "2026-11-24T03:11:15.000",
-      "url": "https://www.business-standard.com/markets/news/nvidia-shares-soar-31-as-jensen-huang-s-return-sparks-wall-street-rally-126112400047_1.html",
-      "fetched_at": "2026-11-24T22:39:25.226"
+      "title": "Individual investor count at two-year high, but trading share slips",
+      "published_at": "2026-11-25T10:44:49.000",
+      "url": "https://www.business-standard.com/markets/news/individual-investor-count-hits-two-year-high-but-trading-share-declines-126112500745_1.html",
+      "fetched_at": "2026-11-25T21:52:49.703"
     },
     {
-      "url_hash": "d359873c3cdc7c17",
-      "ticker": null,
-      "source": "Economic Times Markets",
-      "title": "South Korea\u2019s Kospi rockets 8% as AI-linked stocks get breather after Jensen Huang\u2019s return as Nvidia CEO. Worst over?",
-      "published_at": "2026-11-24T03:05:02.000",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/south-korean-shares-rebound-as-huangs-nvidia-return-lifts-ai-stocks/articleshow/136118071.cms",
-      "fetched_at": "2026-11-24T22:39:25.226"
-    },
-    {
-      "url_hash": "01e3e892af0a2255",
-      "ticker": null,
-      "source": "Economic Times Markets",
-      "title": "Japanese bond yields fall as lower oil prices ease inflation concerns",
-      "published_at": "2026-11-24T03:04:17.000",
-      "url": "https://economictimes.indiatimes.com/markets/bonds/japanese-bond-yields-fall-as-lower-oil-prices-ease-inflation-concerns/articleshow/136118046.cms",
-      "fetched_at": "2026-11-24T22:39:25.226"
-    },
-    {
-      "url_hash": "489f48480bf27621",
-      "ticker": null,
-      "source": "Economic Times Markets",
-      "title": "Dollar climbs as renewed AI euphoria fuels Fed hike bets",
-      "published_at": "2026-11-24T03:02:32.000",
-      "url": "https://economictimes.indiatimes.com/markets/forex/dollar-climbs-as-renewed-ai-euphoria-fuels-fed-hike-bets/articleshow/136118031.cms",
-      "fetched_at": "2026-11-24T22:39:25.226"
-    },
-    {
-      "url_hash": "a06974b9aa6beb4b",
-      "ticker": null,
-      "source": "Economic Times Markets",
-      "title": "Asian stocks rally as Huang's Nvidia return revives AI trade",
-      "published_at": "2026-11-24T02:44:53.000",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/asian-stocks-rally-as-huangs-nvidia-return-revives-ai-trade/articleshow/136117829.cms",
-      "fetched_at": "2026-11-24T22:39:25.226"
-    },
-    {
-      "url_hash": "fbc0c5d385a0687e",
+      "url_hash": "3d7b2ea2053359dc",
       "ticker": null,
       "source": "Business Standard Markets",
-      "title": "Stock market holiday: NSE, BSE shut today for Guru Nanak Jayanti",
-      "published_at": "2026-11-24T02:20:58.000",
-      "url": "https://www.business-standard.com/markets/news/stock-market-holiday-today-nse-bse-closed-for-trading-on-gurpurab-2026-126112300598_1.html",
-      "fetched_at": "2026-11-24T22:39:25.226"
+      "title": "PhonePe warms up for IPO as investor appetite for Indian equities returns",
+      "published_at": "2026-11-25T10:31:01.000",
+      "url": "https://www.business-standard.com/markets/ipo/phonepe-prepares-to-restart-ipo-process-amid-improving-market-conditions-126112500725_1.html",
+      "fetched_at": "2026-11-25T21:52:49.703"
     },
     {
-      "url_hash": "d2b3d7964119e6b7",
+      "url_hash": "4b88fcee705597fd",
       "ticker": null,
       "source": "Business Standard Markets",
-      "title": "Asian shares rally as Huang returns to Nvidia, sparking Wall Street rebound",
-      "published_at": "2026-11-24T02:06:57.000",
-      "url": "https://www.business-standard.com/markets/news/asian-shares-rally-as-huang-returns-to-nvidia-sparking-wall-street-rebound-126112400069_1.html",
-      "fetched_at": "2026-11-24T22:39:25.226"
+      "title": "Nifty FMCG index soars 3%; Dabur, Godrej Consumer, HUL rally up to 8%",
+      "published_at": "2026-11-25T09:45:04.000",
+      "url": "https://www.business-standard.com/markets/news/nifty-fmcg-index-soars-3-dabur-godrej-consumer-hul-rally-up-to-8-126112500621_1.html",
+      "fetched_at": "2026-11-25T21:52:49.703"
+    },
+    {
+      "url_hash": "452d310577d07a14",
+      "ticker": "ICICIBANK.NS",
+      "source": "Business Standard Markets",
+      "title": "NSE jumps 5% to new high on ICICI Sec's 'buy' call; target signals 20% rise",
+      "published_at": "2026-11-25T09:33:26.000",
+      "url": "https://www.business-standard.com/markets/news/nse-jumps-5-to-new-high-on-icici-sec-s-buy-call-target-signals-20-rise-126112500598_1.html",
+      "fetched_at": "2026-11-25T21:52:49.703"
+    },
+    {
+      "url_hash": "446ddb904b54849e",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "PL Capital ups Nifty target to 28,561 on earnings growth, valuation comfort",
+      "published_at": "2026-11-25T08:44:52.000",
+      "url": "https://www.business-standard.com/markets/news/pl-capital-ups-nifty-target-to-28-561-on-earnings-growth-valuation-comfort-126112500531_1.html",
+      "fetched_at": "2026-11-25T21:52:49.703"
     }
   ]
 }
