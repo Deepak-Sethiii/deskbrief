@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-27T21:30:29.158679+00:00",
+  "commentary_source": "fallback",
+  "commentary": {
+    "market_tone": "Breadth was mixed: 4 of 8 names advanced on the day.",
+    "bullets": [
+      "Best performer on the day: TCS.NS at +4.89%.",
+      "Weakest on the day: ICICIBANK.NS at -1.77%.",
+      "Median one-day move across the watchlist: +0.52%.",
+      "INFY.NS sits furthest below its 52-week high, at -26.8%.",
+      "2 name(s) within 5% of the 52-week high: BHARTIARTL.NS, ICICIBANK.NS."
+    ],
+    "watch_items": [
+      "Highest 30-day realised volatility: RELIANCE.NS at 36.5% annualised.",
+      "60 headlines collected, 5 tagged to a watchlist name by substring match (unverified).",
+      "Commentary model was unavailable, so no qualitative read is included."
+    ],
+    "source": "deterministic-fallback (model returned unusable output twice)",
+    "source_kind": "fallback"
+  },
+  "comps": [
+    {
+      "ticker": "BHARTIARTL.NS",
+      "sector": "Communication Services",
+      "currency": "INR",
+      "last_close": 2102.5,
+      "ret_1d": -0.0070838253,
+      "ret_5d": -0.013836773,
+      "ret_21d": 0.0964797914,
+      "realised_vol_30d": 0.2416654989,
+      "high_52w": 2161.6999511719,
+      "pct_from_52w_high": -0.0273858318,
+      "market_cap_bn": 12902.5551023478,
+      "pe": 40.714706,
+      "ev_ebitda": 12.341
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 862.0,
+      "ret_1d": 0.0186716941,
+      "ret_5d": 0.0666336373,
+      "ret_21d": 0.2528159513,
+      "realised_vol_30d": 0.2821297265,
+      "high_52w": 993.0750732422,
+      "pct_from_52w_high": -0.131989088,
+      "market_cap_bn": 13230.544269618,
+      "pe": 18.737705,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "sector": "Financial Services",
+      "currency": "INR",
+      "last_close": 1611.0,
+      "ret_1d": -0.0176829268,
+      "ret_5d": 0.0060575475,
+      "ret_21d": 0.148253742,
+      "realised_vol_30d": 0.3007482373,
+      "high_52w": 1640.0,
+      "pct_from_52w_high": -0.0176829268,
+      "market_cap_bn": 11447.9788952854,
+      "pe": 19.567728,
+      "ev_ebitda": null
+    },
+    {
+      "ticker": "INFY.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 1183.0,
+      "ret_1d": 0.0469026549,
+      "ret_5d": 0.0669191449,
+      "ret_21d": 0.0378212036,
+      "realised_vol_30d": 0.3579406457,
+      "high_52w": 1616.9676513672,
+      "pct_from_52w_high": -0.2683836322,
+      "market_cap_bn": 4663.1985346793,
+      "pe": 15.330227,
+      "ev_ebitda": 951.439
+    },
+    {
+      "ticker": "ITC.NS",
+      "sector": "Consumer Defensive",
+      "currency": "INR",
+      "last_close": 307.0,
+      "ret_1d": -0.0072756669,
+      "ret_5d": 0.035064038,
+      "ret_21d": 0.1785028791,
+      "realised_vol_30d": 0.2037082105,
+      "high_52w": 388.4066772461,
+      "pct_from_52w_high": -0.2095913433,
+      "market_cap_bn": 3818.7130443407,
+      "pe": 20.218979,
+      "ev_ebitda": 14.782
+    },
+    {
+      "ticker": "LT.NS",
+      "sector": "Industrials",
+      "currency": "INR",
+      "last_close": 4132.1000976562,
+      "ret_1d": -0.0057506984,
+      "ret_5d": -0.0064678775,
+      "ret_21d": 0.1228532874,
+      "realised_vol_30d": 0.192825436,
+      "high_52w": 4375.3642578125,
+      "pct_from_52w_high": -0.0555986075,
+      "market_cap_bn": 5652.832495464,
+      "pe": 31.647665,
+      "ev_ebitda": 17.603
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "sector": "Energy",
+      "currency": "INR",
+      "last_close": 1396.1999511719,
+      "ret_1d": 0.0162311132,
+      "ret_5d": 0.0243579979,
+      "ret_21d": 0.1617572761,
+      "realised_vol_30d": 0.3653393761,
+      "high_52w": 1584.9718017578,
+      "pct_from_52w_high": -0.1191010783,
+      "market_cap_bn": 18709.996665151,
+      "pe": 22.7851,
+      "ev_ebitda": 12.311
+    },
+    {
+      "ticker": "TCS.NS",
+      "sector": "Technology",
+      "currency": "INR",
+      "last_close": 2640.3000488281,
+      "ret_1d": 0.0488618749,
+      "ret_5d": 0.1096028783,
+      "ret_21d": 0.0415384808,
+      "realised_vol_30d": 0.3430274199,
+      "high_52w": 3187.337890625,
+      "pct_from_52w_high": -0.1716284437,
+      "market_cap_bn": 9307.530140055,
+      "pe": 18.032385,
+      "ev_ebitda": 12.253
+    }
+  ],
+  "headlines": [
+    {
+      "url_hash": "b2be03e90b3d5939",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "OPEC+ set to keep oil production targets steady: Report",
+      "published_at": "2026-11-27T18:46:42.000",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/opec-set-to-keep-oil-production-targets-steady-report/articleshow/136232084.cms",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "8d628ffcc00838bc",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Copper sweeps higher as China offers stock market support",
+      "published_at": "2026-11-27T18:43:45.000",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/copper-sweeps-higher-as-china-offers-stock-market-support/articleshow/136232015.cms",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "f126f8b29969a47d",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Gold pares gains as Fed-hike risks linger, eyes first weekly rise in three weeks",
+      "published_at": "2026-11-27T18:39:27.000",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/gold-pares-gains-as-fed-hike-risks-linger-eyes-first-weekly-rise-in-three-weeks/articleshow/136231951.cms",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "7b304947820c9c1f",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "IT, bank heavyweights drag markets down 1% amid rising crude oil prices",
+      "published_at": "2026-11-27T18:30:19.000",
+      "url": "https://www.business-standard.com/markets/news/it-bank-heavyweights-drag-markets-down-1-amid-rising-crude-oil-prices-126112701207_1.html",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "915e7bb5417e4055",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Blackstone sells 1.55% stake in IGI for Rs 280 crore to meet public shareholding norms",
+      "published_at": "2026-11-27T16:33:18.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/blackstone-sells-1-55-stake-in-igi-for-rs-280-crore-to-meet-public-shareholding-norms/articleshow/136228297.cms",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "36fae4f141464990",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Zee Entertainment buyback to open on Dec 1, set to close on Dec 7",
+      "published_at": "2026-11-27T14:59:33.000",
+      "url": "https://www.business-standard.com/companies/news/zee-entertainment-buyback-to-open-on-dec-1-set-to-close-on-dec-7-126112701272_1.html",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "21490ef7a5b3ff42",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Sebi grants Tata Steel extension till Dec 8 for APL Apollo Tubes open offer",
+      "published_at": "2026-11-27T14:33:13.000",
+      "url": "https://www.business-standard.com/markets/news/sebi-grants-tata-steel-extension-till-dec-8-for-apl-apollo-tubes-open-offer-126112701221_1.html",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "05beb2b6dccf36ff",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "HEG lists independently, plans \u20b9650 crore graphite electrode expansion",
+      "published_at": "2026-11-27T13:32:35.000",
+      "url": "https://www.business-standard.com/markets/news/heg-lists-independently-plans-650-crore-graphite-electrode-expansion-126112701109_1.html",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "b848fa9874deaf4b",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Capital market industry hopes for relief in capital gains taxation in Budget 2027-28: Axis Capital MD",
+      "published_at": "2026-11-27T13:26:12.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/capital-market-industry-hopes-for-relief-in-capital-gains-taxation-in-budget-2027-28-axis-capital-md/articleshow/136224186.cms",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "3adcd318e2a162a0",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Small- and mid-cap funds retain folio lead despite sharp October slowdown",
+      "published_at": "2026-11-27T13:09:55.000",
+      "url": "https://www.business-standard.com/markets/news/small-and-mid-cap-funds-retain-folio-lead-despite-sharp-october-slowdown-126112701067_1.html",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "0f0275a69b305a06",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Nasdaq jumps 2%, Dow gains 600 pts as US stocks log weekly gains: Stock Market Live Updates",
+      "published_at": "2026-11-27T12:46:59.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-gold-silver-price-coreqeave-nebius-meta-nvidia-ai-stocks-fed-rate-hike-treasury-yield-news-27th-november-2026/liveblog/136223511.cms",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "eef87ef9a299d9e7",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "India bonds slump as oil spike adds to RBI hike bets",
+      "published_at": "2026-11-27T11:54:01.000",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-slump-as-oil-spike-adds-to-rbi-hike-bets/articleshow/136221243.cms",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "a8eb8a5f841bf5ad",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Ion Exchange India among 6 stocks hitting 52-week low; shares slipped up to 20% in a month",
+      "published_at": "2026-11-27T11:01:59.000",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ion-exchange-india-among-6-stocks-hitting-52-week-low-shares-slipped-up-to-20-in-a-month/slideshow/136219516.cms",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "f6af9413afb38e5a",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Sebi clarifies no change proposed to managing director age limit at MIIs",
+      "published_at": "2026-11-27T10:56:09.000",
+      "url": "https://www.business-standard.com/markets/news/sebi-clarifies-no-change-proposed-to-managing-director-age-limit-at-miis-126112700801_1.html",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "90a7786f1216a8c8",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Eurozone bond yields rise as investors return to riskier assets, oil prices rebound",
+      "published_at": "2026-11-27T10:26:25.000",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/eurozone-bond-yields-rise-as-investors-return-to-riskier-assets-oil-prices-rebound/articleshow/136218279.cms",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "f0b818f4c688e4c9",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Sebi aims to cut FPI onboarding time to five business days: Chairman",
+      "published_at": "2026-11-27T10:25:44.000",
+      "url": "https://www.business-standard.com/markets/news/sebi-aims-to-cut-fpi-onboarding-time-to-five-business-days-chairman-126112700698_1.html",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "836d268d03ba73dc",
+      "ticker": null,
+      "source": "Economic Times Markets",
+      "title": "Rupee rally takes a hit as AI trade revival dents shares, currency sees weekly dip",
+      "published_at": "2026-11-27T10:23:05.000",
+      "url": "https://economictimes.indiatimes.com/markets/forex/rupee-rally-takes-a-hit-as-ai-trade-revival-dents-shares-currency-sees-weekly-dip/articleshow/136218142.cms",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "b94cb0dd2dfcbcaa",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Angel One surges 7% on huge volume; stock nears record high in weak market",
+      "published_at": "2026-11-27T09:26:00.000",
+      "url": "https://www.business-standard.com/markets/news/angel-one-surges-7-on-huge-volume-stock-nears-record-high-in-weak-market-126112700640_1.html",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "a731c61959742bae",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Bosch announces record date for stock split, bonus issue; key details",
+      "published_at": "2026-11-27T09:09:52.000",
+      "url": "https://www.business-standard.com/markets/news/bosch-announces-record-date-for-stock-split-bonus-issue-key-details-126112700618_1.html",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "b9b9c61f4179f231",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "IIFCL, UCO Bank eye debut dollar debt before RBI window shuts, say bankers",
+      "published_at": "2026-11-27T08:52:23.000",
+      "url": "https://www.business-standard.com/markets/news/iifcl-uco-bank-eye-debut-dollar-debt-before-rbi-window-shuts-say-bankers-126112700586_1.html",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "39e170acbb369ce4",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Zaggle up 7% from day's low on inking deal with Yokohama, WSFX Global Pay",
+      "published_at": "2026-11-27T08:44:46.000",
+      "url": "https://www.business-standard.com/markets/news/zaggle-up-7-from-day-s-low-on-inking-deal-with-yokohama-wsfx-global-pay-126112700573_1.html",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "38a8617e9f554ebb",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "3rd earnings upgrade in 2 decades: Jefferies lists stocks to play the trend",
+      "published_at": "2026-11-27T08:40:47.000",
+      "url": "https://www.business-standard.com/markets/news/3rd-earnings-upgrade-in-2-decades-jefferies-lists-stocks-to-play-the-trend-126112700535_1.html",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "869907d32158ac83",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Glenmark Pharma hits new high, up 5th straight day; gains 35% from Oct low",
+      "published_at": "2026-11-27T08:13:38.000",
+      "url": "https://www.business-standard.com/markets/news/glenmark-pharma-hits-new-high-up-5th-straight-day-gains-35-from-oct-low-126112700518_1.html",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "7eb1104e9b90cafc",
+      "ticker": null,
+      "source": "Business Standard Markets",
+      "title": "Brent to test $100 in coming days, says Mirae Asset Sharekhan; here's why",
+      "published_at": "2026-11-27T08:00:21.000",
+      "url": "https://www.business-standard.com/markets/news/brent-to-test-100-in-coming-days-says-mirae-asset-sharekhan-here-s-why-126112700506_1.html",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    },
+    {
+      "url_hash": "b903209e0cc90621",
+      "ticker": "BHARTIARTL.NS",
+      "source": "Business Standard Markets",
+      "title": "Jefferies sees telecom tariff hike in April next year; Airtel top pick",
+      "published_at": "2026-11-27T07:58:32.000",
+      "url": "https://www.business-standard.com/markets/news/jefferies-sees-telecom-tariff-hike-in-april-next-year-airtel-top-pick-126112700512_1.html",
+      "fetched_at": "2026-11-27T21:30:22.042"
+    }
+  ]
+}
